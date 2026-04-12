@@ -1,0 +1,14 @@
+# Core dependencies for the ADE analysis project with explanations
+
+pandas          # Essential for data manipulation and analysis (DataFrames).
+numpy           # Fundamental package for numerical computation.
+torch           # Core PyTorch library for deep learning (models, tensors, GPU).
+requests        # Used for making HTTP requests (e.g., to RxNorm API).
+tqdm            # Provides progress bars for loops and operations.
+datasets        # Hugging Face library for loading datasets (e.g., ADE Corpus V2).
+transformers    # Hugging Face library for models (BioBERT), tokenizers, Trainer API.
+scikit-learn    # ML library for evaluation metrics (accuracy, F1, precision, recall).
+textattack      # NLP library used for HuggingFaceModelWrapper in flip rate analysis.
+
+# Note: Specific versions can be added if needed, e.g., pandas==1.5.3
+

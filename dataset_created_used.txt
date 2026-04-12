@@ -1,0 +1,343 @@
+# INPUT DATA           
+
+
+Dataset Summary
+ADE-Corpus-V2 Dataset: Adverse Drug Reaction Data. This is a dataset for Classification if a sentence is ADE-related (True) or not (False) and Relation Extraction between Adverse Drug Event and Drug. DRUG-AE.rel provides relations between drugs and adverse effects. DRUG-DOSE.rel provides relations between drugs and dosages.
+
+Supported Tasks and Leaderboards: Sentiment classification, Relation Extraction
+
+Languages: English
+
+Dataset Structure:
+
+Data Instances (Examples from Original Corpus)
+
+Config - Ade_corpus_v2_classification
+{
+      'label': 1,
+      'text': 'Intravenous azithromycin-induced ototoxicity.'
+}
+
+
+Config - Ade_corpus_v2_drug_ade_relation
+{
+    'drug': 'azithromycin',
+    'effect': 'ototoxicity',
+    'indexes': {
+                  'drug': {
+                            'end_char': [24],
+                            'start_char': [12]
+                          },
+                  'effect': {
+                            'end_char': [44],
+                            'start_char': [33]
+                            }
+                },
+    'text': 'Intravenous azithromycin-induced ototoxicity.'
+
+}
+
+
+Config - Ade_corpus_v2_drug_dosage_relation
+{
+    'dosage': '4 times per day',
+    'drug': 'insulin',
+    'indexes': {
+                'dosage': {
+                            'end_char': [56],
+                            'start_char': [41]
+                        },
+                'drug': {
+                          'end_char': [40],
+                          'start_char': [33]}
+                        },
+    'text': 'She continued to receive regular insulin 4 times per day over the following 3 years with only occasional hives.'
+}
+
+
+Data Fields :
+
+Config - Ade_corpus_v2_classification
+text - Input text.
+label - Whether the adverse drug effect(ADE) related (1) or not (0).
+
+Config - Ade_corpus_v2_drug_ade_relation
+text - Input text.
+drug - Name of drug.
+effect - Effect caused by the drug.
+indexes.drug.start_char - Start index of drug string in text.
+indexes.drug.end_char - End index of drug string in text.
+indexes.effect.start_char - Start index of effect string in text.
+indexes.effect.end_char - End index of effect string in text.
+
+Config - Ade_corpus_v2_drug_dosage_relation
+text - Input text.
+drug - Name of drug.
+dosage - Dosage of the drug.
+indexes.drug.start_char - Start index of drug string in text.
+indexes.drug.end_char - End index of drug string in text.
+indexes.dosage.start_char - Start index of dosage string in text.
+indexes.dosage.end_char - End index of dosage string in text.
+
+--- First 5 Examples: Ade_corpus_v2_classification ---
+{'label': 1, 'text': 'Intravenous azithromycin-induced ototoxicity.'}
+{'label': 1, 'text': 'However, controversy exists on the role of SJSGRA gene in SJS/TEN development induced by carbamazepine.'}
+{'label': 1, 'text': 'METHODS: We report two cases of pseudoporphyria caused by naproxen and oxaprozin.'}
+{'label': 0, 'text': 'METHODS: A prospective study was conducted in patients with grade 3 or 4 Koninklijke Vereniging voor Lichamelijke Opvoeding (KVLO) score who were admitted at the emergency room of Chang Gung Memorial Hospital.'}
+{'label': 1, 'text': 'The patient received oral diazepam plus intravenous majeptil.'}
+
+--- First 5 Examples: Ade_corpus_v2_drug_ade_relation ---
+{'drug': 'azithromycin', 'effect': 'ototoxicity', 'indexes': "{'drug': {'start_char': [12], 'end_char': [24]}, 'effect': {'start_char': [33], 'end_char': [44]}}", 'text': 'Intravenous azithromycin-induced ototoxicity.'}
+{'drug': 'carbamazepine', 'effect': 'SJS/TEN', 'indexes': "{'drug': {'start_char': [92], 'end_char': [105]}, 'effect': {'start_char': [78], 'end_char': [83]}}", 'text': 'However, controversy exists on the role of SJSGRA gene in SJS/TEN development induced by carbamazepine.'}
+{'drug': 'naproxen', 'effect': 'pseudoporphyria', 'indexes': "{'drug': {'start_char': [57], 'end_char': [65]}, 'effect': {'start_char': [31], 'end_char': [46]}}", 'text': 'METHODS: We report two cases of pseudoporphyria caused by naproxen and oxaprozin.'}
+{'drug': 'oxaprozin', 'effect': 'pseudoporphyria', 'indexes': "{'drug': {'start_char': [71], 'end_char': [80]}, 'effect': {'start_char': [31], 'end_char': [46]}}", 'text': 'METHODS: We report two cases of pseudoporphyria caused by naproxen and oxaprozin.'}
+{'drug': 'majeptil', 'effect': 'NONE', 'indexes': "{'drug': {'start_char': [54], 'end_char': [62]}, 'effect': {'start_char': [], 'end_char': []}}", 'text': 'The patient received oral diazepam plus intravenous majeptil.'}
+
+--- First 5 Examples: Ade_corpus_v2_drug_dosage_relation ---
+{'dosage': '4 times per day', 'drug': 'insulin', 'indexes': "{'drug': {'start_char': [33], 'end_char': [40]}, 'dosage': {'start_char': [41], 'end_char': [56]}}", 'text': 'She continued to receive regular insulin 4 times per day over the following 3 years with only occasional hives.'}
+{'dosage': '100 mg', 'drug': 'Quinidine', 'indexes': "{'drug': {'start_char': [13], 'end_char': [21]}, 'dosage': {'start_char': [22], 'end_char': [28]}}", 'text': 'In addition, Quinidine 100 mg was administered via nasoduodenal tube.'}
+{'dosage': '25 mg', 'drug': 'Hydrochlorothiazide', 'indexes': "{'drug': {'start_char': [40], 'end_char': [58]}, 'dosage': {'start_char': [59], 'end_char': [64]}}", 'text': 'Initially, she was treated symptomatically; Hydrochlorothiazide 25 mg daily was added for edema.'}
+{'dosage': '0.5 mg', 'drug': 'Colchicine', 'indexes': "{'drug': {'start_char': [36], 'end_char': [45]}, 'dosage': {'start_char': [46], 'end_char': [51]}}", 'text': 'Her symptoms resolved completely after Colchicine 0.5 mg twice daily for 5 days.'}
+{'dosage': 'twice daily', 'drug': 'Colchicine', 'indexes': "{'drug': {'start_char': [36], 'end_char': [45]}, 'dosage': {'start_char': [52], 'end_char': [63]}}", 'text': 'Her symptoms resolved completely after Colchicine 0.5 mg twice daily for 5 days.'}
+
+
+
+# OUTPUT DATA       
+
+
+Data Fields (Generated Files)
+
+Config - extracted_drug_names.json
+- A JSON list containing strings, where each string is a unique drug name extracted from the relation dataset.
+
+Config - masking_flip_examples_ade_only.json (and similar masking files)
+- A JSON list where each element is an object representing a sentence whose prediction flipped after masking.
+  index - Original identifier or index of the sentence.
+  original_text - The sentence before drug name masking.
+  masked_text - The sentence after drug names were replaced with [MASK].
+  original_label - The ground truth label from the input dataset (e.g., 1 for ADE).
+  original_prediction - The model's predicted label for the original_text.
+  masked_prediction - The model's predicted label for the masked_text.
+
+Config - brand_flip_examples.json (and similar brand substitution files)
+- A JSON list where each element is an object representing a sentence whose prediction flipped after brand name substitution.
+  index - Original identifier or index of the sentence.
+  original_text - The sentence before brand name substitution.
+  replaced_text - The sentence after a generic drug name was replaced with a brand name.
+  original_pred - The model's predicted label for the original_text.
+  replaced_pred - The model's predicted label for the replaced_text.
+
+--- First 3 Examples: extracted_drug_names.json ---
+"voriconazole"
+"Rituximab"
+"iodine"
+
+--- First 3 Examples: masking_flip_examples_ade_only.json ---
+{
+    "index": 1,
+    "original_text": "Immobilization, while Paget's bone disease was present, and perhaps enhanced activation of dihydrotachysterol by rifampicin, could have led to increased calcium-release into the circulation.",
+    "masked_text": "Immobilization, while Paget's bone disease was present, and perhaps enhanced activation of [MASK] by [MASK], could have led to increased calcium-release into the circulation.",
+    "original_label": 1,
+    "original_prediction": 1,
+    "masked_prediction": 0
+}
+{
+    "index": 3,
+    "original_text": "METHODS: We report two cases of pseudoporphyria caused by naproxen and oxaprozin.",
+    "masked_text": "METHODS: We report two cases of pseudoporphyria caused by [MASK] and [MASK].",
+    "original_label": 1,
+    "original_prediction": 1,
+    "masked_prediction": 0
+}
+{
+    "index": 4,
+    "original_text": "METHODS: We report two cases of pseudoporphyria caused by naproxen and oxaprozin.",
+    "masked_text": "METHODS: We report two cases of pseudoporphyria caused by [MASK] and [MASK].",
+    "original_label": 1,
+    "original_prediction": 1,
+    "masked_prediction": 0
+}
+
+--- First 3 Examples: brand_flip_examples.json ---
+{
+    "index": 3,
+    "original_text": "METHODS: We report two cases of pseudoporphyria caused by naproxen and oxaprozin.",
+    "replaced_text": "METHODS: We report two cases of pseudoporphyria caused by Vimovo and Daypro.",
+    "original_pred": 1,
+    "replaced_pred": 0
+}
+{
+    "index": 4,
+    "original_text": "METHODS: We report two cases of pseudoporphyria caused by naproxen and oxaprozin.",
+    "replaced_text": "METHODS: We report two cases of pseudoporphyria caused by Vimovo and Daypro.",
+    "original_pred": 1,
+    "replaced_pred": 0
+}
+{
+    "index": 5,
+    "original_text": "Naproxen, the most common offender, has been associated with a dimorphic clinical pattern: a PCT-like presentation and one simulating erythropoietic protoporphyria in the pediatric population.",
+    "replaced_text": "Vimovo, the most common offender, has been associated with a dimorphic clinical pattern: a PCT-like presentation and one simulating erythropoietic protoporphyria in the pediatric population.",
+    "original_pred": 1,
+    "replaced_pred": 0
+}
+
+--- First 3 Examples: full_drug_brand_mapping.json ---
+{
+    "generic_name": "voriconazole",
+    "brand_name": "Vfend"
+}
+{
+    "generic_name": "Rituximab",
+    "brand_name": "Rituxan Hycela"
+}
+{
+    "generic_name": "iodine",
+    "brand_name": "Dairyland Brand Controlled Iodine Teat Dip"
+}
+
+--- First 3 Examples: masking_non_flip_examples_ade_only.json ---
+{
+    "index": 0,
+    "original_text": "Intravenous azithromycin-induced ototoxicity.",
+    "masked_text": "Intravenous [MASK]-induced ototoxicity.",
+    "original_label": 1,
+    "original_prediction": 1,
+    "masked_prediction": 1
+}
+{
+    "index": 2,
+    "original_text": "Unaccountable severe hypercalcemia in a patient treated for hypoparathyroidism with dihydrotachysterol.",
+    "masked_text": "Unaccountable severe hypercalcemia in a patient treated for hypoparathyroidism with [MASK].",
+    "original_label": 1,
+    "original_prediction": 1,
+    "masked_prediction": 1
+}
+{
+    "index": 11,
+    "original_text": "CONCLUSION: The results suggest that olanzapine may be useful in treating patients with clozapine-induced granulocytopenia without the risk of recurrence of hematologic side effects.",
+    "masked_text": "CONCLUSION: The results suggest that [MASK] may be useful in treating patients with [MASK]-induced granulocytopenia without the risk of recurrence of hematologic side effects.",
+    "original_label": 1,
+    "original_prediction": 1,
+    "masked_prediction": 1
+}
+
+--- First 3 Examples: brand_nonflip_examples.json ---
+{
+    "index": 0,
+    "original_text": "Intravenous azithromycin-induced ototoxicity.",
+    "replaced_text": "Intravenous Zithromax-induced ototoxicity.",
+    "original_pred": 1,
+    "replaced_pred": 1
+}
+{
+    "index": 1,
+    "original_text": "Immobilization, while Paget's bone disease was present, and perhaps enhanced activation of dihydrotachysterol by rifampicin, could have led to increased calcium-release into the circulation.",
+    "replaced_text": "Immobilization, while Paget's bone disease was present, and perhaps enhanced activation of dihydrotachysterol by Rifadin, could have led to increased calcium-release into the circulation.",
+    "original_pred": 1,
+    "replaced_pred": 1
+}
+{
+    "index": 10,
+    "original_text": "BACKGROUND: How to best treat psychotic patients who have had past clozapine-induced agranulocytosis or granulocytopenia remains a problem.",
+    "replaced_text": "BACKGROUND: How to best treat psychotic patients who have had past Versacloz-induced agranulocytosis or granulocytopenia remains a problem.",
+    "original_pred": 1,
+    "replaced_pred": 1
+}
+
+--- First 3 Examples: brand_nonflip_examples_ade_only.json ---
+{
+    "index": 0,
+    "original_text": "Intravenous azithromycin-induced ototoxicity.",
+    "replaced_text": "Intravenous Zithromax-induced ototoxicity.",
+    "original_pred": 1,
+    "replaced_pred": 1
+}
+{
+    "index": 1,
+    "original_text": "Immobilization, while Paget's bone disease was present, and perhaps enhanced activation of dihydrotachysterol by rifampicin, could have led to increased calcium-release into the circulation.",
+    "replaced_text": "Immobilization, while Paget's bone disease was present, and perhaps enhanced activation of dihydrotachysterol by Rifadin, could have led to increased calcium-release into the circulation.",
+    "original_pred": 1,
+    "replaced_pred": 1
+}
+{
+    "index": 10,
+    "original_text": "BACKGROUND: How to best treat psychotic patients who have had past clozapine-induced agranulocytosis or granulocytopenia remains a problem.",
+    "replaced_text": "BACKGROUND: How to best treat psychotic patients who have had past Versacloz-induced agranulocytosis or granulocytopenia remains a problem.",
+    "original_pred": 1,
+    "replaced_pred": 1
+}
+
+--- First 3 Examples: brand_flip_examples_ade_only.json ---
+{
+    "index": 3,
+    "original_text": "METHODS: We report two cases of pseudoporphyria caused by naproxen and oxaprozin.",
+    "replaced_text": "METHODS: We report two cases of pseudoporphyria caused by Vimovo and Daypro.",
+    "original_pred": 1,
+    "replaced_pred": 0
+}
+{
+    "index": 4,
+    "original_text": "METHODS: We report two cases of pseudoporphyria caused by naproxen and oxaprozin.",
+    "replaced_text": "METHODS: We report two cases of pseudoporphyria caused by Vimovo and Daypro.",
+    "original_pred": 1,
+    "replaced_pred": 0
+}
+{
+    "index": 5,
+    "original_text": "Naproxen, the most common offender, has been associated with a dimorphic clinical pattern: a PCT-like presentation and one simulating erythropoietic protoporphyria in the pediatric population.",
+    "replaced_text": "Vimovo, the most common offender, has been associated with a dimorphic clinical pattern: a PCT-like presentation and one simulating erythropoietic protoporphyria in the pediatric population.",
+    "original_pred": 1,
+    "replaced_pred": 0
+}
+--- First 3 Examples: masking_non_ade_nonflips.json ---
+{
+    "index": 6821,
+    "text": "Clioquinol intoxication occurring in the treatment of acrodermatitis enteropathica with reference to SMON outside of Japan.",
+    "masked_text": "[MASK] intoxication occurring in the treatment of acrodermatitis enteropathica with reference to SMON outside of Japan.",
+    "prediction1": 0,
+    "prediction2": 0,
+    "original_label": 0
+}
+{
+    "index": 6822,
+    "text": "\"Retinoic acid syndrome\" was prevented with short-time treatment of high dose (4 x 1.5 g/m2) cytarabine.",
+    "masked_text": "\"[MASK] syndrome\" was prevented with short-time treatment of high dose (4 x 1.5 g/m2) [MASK].",
+    "prediction1": 0,
+    "prediction2": 0,
+    "original_label": 0
+}
+{
+    "index": 6830,
+    "text": "Dihydropyrimidine dehydrogenase (DPD) is the rate-limiting enzyme in the catabolism of 5-FU.",
+    "masked_text": "Dihydropyrimidine dehydrogenase (DPD) is the rate-limiting enzyme in the catabolism of [MASK].",
+    "prediction1": 0,
+    "prediction2": 0,
+    "original_label": 0
+}
+
+--- First 3 Examples: masking_non_ade_flips.json ---
+{
+    "index": 7085,
+    "text": "BACKGROUND: Although most patients receiving insulin produce insulin-specific IgE, significant allergic symptoms develop in very few of them.",
+    "masked_text": "BACKGROUND: Although most patients receiving [MASK] produce [MASK]-specific IgE, significant allergic symptoms develop in very few of them.",
+    "prediction1": 1,
+    "prediction2": 0,
+    "original_label": 0
+}
+{
+    "index": 7135,
+    "text": "Interferon-induced sarcoidosis is well documented.",
+    "masked_text": "[MASK]-induced sarcoidosis is well documented.",
+    "prediction1": 1,
+    "prediction2": 0,
+    "original_label": 0
+}
+{
+    "index": 7293,
+    "text": "METHODS: Two patients with long-term hydroxychloroquine use, subtle perifoveal ophthalmoscopic pigmentary changes, and bilateral perifoveal defects on automated Humphrey visual field (HVF) 10-2 perimetry were imaged using SD-OCT and AO.",
+    "masked_text": "METHODS: Two patients with long-term [MASK] use, subtle perifoveal ophthalmoscopic pigmentary changes, and bilateral perifoveal defects on automated Humphrey visual field (HVF) 10-2 perimetry were imaged using SD-OCT and AO.",
+    "prediction1": 1,
+    "prediction2": 0,
+    "original_label": 0
+}
+
