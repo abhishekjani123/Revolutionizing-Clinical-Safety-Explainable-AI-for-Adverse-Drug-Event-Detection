@@ -1,4 +1,4 @@
-# Explainable ADE Detection with BioBERT and Counterfactuals
+# Extending ADE detection with Explainable Counterfactuals and BioBERT
 
 This project demonstrates an end-to-end pipeline for Adverse Drug Event (ADE) detection from clinical text, integrating a fine-tuned BioBERT model with counterfactual explanations to achieve both high performance and crucial interpretability for clinical AI.
 
