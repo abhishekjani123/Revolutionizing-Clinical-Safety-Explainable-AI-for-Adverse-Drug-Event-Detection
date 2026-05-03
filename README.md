@@ -5,7 +5,7 @@
 > attention, negation, minimality).
 
 **Authors:** Shrey Patel (sp2675), Abhishek Jani (aj1121), Mustafa Adil (ma2398)
-**Course:** CS 598 — Final Project
+**Course:** CS 671 — Interpretability & Explainability — Final Project
 **Status:** Complete. All experiments reproducible from the notebook with `seed = 42`.
 
 ---
@@ -157,14 +157,14 @@ There are three reproduction modes, each cheaper than the previous one.
    - Write every JSON and every figure into the output folders that mirror this repo's layout.
 
 The notebook was developed and tested on Google Colab with
-`/content/drive/MyDrive/CS598_ADE_complete/` as the persistence root. If you
+`/content/drive/MyDrive/CS671_ADE_complete/` as the persistence root. If you
 clone locally, edit `CONFIG["base_dir"]` in the **Configuration** cell to
 point to your working directory.
 
 ### Mode 2 — Skip fine-tuning, run only the analyses
 
 The first cell of the notebook restores a snapshot from
-`/content/drive/MyDrive/CS598_ADE_complete/` (Colab) or any local path
+`/content/drive/MyDrive/CS671_ADE_complete/` (Colab) or any local path
 containing a fine-tuned BioBERT under `trained_model/`. After fine-tuning
 once (Mode 1), every subsequent run can skip the training cell and re-run
 just the Family A / B / C, statistical, and XAI cells in a few minutes.
