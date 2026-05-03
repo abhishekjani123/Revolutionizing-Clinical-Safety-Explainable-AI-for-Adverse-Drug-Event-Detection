@@ -1,0 +1,2786 @@
+{
+  "experiment": "counterfactual_minimality",
+  "n_sentences": 200,
+  "aggregate": {
+    "pct_single_drug_sufficient": 0.82,
+    "pct_redundant_multi_drug": 0.4931506849315068,
+    "min_drug_distribution": {
+      "1": 164,
+      "2": 28,
+      "5": 1,
+      "3": 6,
+      "4": 1
+    }
+  },
+  "per_sentence": [
+    {
+      "sentence_id": "6eb16283e793",
+      "text": "Soon after introduction of insulin therapy, she developed severe anasarca, including marked peripheral oedema, ascites and pleural effusion.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "insulin"
+      ],
+      "single_drug_flip": {
+        "insulin": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "b7e9f4a25823",
+      "text": "The three reported cases demonstrate that troglitazone is an idiosyncratic hepatotoxin that can lead to irreversible liver injury.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "troglitazone",
+        "lead"
+      ],
+      "single_drug_flip": {
+        "troglitazone": true,
+        "lead": false
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "17b838f1aaad",
+      "text": "Treatment of APL in pregnancy is controversial as the use of ATRA has been questioned due to the teratogenic effect of retinoids.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "atra"
+      ],
+      "single_drug_flip": {
+        "atra": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "e3a136234903",
+      "text": "Exposure of the fetus to indomethacin by administration of the drug to the mother may cause many side effects, including premature closure of the ductus arteriosus.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "indomethacin"
+      ],
+      "single_drug_flip": {
+        "indomethacin": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "f3def7680c53",
+      "text": "Subfulminant hepatitis B after infliximab in Crohn's disease: need for HBV-screening?",
+      "n_drugs": 1,
+      "drug_matches": [
+        "infliximab"
+      ],
+      "single_drug_flip": {
+        "infliximab": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "f5c9e119f32c",
+      "text": "Iatrogenic hypercalcemia due to vitamin D3 ointment (1,24(OH)2D3) combined with thiazide diuretics in a case of psoriasis.",
+      "n_drugs": 3,
+      "drug_matches": [
+        "vitamin d3",
+        "24(oh)2d3",
+        "thiazide"
+      ],
+      "single_drug_flip": {
+        "vitamin d3": false,
+        "24(oh)2d3": false,
+        "thiazide": false
+      },
+      "min_drugs_to_flip": 2,
+      "any_single_flip": false
+    },
+    {
+      "sentence_id": "a3704386b9c5",
+      "text": "Rapamycin/sirolimus-induced pneumonitis has been described previously in renal transplant recipients, and this report describes a stable heart-lung transplant recipient who developed a pulmonary infiltrate that reversed after ceasing SR therapy.",
+      "n_drugs": 3,
+      "drug_matches": [
+        "rapamycin",
+        "sirolimus",
+        "sr"
+      ],
+      "single_drug_flip": {
+        "rapamycin": false,
+        "sirolimus": false,
+        "sr": false
+      },
+      "min_drugs_to_flip": 2,
+      "any_single_flip": false
+    },
+    {
+      "sentence_id": "887d2d3a2198",
+      "text": "Less common adverse events to dapsone include the idiosyncratic reactions of leukopenia and agranulocytosis, cutaneous eruptions, peripheral neuropathy, psychosis, toxic hepatitis, cholestatic jaundice, nephrotic syndrome, renal papillary necrosis, severe hypoalbuminemia without proteinuria, an infectious mononucleosis-like syndrome, and minor neurological and gastrointestinal complaints.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "dapsone"
+      ],
+      "single_drug_flip": {
+        "dapsone": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "7f480badaf52",
+      "text": "Mitomycin-C induced hemolytic uremic syndrome: a case report.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "mitomycin-c"
+      ],
+      "single_drug_flip": {
+        "mitomycin-c": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "431d9f459233",
+      "text": "The chemotherapeutics, including vincristine, actinomycin D, and epirubicin in case 1 and vincristine and actinomycin D in case 2, were given before the hepatotoxicity developed.",
+      "n_drugs": 5,
+      "drug_matches": [
+        "actinomycin d",
+        "actinomycin d",
+        "vincristine",
+        "vincristine",
+        "epirubicin"
+      ],
+      "single_drug_flip": {
+        "actinomycin d": false,
+        "vincristine": false,
+        "epirubicin": false
+      },
+      "min_drugs_to_flip": 5,
+      "any_single_flip": false
+    },
+    {
+      "sentence_id": "240f25b99e7b",
+      "text": "Intravenous verapamil therapy in babies may cause apnea, hypotension, and bradycardia; continued episodes of atrial flutter in a child may cause sudden death; quinidine may be related to the death; children with \"familial seizure disorders\" may in fact have the long QT interval syndrome.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "quinidine",
+        "verapamil"
+      ],
+      "single_drug_flip": {
+        "quinidine": false,
+        "verapamil": false
+      },
+      "min_drugs_to_flip": 2,
+      "any_single_flip": false
+    },
+    {
+      "sentence_id": "e41aa53f9ab0",
+      "text": "Skin manifestations of a case of phenylbutazone-induced serum sickness-like reactions.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "phenylbutazone"
+      ],
+      "single_drug_flip": {
+        "phenylbutazone": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "45be8fbc3c0e",
+      "text": "The polycystic changes disappeared from the ovaries in 2 of the women after valproate therapy was discontinued, and the 2 women who had gained weight and developed amenorrhea while being treated with valproate lost weight and resumed menstruating after the change in medication.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "valproate",
+        "valproate"
+      ],
+      "single_drug_flip": {
+        "valproate": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "a1dfeff1f915",
+      "text": "In summary, we report herein the first case of SIADH believed to be an adverse effect of mizoribin, which may therefore needed to be added to the list of drugs which can induce SIADH.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "mizoribin"
+      ],
+      "single_drug_flip": {
+        "mizoribin": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "9ac75239dbf9",
+      "text": "Two cases of sirolimus-associated pneumonitis have been reported after cardiac transplantation.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "sirolimus"
+      ],
+      "single_drug_flip": {
+        "sirolimus": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "b7e00224b997",
+      "text": "Amphotericin B (AmB) is effective, but its use is limited by toxicity: renal impairment, anaemia, fever, malaise, and hypokalaemia are common.",
+      "n_drugs": 3,
+      "drug_matches": [
+        "amphotericin b",
+        "toxicity",
+        "amb"
+      ],
+      "single_drug_flip": {
+        "amphotericin b": false,
+        "toxicity": false,
+        "amb": false
+      },
+      "min_drugs_to_flip": 2,
+      "any_single_flip": false
+    },
+    {
+      "sentence_id": "b08c014015c6",
+      "text": "The use of methotrexate (MTX) has been contraindicated for treatment of severe psoriasis in HIV infection on the basis of six previously reported cases in which MTX appeared to potentiate opportunistic infections and accelerate HIV disease.",
+      "n_drugs": 3,
+      "drug_matches": [
+        "methotrexate",
+        "mtx",
+        "mtx"
+      ],
+      "single_drug_flip": {
+        "methotrexate": false,
+        "mtx": false
+      },
+      "min_drugs_to_flip": 2,
+      "any_single_flip": false
+    },
+    {
+      "sentence_id": "e8ce7d01dbff",
+      "text": "We report here on a heretofore undescribed respiratory syncytial virus (RSV) infection in a patient with a long-standing history of refractory CLL that was treated with fludarabine phosphate.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "fludarabine phosphate"
+      ],
+      "single_drug_flip": {
+        "fludarabine phosphate": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "2104f8092fd7",
+      "text": "Although the t-AML developed following oral etoposide therapy, the child had previously received high-dose, multiagent chemotherapy, and rearrangement of the MLL gene was not demonstrated.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "etoposide"
+      ],
+      "single_drug_flip": {
+        "etoposide": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "2439b6942276",
+      "text": "A potential role for renal and hepatic impairment in the observed protracted course of amiodarone-induced thyrotoxicosis is suggested.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "amiodarone"
+      ],
+      "single_drug_flip": {
+        "amiodarone": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "23575e220b81",
+      "text": "The authors report two cases of acute dystonic reactions (ADRs) as a side effect of lamivudine.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "lamivudine"
+      ],
+      "single_drug_flip": {
+        "lamivudine": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "887d2d3a2198",
+      "text": "Less common adverse events to dapsone include the idiosyncratic reactions of leukopenia and agranulocytosis, cutaneous eruptions, peripheral neuropathy, psychosis, toxic hepatitis, cholestatic jaundice, nephrotic syndrome, renal papillary necrosis, severe hypoalbuminemia without proteinuria, an infectious mononucleosis-like syndrome, and minor neurological and gastrointestinal complaints.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "dapsone"
+      ],
+      "single_drug_flip": {
+        "dapsone": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "f6f77e51214a",
+      "text": "A child in whom a phenobarbital hypersensitivity drug reaction developed which consisted of fever, a pruritic desquamating erythrodermic rash, alopecia, icterus, protein-losing enteropathy, myositis, and nephritis, is described.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "phenobarbital"
+      ],
+      "single_drug_flip": {
+        "phenobarbital": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "43c022ff8675",
+      "text": "We have described three patients with hepatitis C for whom IFN-alpha and ribavirin were prescribed and who developed two successive phases of silent thyroiditis followed by hyperthryroidism relapse due to Graves' disease.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "ifn-alpha",
+        "ribavirin"
+      ],
+      "single_drug_flip": {
+        "ifn-alpha": false,
+        "ribavirin": false
+      },
+      "min_drugs_to_flip": 2,
+      "any_single_flip": false
+    },
+    {
+      "sentence_id": "7cd4efa1c5e1",
+      "text": "Intravenous diazepam exacerbated the seizures.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "diazepam"
+      ],
+      "single_drug_flip": {
+        "diazepam": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "9342cb80429a",
+      "text": "Anaphylaxis to intravenous cyclosporine and tolerance to oral cyclosporine: case report and review.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "cyclosporine",
+        "cyclosporine"
+      ],
+      "single_drug_flip": {
+        "cyclosporine": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "80356b3aaef9",
+      "text": "Eleven patients developed infection requiring hospitalization while taking leflunomide including: lower respiratory tract infections (3), cellulitis (2), disseminated herpes zoster (2), probable TB liver (1), abdominal sepsis (1), mycotic aneurysm (1) and gastroenteritis (1).",
+      "n_drugs": 1,
+      "drug_matches": [
+        "leflunomide"
+      ],
+      "single_drug_flip": {
+        "leflunomide": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "64a64ae3d21c",
+      "text": "CONCLUSION: Patients with insulin allergy may not have complete resolution of their symptoms after standard desensitization, particularly those patients with concomitant protamine allergy.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "protamine",
+        "insulin"
+      ],
+      "single_drug_flip": {
+        "protamine": false,
+        "insulin": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "c4b634179e94",
+      "text": "CONTEXT: Previous investigators have reported discrepancies between hematologic, marrow morphologic, and cytogenetic responses to imatinib mesylate among patients with chronic myeloid leukemia (CML).",
+      "n_drugs": 1,
+      "drug_matches": [
+        "imatinib mesylate"
+      ],
+      "single_drug_flip": {
+        "imatinib mesylate": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "240f25b99e7b",
+      "text": "Intravenous verapamil therapy in babies may cause apnea, hypotension, and bradycardia; continued episodes of atrial flutter in a child may cause sudden death; quinidine may be related to the death; children with \"familial seizure disorders\" may in fact have the long QT interval syndrome.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "quinidine",
+        "verapamil"
+      ],
+      "single_drug_flip": {
+        "quinidine": false,
+        "verapamil": false
+      },
+      "min_drugs_to_flip": 2,
+      "any_single_flip": false
+    },
+    {
+      "sentence_id": "b33d06f6a83e",
+      "text": "Dasatinib-induced pleural effusions: a lymphatic network disorder?",
+      "n_drugs": 1,
+      "drug_matches": [
+        "dasatinib"
+      ],
+      "single_drug_flip": {
+        "dasatinib": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "80356b3aaef9",
+      "text": "Eleven patients developed infection requiring hospitalization while taking leflunomide including: lower respiratory tract infections (3), cellulitis (2), disseminated herpes zoster (2), probable TB liver (1), abdominal sepsis (1), mycotic aneurysm (1) and gastroenteritis (1).",
+      "n_drugs": 1,
+      "drug_matches": [
+        "leflunomide"
+      ],
+      "single_drug_flip": {
+        "leflunomide": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "7d9072300113",
+      "text": "Sweet's syndrome is an acute febrile neutrophilic dermatosis that is a known complication of the administration of filgrastim, a drug that causes increased neutrophil proliferation and differentiation.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "filgrastim"
+      ],
+      "single_drug_flip": {
+        "filgrastim": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "6e4d5ab375da",
+      "text": "Possible interaction between lopinavir/ritonavir and valproic Acid exacerbates bipolar disorder.",
+      "n_drugs": 3,
+      "drug_matches": [
+        "valproic acid",
+        "lopinavir",
+        "ritonavir"
+      ],
+      "single_drug_flip": {
+        "valproic acid": false,
+        "lopinavir": false,
+        "ritonavir": false
+      },
+      "min_drugs_to_flip": 3,
+      "any_single_flip": false
+    },
+    {
+      "sentence_id": "82cf32fbf956",
+      "text": "On day 7 of linezolid treatment, the patient developed severe pruritus, macular rash, facial edema, eosinophilia, marked increase in serum creatinine level, and mild hepatitis.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "linezolid"
+      ],
+      "single_drug_flip": {
+        "linezolid": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "a3704386b9c5",
+      "text": "Rapamycin/sirolimus-induced pneumonitis has been described previously in renal transplant recipients, and this report describes a stable heart-lung transplant recipient who developed a pulmonary infiltrate that reversed after ceasing SR therapy.",
+      "n_drugs": 3,
+      "drug_matches": [
+        "rapamycin",
+        "sirolimus",
+        "sr"
+      ],
+      "single_drug_flip": {
+        "rapamycin": false,
+        "sirolimus": false,
+        "sr": false
+      },
+      "min_drugs_to_flip": 2,
+      "any_single_flip": false
+    },
+    {
+      "sentence_id": "739c2e99e6a8",
+      "text": "PURPOSE: To describe the clinical and electrophysiological findings in a young boy with decreased vision possibly due to retinal damage by rifabutin.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "rifabutin"
+      ],
+      "single_drug_flip": {
+        "rifabutin": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "5c24d6c53eac",
+      "text": "We describe a patient with acute leukemia who developed Horner's syndrome and a severe demyelinating peripheral neuropathy leading to death after receiving high-dose cytosine arabinoside.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "cytosine arabinoside"
+      ],
+      "single_drug_flip": {
+        "cytosine arabinoside": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "032be5f4f8cb",
+      "text": "CONCLUSION: Tamoxifen may cause malignant transformation of endometriosis through atypical endometriosis even in the postmenopausal state.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "tamoxifen"
+      ],
+      "single_drug_flip": {
+        "tamoxifen": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "7ed5bf4b139f",
+      "text": "Although this combination agent has been associated with a hypersensitivity syndrome involving cutaneous skin eruptions, pediatric cases of TMP-SMX-induced hepatotoxicity are rare.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "tmp-smx"
+      ],
+      "single_drug_flip": {
+        "tmp-smx": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "cc802ed4679c",
+      "text": "We report a rare case of colonic mucosal necrosis following Kalimate (calcium polystryrene sulfonate), an analogue of Kayexalate without sorbitol in a 34-yr-old man.",
+      "n_drugs": 4,
+      "drug_matches": [
+        "calcium polystryrene sulfonate",
+        "kayexalate",
+        "kalimate",
+        "sorbitol"
+      ],
+      "single_drug_flip": {
+        "calcium polystryrene sulfonate": false,
+        "kayexalate": false,
+        "kalimate": false,
+        "sorbitol": false
+      },
+      "min_drugs_to_flip": 4,
+      "any_single_flip": false
+    },
+    {
+      "sentence_id": "61c16dd5d6cf",
+      "text": "Recently, her serum theophylline levels had increased to the toxic range (133.2 micromol/L [24 microg/mL]) shortly after the addition of zafirlukast (Accolate, Zeneca Pharmaceuticals, Wilmington, Del) to her regimen.",
+      "n_drugs": 3,
+      "drug_matches": [
+        "theophylline",
+        "zafirlukast",
+        "accolate"
+      ],
+      "single_drug_flip": {
+        "theophylline": false,
+        "zafirlukast": false,
+        "accolate": false
+      },
+      "min_drugs_to_flip": 2,
+      "any_single_flip": false
+    },
+    {
+      "sentence_id": "c586287cefe7",
+      "text": "Intravitreal triamcinolone may have had an influence on the exacerbation of retinochoroiditis in the posterior pole of the patient.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "triamcinolone"
+      ],
+      "single_drug_flip": {
+        "triamcinolone": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "ac84afcd6fe2",
+      "text": "In the present paper the authors describe 2 female patients who developed incontinence secondary to the selective serotonin reuptake inhibitors paroxetine and sertraline, as well as a third who developed this side effect on venlafaxine.",
+      "n_drugs": 3,
+      "drug_matches": [
+        "venlafaxine",
+        "paroxetine",
+        "sertraline"
+      ],
+      "single_drug_flip": {
+        "venlafaxine": false,
+        "paroxetine": false,
+        "sertraline": false
+      },
+      "min_drugs_to_flip": 3,
+      "any_single_flip": false
+    },
+    {
+      "sentence_id": "862e898eaa9e",
+      "text": "Nine azotemic patients who developed a coagulopathy associated with the use of either cephalosporin or moxalactam antibiotics are reported.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "cephalosporin",
+        "moxalactam"
+      ],
+      "single_drug_flip": {
+        "cephalosporin": true,
+        "moxalactam": false
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "682b1845e1b5",
+      "text": "FINDINGS: Six children with growth retardation noted after treatment with high-dose fluticasone propionate were found to have adrenal suppression.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "fluticasone propionate"
+      ],
+      "single_drug_flip": {
+        "fluticasone propionate": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "65baf7f659bf",
+      "text": "Gynaecomastia is a rarely reported adverse drug reaction due to isoniazid therapy.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "isoniazid"
+      ],
+      "single_drug_flip": {
+        "isoniazid": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "6207583a4b23",
+      "text": "The authors suggest that fluoxetine-induced akathisia may be caused by serotonergically mediated inhibition of dopaminergic neurotransmission and that the pathophysiology of fluoxetine-induced akathisia and tricyclic antidepressant-induced \"jitteriness\" may be identical.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "fluoxetine",
+        "fluoxetine"
+      ],
+      "single_drug_flip": {
+        "fluoxetine": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "bc5f824d31de",
+      "text": "OBJECTIVE: To document a case of serotonin syndrome (SS) associated with mirtazapine monotherapy, review the previously reported cases of SS associated with this tetracyclic antidepressant, and discuss the possible pathogenic mechanisms leading to this serious adverse drug reaction.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "mirtazapine"
+      ],
+      "single_drug_flip": {
+        "mirtazapine": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "a90be6992e64",
+      "text": "Keratitis in methamphetamine abusers.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "methamphetamine"
+      ],
+      "single_drug_flip": {
+        "methamphetamine": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "4a3cf17f3db8",
+      "text": "The purpose of this article is to present the first case-series of posterior reversible encephalopathy syndrome (PRES) associated with L-asparaginase treatment.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "l-asparaginase",
+        "pres"
+      ],
+      "single_drug_flip": {
+        "l-asparaginase": true,
+        "pres": false
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "29e2df7f1b8b",
+      "text": "In patients with swallowing dysfunction and pneumonia, a history of mineral oil use should be obtained and a diagnosis of ELP should be considered in the differential diagnoses if mineral oil use has occurred.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "mineral oil",
+        "mineral oil"
+      ],
+      "single_drug_flip": {
+        "mineral oil": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "7ebea1a1693b",
+      "text": "Severe hepatitis caused by cyproterone acetate.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "cyproterone acetate"
+      ],
+      "single_drug_flip": {
+        "cyproterone acetate": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "412de3e3fc8f",
+      "text": "Two patients with ovarian cancer who had received multiple courses of cisplatin without complications experienced hypersensitivity reactions to cisplatin: one, involving intrahepatic artery infusion, manifested general erythema, dyspnea, and hypotension; the other, involving intravenous infusion, manifested abdominal pain, general erythema, and fever.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "cisplatin",
+        "cisplatin"
+      ],
+      "single_drug_flip": {
+        "cisplatin": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "4a21bc5e3748",
+      "text": "The former patient had complained once that his visual acuity had decreased after the termination of IFN therapy, and the latter patient complained twice during IFN therapy that his visual acuity had decreased.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "ifn",
+        "ifn"
+      ],
+      "single_drug_flip": {
+        "ifn": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "c06728e0cee6",
+      "text": "Ofloxacin: a probable cause of toxic epidermal necrolysis.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "ofloxacin"
+      ],
+      "single_drug_flip": {
+        "ofloxacin": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "36e0a0f8a4db",
+      "text": "Hepatic angiosarcoma occurring after cyclophosphamide therapy: case report and review of the literature.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "cyclophosphamide"
+      ],
+      "single_drug_flip": {
+        "cyclophosphamide": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "d5604af34068",
+      "text": "We report the case of a lung cancer patient with bronquiloalveolar carcinoma (BAC) presenting with BOOP after chemotherapy with docetaxel and gemcitabine producing severe respiratory insufficiency, and simulating a progression of the tumor.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "gemcitabine",
+        "docetaxel"
+      ],
+      "single_drug_flip": {
+        "gemcitabine": false,
+        "docetaxel": false
+      },
+      "min_drugs_to_flip": 2,
+      "any_single_flip": false
+    },
+    {
+      "sentence_id": "b21830281840",
+      "text": "PURPOSE: To report a case of bilateral anterior uveitis associated with ovulation induction therapy using clomiphene citrate.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "clomiphene citrate"
+      ],
+      "single_drug_flip": {
+        "clomiphene citrate": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "c766168dabde",
+      "text": "Lansoprazole-induced thrombocytopenia.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "lansoprazole"
+      ],
+      "single_drug_flip": {
+        "lansoprazole": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "b7e00224b997",
+      "text": "Amphotericin B (AmB) is effective, but its use is limited by toxicity: renal impairment, anaemia, fever, malaise, and hypokalaemia are common.",
+      "n_drugs": 3,
+      "drug_matches": [
+        "amphotericin b",
+        "toxicity",
+        "amb"
+      ],
+      "single_drug_flip": {
+        "amphotericin b": false,
+        "toxicity": false,
+        "amb": false
+      },
+      "min_drugs_to_flip": 2,
+      "any_single_flip": false
+    },
+    {
+      "sentence_id": "f442f673ea55",
+      "text": "He had an immediate hypersensitivity reaction during the initiation of the MTX infusion with diffuse urticaria, facial swelling, cough, and chest tightness.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "mtx"
+      ],
+      "single_drug_flip": {
+        "mtx": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "28a57ac1ea45",
+      "text": "Nail-changes induced by penicillamine.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "penicillamine"
+      ],
+      "single_drug_flip": {
+        "penicillamine": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "80356b3aaef9",
+      "text": "Eleven patients developed infection requiring hospitalization while taking leflunomide including: lower respiratory tract infections (3), cellulitis (2), disseminated herpes zoster (2), probable TB liver (1), abdominal sepsis (1), mycotic aneurysm (1) and gastroenteritis (1).",
+      "n_drugs": 1,
+      "drug_matches": [
+        "leflunomide"
+      ],
+      "single_drug_flip": {
+        "leflunomide": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "b33048f4c52c",
+      "text": "After the patient discontinued rifampicin, the skin lesions cleared completely within 5 weeks without any systemic medication.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "rifampicin"
+      ],
+      "single_drug_flip": {
+        "rifampicin": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "8cbecdd9c83d",
+      "text": "Nitrendipine-induced gingival hyperplasia.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "nitrendipine"
+      ],
+      "single_drug_flip": {
+        "nitrendipine": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "47b8a414796e",
+      "text": "This case describes fulminant hepatic failure in a patient taking disulfiram with no previous liver disease and report of being compliant with alcohol abstinence.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "disulfiram"
+      ],
+      "single_drug_flip": {
+        "disulfiram": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "212f242efab1",
+      "text": "In a female with acute lymphoblastic leukemia, inadvertent doxorubicin administration intrathecally caused severe, life-threatening, acute encephalopathy with high-pressure hydrocephalus.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "doxorubicin"
+      ],
+      "single_drug_flip": {
+        "doxorubicin": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "a37ffe114500",
+      "text": "Vancomycin is widely used against methicillin-resistant Staphylococcus aureus infections, but it is associated with many adverse effects such as nephrotoxicity, ototoxicity, gastrointestinal disturbances, blood disorders, and two types of hypersensitivity reactions - an anaphylactoid reaction known as \"red man syndrome\" and anaphylaxis.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "methicillin",
+        "vancomycin"
+      ],
+      "single_drug_flip": {
+        "methicillin": false,
+        "vancomycin": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "a1dbbfc53041",
+      "text": "A 7-year-old girl developed diabetes mellitus and exocrine pancreatic insufficiency after 3.5 years of almost continuous treatment with azathioprine and/or prednisone for idiopathic auto-immune haemolytic anaemia.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "azathioprine",
+        "prednisone"
+      ],
+      "single_drug_flip": {
+        "azathioprine": false,
+        "prednisone": false
+      },
+      "min_drugs_to_flip": 2,
+      "any_single_flip": false
+    },
+    {
+      "sentence_id": "4aaab2ac7299",
+      "text": "We hypothesize that capecitabine-induced headache is vascular in nature.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "capecitabine"
+      ],
+      "single_drug_flip": {
+        "capecitabine": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "03c19475f6af",
+      "text": "Gallstones and bile sludge are common side effects of octreotide therapy but rarely become symptomatic or require treatment.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "octreotide"
+      ],
+      "single_drug_flip": {
+        "octreotide": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "85de9ec092e0",
+      "text": "Elderly patients for whom nitrate has been prescribed should be warned of the occurrence of hypotension, leading to unconsciousness.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "nitrate"
+      ],
+      "single_drug_flip": {
+        "nitrate": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "dc1317a065c2",
+      "text": "Previous studies have demonstrated the interaction of MTX and a variety of non-steroidal, anti-inflammatory drugs (NSAIDs) with various clinical manifestations including acute renal failure, pancytopenia, vomiting, diarrhea, elevated liver transaminases, jaundice, mucosal ulcerations, and pyrexia.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "mtx"
+      ],
+      "single_drug_flip": {
+        "mtx": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "83e32034118e",
+      "text": "This article presents a patient with hypoparathyroidism who was treated with calcium carbonate and calcitriol resulting in two admissions to the hospital for milk-alkali syndrome.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "calcium carbonate",
+        "calcitriol"
+      ],
+      "single_drug_flip": {
+        "calcium carbonate": false,
+        "calcitriol": false
+      },
+      "min_drugs_to_flip": 2,
+      "any_single_flip": false
+    },
+    {
+      "sentence_id": "4900441d550a",
+      "text": "Warfarin-induced skin necrosis and heparin-induced thrombocytopenia following mitral valve replacement for marantic endocarditis.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "warfarin",
+        "heparin"
+      ],
+      "single_drug_flip": {
+        "warfarin": false,
+        "heparin": false
+      },
+      "min_drugs_to_flip": 2,
+      "any_single_flip": false
+    },
+    {
+      "sentence_id": "5b5c67a84f4d",
+      "text": "The harlequin color change and association with prostaglandin E1.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "prostaglandin e1"
+      ],
+      "single_drug_flip": {
+        "prostaglandin e1": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "5403ddcdb367",
+      "text": "Gold-salt therapy may result in damage to proximal tubules that leak renal tubular antigens, which in turn complex with autoantibody and produce an autoimmune membranous nephropathy.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "gold-salt"
+      ],
+      "single_drug_flip": {
+        "gold-salt": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "3d06bf25c634",
+      "text": "Peripheral nerve dysfunction is a potentially serious complication of high-dose cytosine arabinoside.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "cytosine arabinoside"
+      ],
+      "single_drug_flip": {
+        "cytosine arabinoside": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "c1b7694521c2",
+      "text": "Induction of systemic lupus erythematosus by interferon-gamma in a patient with rheumatoid arthritis.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "interferon-gamma"
+      ],
+      "single_drug_flip": {
+        "interferon-gamma": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "13d0689c4fbd",
+      "text": "We report the case of a patient with chronic lymphocytic leukemia (CLL) who developed fatal intravascular autoimmune hemolytic anemia (AIHA) after fludarabine treatment.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "fludarabine"
+      ],
+      "single_drug_flip": {
+        "fludarabine": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "da7b83e79687",
+      "text": "Trimethoprim-sulfamethoxazole-induced hypersensitivity syndrome associated with reactivation of human herpesvirus-6.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "trimethoprim-sulfamethoxazole"
+      ],
+      "single_drug_flip": {
+        "trimethoprim-sulfamethoxazole": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "12b0c18e9007",
+      "text": "Cyclosporine-induced pain syndrome in a child undergoing hematopoietic stem cell transplant.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "cyclosporine"
+      ],
+      "single_drug_flip": {
+        "cyclosporine": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "1e2c9e20564c",
+      "text": "Cutaneous seeding after ultrasound-guided percutaneous ethanol injection for treatment of hepatocellular carcinoma.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "ethanol injection"
+      ],
+      "single_drug_flip": {
+        "ethanol injection": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "5a2c3686e9bd",
+      "text": "We report the case of a 27-year-old Indian woman who developed maculopapular rash and angioedema secondary to carbamazepine administration.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "carbamazepine"
+      ],
+      "single_drug_flip": {
+        "carbamazepine": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "80f3c9e5f5c2",
+      "text": "Our experience supports hemodialysis for ESRF patients with atenolol toxicity.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "atenolol",
+        "toxicity"
+      ],
+      "single_drug_flip": {
+        "atenolol": false,
+        "toxicity": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "d4eacc75decc",
+      "text": "Biopsy-proven acute interstitial nephritis associated with the tyrosine kinase inhibitor sunitinib: a class effect?",
+      "n_drugs": 1,
+      "drug_matches": [
+        "sunitinib"
+      ],
+      "single_drug_flip": {
+        "sunitinib": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "23f1f57a0595",
+      "text": "A dapsone hypersensitivity syndrome, consisting of fever, headache, nausea, vomiting, lymphadenopathy, hepatitis, hemolysis, leukopenia, and mononucleosis, has been described in patients treated with the drug for leprosy.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "dapsone"
+      ],
+      "single_drug_flip": {
+        "dapsone": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "c4d9d0b29e49",
+      "text": "Bortezomib-induced paralytic ileus is a potential gastrointestinal side effect of this first-in-class anticancer proteasome inhibitor.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "bortezomib"
+      ],
+      "single_drug_flip": {
+        "bortezomib": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "0b4f5876ec0d",
+      "text": "It is thought that the clinico-pathological features and chronology of this case bore the hallmarks of the so-called \"3-week sulphasalazine syndrome\", a rare, but often fatal, immunoallergic reaction to sulphasalazine.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "sulphasalazine",
+        "sulphasalazine"
+      ],
+      "single_drug_flip": {
+        "sulphasalazine": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "e9b3303d9cb7",
+      "text": "Dyspnea, hypoxemia, and pleuritic chest pain occurred within 24 hours of rituximab administration, and there was no other apparent explanation.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "rituximab"
+      ],
+      "single_drug_flip": {
+        "rituximab": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "2b7cfa0444c8",
+      "text": "The possible effects of tamoxifen upon the uterus are discussed in this article, in view of reports of tamoxifen associated with endometrial carcinoma and endometriosis.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "tamoxifen",
+        "tamoxifen"
+      ],
+      "single_drug_flip": {
+        "tamoxifen": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "b96effa1659c",
+      "text": "We describe a case of severe aplastic anemia (AA) that was probably induced by lenalidomide.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "lenalidomide"
+      ],
+      "single_drug_flip": {
+        "lenalidomide": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "0cf2d3a78c92",
+      "text": "To our knowledge, this is the first granulomatous reaction described after calcium hydroxylapatite injection.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "calcium hydroxylapatite"
+      ],
+      "single_drug_flip": {
+        "calcium hydroxylapatite": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "cc56f6c57daa",
+      "text": "Flumazenil reversal of benzodiazepine-induced sedation for a patient with severe pre-ECT anxiety.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "benzodiazepine"
+      ],
+      "single_drug_flip": {
+        "benzodiazepine": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "3db279990f87",
+      "text": "Three patients, in whom tumour overkill by cytotoxic treatment, including high dose methotrexate with folinic acid rescue, resulted in the 'phosphate shower syndrome' (hyper-uricaemia, hyperkalaemia and hyperphosphataemia with hypocalcaemia and tetany, with metabolic acidosis and acute renal impairment) are described.",
+      "n_drugs": 3,
+      "drug_matches": [
+        "folinic acid",
+        "methotrexate",
+        "phosphate"
+      ],
+      "single_drug_flip": {
+        "folinic acid": false,
+        "methotrexate": false,
+        "phosphate": false
+      },
+      "min_drugs_to_flip": 3,
+      "any_single_flip": false
+    },
+    {
+      "sentence_id": "cef9b4f554b0",
+      "text": "Cephalosporins are most likely associated with Vitamin K deficiency.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "cephalosporins"
+      ],
+      "single_drug_flip": {
+        "cephalosporins": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "4e166e4e1172",
+      "text": "We present a case of photo-onycholysis in a patient treated with doxycycline for acne vulgaris.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "doxycycline"
+      ],
+      "single_drug_flip": {
+        "doxycycline": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "c773ba50e41e",
+      "text": "Psoriasis induced by interferon-alpha.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "interferon-alpha"
+      ],
+      "single_drug_flip": {
+        "interferon-alpha": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "a4f612db9cc3",
+      "text": "Thus, tacrolimus-induced HUS is a rare cause of ARF in nephrotic syndrome.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "tacrolimus"
+      ],
+      "single_drug_flip": {
+        "tacrolimus": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "1ed4816c8c47",
+      "text": "Failure of plasmapheresis, corticosteroids and thionamides to ameliorate a case of protracted amiodarone-induced thyroiditis.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "corticosteroids",
+        "amiodarone"
+      ],
+      "single_drug_flip": {
+        "corticosteroids": false,
+        "amiodarone": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "8bece110d975",
+      "text": "This case suggests that acyclovir when given intravenously in doses of 10 mg/kg may result in increased serum lithium concentrations.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "acyclovir",
+        "lithium"
+      ],
+      "single_drug_flip": {
+        "acyclovir": false,
+        "lithium": false
+      },
+      "min_drugs_to_flip": 2,
+      "any_single_flip": false
+    },
+    {
+      "sentence_id": "0ae7746fc334",
+      "text": "Teicoplanin-induced agranulocytosis that followed vancomycin-induced agranulocytosis suggests a possible cross-reactivity between the 2 drugs.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "teicoplanin",
+        "vancomycin"
+      ],
+      "single_drug_flip": {
+        "teicoplanin": false,
+        "vancomycin": false
+      },
+      "min_drugs_to_flip": 2,
+      "any_single_flip": false
+    },
+    {
+      "sentence_id": "9ed4ea134cde",
+      "text": "A case of contact dermatitis due to sodium bisulfite in an ophthalmic solution.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "sodium bisulfite"
+      ],
+      "single_drug_flip": {
+        "sodium bisulfite": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "5d2a80f0a52c",
+      "text": "Our findings suggest that hyperkalemia can develop with the use of low-dose heparin, within seven days of initiating heparin therapy, and that patients with diabetes mellitus or chronic renal insufficiency are especially predisposed to this complication.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "heparin",
+        "heparin"
+      ],
+      "single_drug_flip": {
+        "heparin": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "247c733369f8",
+      "text": "On the next day, after a total dose of only 600 mg of danazol, gingival bleeding and purpura occurred.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "danazol"
+      ],
+      "single_drug_flip": {
+        "danazol": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "311175474901",
+      "text": "Niacin causes a reversible toxic cystoid maculopathy that occurs in approximately 0.67% of patients taking high doses of the drug.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "niacin"
+      ],
+      "single_drug_flip": {
+        "niacin": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "2999bbf8c407",
+      "text": "Aminoglutethimide was discontinued until completion of radiotherapy, and the rash resolved.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "aminoglutethimide"
+      ],
+      "single_drug_flip": {
+        "aminoglutethimide": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "6056b0520f30",
+      "text": "We describe a case of intraoperative gelatine-induced anaphylaxis whose diagnosis was delayed as the use of gelatine during surgical procedures was omitted for two times in patient's medical records.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "gelatine",
+        "gelatine"
+      ],
+      "single_drug_flip": {
+        "gelatine": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "a21034647aea",
+      "text": "Infectious toxicity of dexamethasone during all remission-induction chemotherapy: report of two cases and literature review.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "dexamethasone",
+        "toxicity"
+      ],
+      "single_drug_flip": {
+        "dexamethasone": true,
+        "toxicity": false
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "9aeed964d2ad",
+      "text": "Concurrent acute megaloblastic anaemia and pneumonitis: a severe side-effect of low-dose methotrexate therapy during rheumatoid arthritis.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "methotrexate"
+      ],
+      "single_drug_flip": {
+        "methotrexate": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "0815bf341b36",
+      "text": "Mefloquine-associated hypoglycaemia in a cachectic AIDS patient.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "mefloquine"
+      ],
+      "single_drug_flip": {
+        "mefloquine": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "c16b8010b7fd",
+      "text": "BACKGROUND: Gemcitabine has mild renal toxicity, but cases of gemcitabine-associated hemolytic-uremic syndrome (HUS) have been reported.",
+      "n_drugs": 3,
+      "drug_matches": [
+        "gemcitabine",
+        "gemcitabine",
+        "toxicity"
+      ],
+      "single_drug_flip": {
+        "gemcitabine": true,
+        "toxicity": false
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "2b820f989eeb",
+      "text": "We report a fatal case of toxic epidermal necrolysis (TEN) resulting from a high dose of cytosine arabinoside (ARA-C).",
+      "n_drugs": 2,
+      "drug_matches": [
+        "cytosine arabinoside",
+        "ara-c"
+      ],
+      "single_drug_flip": {
+        "cytosine arabinoside": false,
+        "ara-c": false
+      },
+      "min_drugs_to_flip": 2,
+      "any_single_flip": false
+    },
+    {
+      "sentence_id": "1fce3ded5e61",
+      "text": "Clinicians have been aware of lithium toxicity for many years and traditionally have administered thiazide diuretics for lithium-induced polyuria and nephrogenic diabetes insipidus.",
+      "n_drugs": 4,
+      "drug_matches": [
+        "thiazide",
+        "toxicity",
+        "lithium",
+        "lithium"
+      ],
+      "single_drug_flip": {
+        "thiazide": false,
+        "toxicity": false,
+        "lithium": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "703c0719d01c",
+      "text": "METHODS: A 68-year-old man developed intense conjunctival hyperemia and cystoid macula edema after switching from latanoprost to bimatoprost 9 months after cataract surgery in an eye at low-risk for this cystoid macular edema.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "bimatoprost",
+        "latanoprost"
+      ],
+      "single_drug_flip": {
+        "bimatoprost": false,
+        "latanoprost": false
+      },
+      "min_drugs_to_flip": 2,
+      "any_single_flip": false
+    },
+    {
+      "sentence_id": "ab0fd814d601",
+      "text": "OBJECTIVES: To describe the clinicopathologic features of 3 patients with CML who rapidly progressed from chronic phase to blast crisis while taking imatinib and to perform a review of the literature.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "imatinib"
+      ],
+      "single_drug_flip": {
+        "imatinib": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "240f25b99e7b",
+      "text": "Intravenous verapamil therapy in babies may cause apnea, hypotension, and bradycardia; continued episodes of atrial flutter in a child may cause sudden death; quinidine may be related to the death; children with \"familial seizure disorders\" may in fact have the long QT interval syndrome.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "quinidine",
+        "verapamil"
+      ],
+      "single_drug_flip": {
+        "quinidine": false,
+        "verapamil": false
+      },
+      "min_drugs_to_flip": 2,
+      "any_single_flip": false
+    },
+    {
+      "sentence_id": "93f20dbc2258",
+      "text": "A 61-year-old man developed clinical lupus syndrome with positive antinuclear antibody, positive lupus erythematosus (LE) cell preparation, and diffuse proliferative glomerulonephritis following 26 months of procainamide therapy.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "procainamide"
+      ],
+      "single_drug_flip": {
+        "procainamide": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "9d8ec4e03d89",
+      "text": "Lichenoid drug eruption to salsalate.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "salsalate"
+      ],
+      "single_drug_flip": {
+        "salsalate": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "31dfe509db3e",
+      "text": "We present two children with acute lymphocytic leukemia who developed leukoencephalopathy following administration of a combination of intravenous ara = C and methotrexate during the consolidation phase of chemotherapy.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "methotrexate",
+        "ara = c"
+      ],
+      "single_drug_flip": {
+        "methotrexate": false,
+        "ara = c": false
+      },
+      "min_drugs_to_flip": 2,
+      "any_single_flip": false
+    },
+    {
+      "sentence_id": "f6b45311410f",
+      "text": "Clofazimine induced nail changes.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "clofazimine"
+      ],
+      "single_drug_flip": {
+        "clofazimine": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "4b796610b33d",
+      "text": "Risperidone-induced tardive dyskinesia.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "risperidone"
+      ],
+      "single_drug_flip": {
+        "risperidone": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "39fe0ec09d79",
+      "text": "Atypical ventricular tachycardia (torsade de pointes) induced by amiodarone: arrhythmia previously induced by quinidine and disopyramide.",
+      "n_drugs": 3,
+      "drug_matches": [
+        "disopyramide",
+        "amiodarone",
+        "quinidine"
+      ],
+      "single_drug_flip": {
+        "disopyramide": false,
+        "amiodarone": false,
+        "quinidine": false
+      },
+      "min_drugs_to_flip": 3,
+      "any_single_flip": false
+    },
+    {
+      "sentence_id": "c0f5f45ae4d0",
+      "text": "Nabumetone-associated interstitial nephritis.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "nabumetone"
+      ],
+      "single_drug_flip": {
+        "nabumetone": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "27f4ef4aab06",
+      "text": "This experience supports the hypothesis that heparin can be readministered early to patients with heparin-associated thrombocytopenia and thrombosis, provided antiplatelet therapy is given.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "heparin",
+        "heparin"
+      ],
+      "single_drug_flip": {
+        "heparin": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "5035a6544a07",
+      "text": "We report four cases of severe corneal ulceration in methamphetamine abusers.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "methamphetamine"
+      ],
+      "single_drug_flip": {
+        "methamphetamine": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "2d4b92df5fea",
+      "text": "The purpose of this report is to document a new case of in utero CP exposure with multiple congenital anomalies and to establish an apparent CP embryopathy phenotype.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "cp",
+        "cp"
+      ],
+      "single_drug_flip": {
+        "cp": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "caf7c7521f52",
+      "text": "When SASP was changed to 5-aminosalicylic acid (5-ASA), his skin eruptions were resolved, however, he developed weakness and atrophy in his right arm as well as progressive worsening of the dysesthesia in his legs and gait disturbance.",
+      "n_drugs": 3,
+      "drug_matches": [
+        "5-aminosalicylic acid",
+        "5-asa",
+        "sasp"
+      ],
+      "single_drug_flip": {
+        "5-aminosalicylic acid": false,
+        "5-asa": false,
+        "sasp": false
+      },
+      "min_drugs_to_flip": 3,
+      "any_single_flip": false
+    },
+    {
+      "sentence_id": "d7ad523182e7",
+      "text": "Metipranolol associated granulomatous anterior uveitis: not so uncommon as thought.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "metipranolol"
+      ],
+      "single_drug_flip": {
+        "metipranolol": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "8605d0e53e60",
+      "text": "CCBs should be considered in the treatment of 5-FU or capecitabine-induced headaches.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "capecitabine",
+        "5-fu"
+      ],
+      "single_drug_flip": {
+        "capecitabine": true,
+        "5-fu": false
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "ce1b9937bc11",
+      "text": "Although there have been numerous reports of effusions, none have provided complete pleural fluid analysis; therefore, we report 2 patients with dasatinib-induced pleural effusion with complete pleural fluid analysis.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "dasatinib"
+      ],
+      "single_drug_flip": {
+        "dasatinib": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "f966f87b7170",
+      "text": "The induced hyperglycaemia could not be controlled sufficiently, despite a high dose of insulin (> 110 units/day), suggesting the existence of insulin insensitivity and hyperinsulinaemia.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "insulin",
+        "insulin"
+      ],
+      "single_drug_flip": {
+        "insulin": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "74599f339bcf",
+      "text": "We report 3 cases of children with acute lymphoblastic leukemia who developed seizures and altered sensorium after L-asparaginase therapy.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "l-asparaginase"
+      ],
+      "single_drug_flip": {
+        "l-asparaginase": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "5c19f09bfb59",
+      "text": "It is suggested therefore that methotrexate be added to the list of agents capable of inducing diffuse interstitial pulmonary fibrosis.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "methotrexate"
+      ],
+      "single_drug_flip": {
+        "methotrexate": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "6471bc3e09a6",
+      "text": "Here we describe a patient with Crohn's disease who developed a severe infliximab infusion reaction (IIR), complicated 1 day later by severe swelling of the forearm and hand ipsilateral to the site of infliximab infusion.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "infliximab",
+        "infliximab"
+      ],
+      "single_drug_flip": {
+        "infliximab": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "553cd3e55ee6",
+      "text": "Pemphigus foliaceus was seen in a patient with pulmonary tuberculosis during rifampicin therapy.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "rifampicin"
+      ],
+      "single_drug_flip": {
+        "rifampicin": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "ab644b8bce22",
+      "text": "The clinical course suggests that the interstitial pneumonitis was induced by hydroxyurea.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "hydroxyurea"
+      ],
+      "single_drug_flip": {
+        "hydroxyurea": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "b0eba474d59e",
+      "text": "Managing cardiovascular collapse in severe flecainide overdose without recourse to extracorporeal therapy.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "flecainide"
+      ],
+      "single_drug_flip": {
+        "flecainide": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "5f0af2f6463b",
+      "text": "Basilar invagination and mid-line skeletal abnormalities due to in utero exposure to phenytoin.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "phenytoin"
+      ],
+      "single_drug_flip": {
+        "phenytoin": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "c2fc6a7a28b6",
+      "text": "Propylthiouracil-induced sensorineural hearing loss associated with antineutrophil cytoplasmic antibodies.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "propylthiouracil"
+      ],
+      "single_drug_flip": {
+        "propylthiouracil": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "110ff6b3e3b4",
+      "text": "Toxic optic neuropathy associated with ethambutol: implications for current therapy.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "ethambutol"
+      ],
+      "single_drug_flip": {
+        "ethambutol": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "fbb7087c6935",
+      "text": "The diagnosis of hypothermia was delayed until it was apparent for several days but resolved with the discontinuation of risperidone and continuation of clozapine.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "risperidone",
+        "clozapine"
+      ],
+      "single_drug_flip": {
+        "risperidone": false,
+        "clozapine": false
+      },
+      "min_drugs_to_flip": 2,
+      "any_single_flip": false
+    },
+    {
+      "sentence_id": "67d4bcf16e34",
+      "text": "RESULTS: Our patient developed Crohn's disease while on Copaxone treatment as a consequence of long-term immunosuppression.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "copaxone"
+      ],
+      "single_drug_flip": {
+        "copaxone": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "d4d14a6e6722",
+      "text": "Within 6 months of pranlukast withdrawal, anemia resolved and urinary sediment and renal function normalized.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "pranlukast"
+      ],
+      "single_drug_flip": {
+        "pranlukast": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "23575e220b81",
+      "text": "The authors report two cases of acute dystonic reactions (ADRs) as a side effect of lamivudine.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "lamivudine"
+      ],
+      "single_drug_flip": {
+        "lamivudine": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "3085e1c6352e",
+      "text": "The ototoxicity of quinine can accurately be studied with ultrahigh frequency audiometry (up to 20 kHz).",
+      "n_drugs": 1,
+      "drug_matches": [
+        "quinine"
+      ],
+      "single_drug_flip": {
+        "quinine": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "7cfdc532db52",
+      "text": "We present a case of ethylenediamine-induced delayed hypersensitivity reaction in a 46-year-old woman who received parenteral aminophylline for an acute asthma exacerbation.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "ethylenediamine",
+        "aminophylline"
+      ],
+      "single_drug_flip": {
+        "ethylenediamine": false,
+        "aminophylline": false
+      },
+      "min_drugs_to_flip": 2,
+      "any_single_flip": false
+    },
+    {
+      "sentence_id": "52b28ee113a6",
+      "text": "When measured, the serum lithium level had increased 4-fold during acyclovir therapy.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "acyclovir",
+        "lithium"
+      ],
+      "single_drug_flip": {
+        "acyclovir": false,
+        "lithium": false
+      },
+      "min_drugs_to_flip": 2,
+      "any_single_flip": false
+    },
+    {
+      "sentence_id": "c8ea4251f565",
+      "text": "Phenytoin toxicity due to concomitant antituberculosis therapy.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "phenytoin",
+        "toxicity"
+      ],
+      "single_drug_flip": {
+        "phenytoin": true,
+        "toxicity": false
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "cf157b71ef79",
+      "text": "Naproxen, the most common offender, has been associated with a dimorphic clinical pattern: a PCT-like presentation and one simulating erythropoietic protoporphyria in the pediatric population.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "naproxen"
+      ],
+      "single_drug_flip": {
+        "naproxen": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "ae8ac488d558",
+      "text": "Flutamide withdrawal syndrome is characterized by a decrease in prostate-specific antigen (PSA) after flutamide withdrawal in a subset of patients with progressing metastatic carcinoma of the prostate.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "flutamide",
+        "flutamide"
+      ],
+      "single_drug_flip": {
+        "flutamide": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "1c12698a2c43",
+      "text": "We describe a 15-year-old female patient diagnosed with acute lymphoblastic leukemia presenting with status epilepticus after receiving intrathecal methotrexate.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "methotrexate"
+      ],
+      "single_drug_flip": {
+        "methotrexate": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "f119c0f71302",
+      "text": "Extrapyramidal side effects induced by some selective serotonin reuptake inhibitors (SSRIs), i.e. fluoxetine and sertraline, have been previously reported in patients with depression and obsessive-compulsive disorder (OCD).",
+      "n_drugs": 2,
+      "drug_matches": [
+        "fluoxetine",
+        "sertraline"
+      ],
+      "single_drug_flip": {
+        "fluoxetine": false,
+        "sertraline": false
+      },
+      "min_drugs_to_flip": 2,
+      "any_single_flip": false
+    },
+    {
+      "sentence_id": "9d86ceb43160",
+      "text": "Intravenous valproate associated with significant hypotension in the treatment of status epilepticus.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "valproate"
+      ],
+      "single_drug_flip": {
+        "valproate": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "7abb1ecb058e",
+      "text": "We conjectured that the side effects of insulin, such as anti-natriuresis and increased vascular permeability, might be pronounced in the presence of the hepatic dysfunction that accompanies insulin insensitivity, hyperinsulinaemia and hypoalbuminaemia.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "insulin",
+        "insulin"
+      ],
+      "single_drug_flip": {
+        "insulin": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "f3c84deb0c30",
+      "text": "Our patient had headache, mild fever, nausea, vomiting, rash, and eosinophilia after 3 weeks of disulfiram therapy.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "disulfiram"
+      ],
+      "single_drug_flip": {
+        "disulfiram": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "4c6be8d379df",
+      "text": "RESULTS: Two patients with ocular inflammation of unknown origin developed severe chorioretinitis after IVTA injection.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "ivta"
+      ],
+      "single_drug_flip": {
+        "ivta": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "feaa64f92c7e",
+      "text": "Localized purpura associated with lamotrigine.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "lamotrigine"
+      ],
+      "single_drug_flip": {
+        "lamotrigine": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "91da2bcf6d64",
+      "text": "Possible linkage of amprenavir with intracranial bleeding in an HIV-infected hemophiliac.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "amprenavir"
+      ],
+      "single_drug_flip": {
+        "amprenavir": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "47f23395c28a",
+      "text": "Native arterial thrombosis, though recognized as a severe complication of thrombin injection, has not been well described in the literature.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "thrombin"
+      ],
+      "single_drug_flip": {
+        "thrombin": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "2b7cfa0444c8",
+      "text": "The possible effects of tamoxifen upon the uterus are discussed in this article, in view of reports of tamoxifen associated with endometrial carcinoma and endometriosis.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "tamoxifen",
+        "tamoxifen"
+      ],
+      "single_drug_flip": {
+        "tamoxifen": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "e1233e936a83",
+      "text": "There is no consensus on the treatment of ticlopidine-induced marrow aplasia.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "ticlopidine"
+      ],
+      "single_drug_flip": {
+        "ticlopidine": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "ed3982347d7a",
+      "text": "DISCUSSION: Anaphylactoid reactions have been described previously with cisplatin administration.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "cisplatin"
+      ],
+      "single_drug_flip": {
+        "cisplatin": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "d87c4a76f658",
+      "text": "However, a large case-control study included three cases of either Stevens-Johnson syndrome or toxic epidermal necrolysis associated with ofloxacin use, but no details of the cases were given.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "ofloxacin"
+      ],
+      "single_drug_flip": {
+        "ofloxacin": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "ba7dba8e319a",
+      "text": "Clostridium difficile colitis associated with cisplatin-based chemotherapy in ovarian cancer patients.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "cisplatin"
+      ],
+      "single_drug_flip": {
+        "cisplatin": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "54b083a52455",
+      "text": "A patient suffering from heparin-associated thrombocytopenia (HAT), recurrent arteriothromboses, and acute renal failure after treatment with standard heparin is described.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "heparin",
+        "heparin"
+      ],
+      "single_drug_flip": {
+        "heparin": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "3fc6f90d8898",
+      "text": "A 21-year-old woman suffering from bipolar affective disorder developed systemic lupus erythematosus (SLE) with characteristic laboratory findings, 18 months after starting carbamazepine maintenance treatment.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "carbamazepine"
+      ],
+      "single_drug_flip": {
+        "carbamazepine": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "a8c2e0e8e8f8",
+      "text": "Induction of rapid mood cycling during L-dopa treatment in a bipolar patient.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "l-dopa"
+      ],
+      "single_drug_flip": {
+        "l-dopa": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "f54405bcc973",
+      "text": "However, dermatologists should be cautious about a photosensitivity reaction induced by mequitazine or other phenothiazine-derivative drugs.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "phenothiazine",
+        "mequitazine"
+      ],
+      "single_drug_flip": {
+        "phenothiazine": false,
+        "mequitazine": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "7f6c557dae44",
+      "text": "We report an allogeneic bone marrow transplant recipient who developed CMV infection refractory to sequential therapy with ganciclovir, foscarnet, and cidofovir.",
+      "n_drugs": 3,
+      "drug_matches": [
+        "ganciclovir",
+        "cidofovir",
+        "foscarnet"
+      ],
+      "single_drug_flip": {
+        "ganciclovir": false,
+        "cidofovir": false,
+        "foscarnet": false
+      },
+      "min_drugs_to_flip": 3,
+      "any_single_flip": false
+    },
+    {
+      "sentence_id": "06e32af66581",
+      "text": "INTRODUCTION: We describe the neurointensive care (NIC) management of a patient with severe cerebral swelling and raised intracranial pressure (ICP) after severe sodium valproic acid (VPA) intoxication.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "sodium valproic acid",
+        "vpa"
+      ],
+      "single_drug_flip": {
+        "sodium valproic acid": true,
+        "vpa": false
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "18fe1e60b11e",
+      "text": "We have seen a case of terminal malignant melanoma in which clinical manifestations, indicative of anterior spinal artery syndrome, developed following the injection of 0.3 ml of 10% phenol-glycerine into the cervical subarachnoid space at the C4--C5 level for the control of severe right arm pain.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "phenol-glycerine"
+      ],
+      "single_drug_flip": {
+        "phenol-glycerine": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "f5a25b2cdf52",
+      "text": "A 47 year-old woman who had a 4-year history of intramuscular pentazocine injections in the lower extremities, developed gradual stiffness and weakness of the lower extremities.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "pentazocine"
+      ],
+      "single_drug_flip": {
+        "pentazocine": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "5efeb2315ee0",
+      "text": "The main clinical features of this 58-year-old female patient were laboratory evidence of leucopenia and cholestasis, and biopsy features of fatty liver parenchyma degeneration with granulocytic portal infiltration and bile stasis, demonstrated 20 days after the initiation of antithyroid therapy with 20 mg methimazole daily.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "methimazole"
+      ],
+      "single_drug_flip": {
+        "methimazole": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "f74631d71ae6",
+      "text": "Radiation recall related to gemcitabine has been reported in lung and breast cancer.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "gemcitabine"
+      ],
+      "single_drug_flip": {
+        "gemcitabine": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "67f6dfb3cc28",
+      "text": "Until additional data are available, if intravenous acyclovir is administered concurrently with lithium, we recommend closely monitoring patients for signs of lithium toxicity and measuring serum lithium levels every second or third day.",
+      "n_drugs": 5,
+      "drug_matches": [
+        "acyclovir",
+        "toxicity",
+        "lithium",
+        "lithium",
+        "lithium"
+      ],
+      "single_drug_flip": {
+        "acyclovir": false,
+        "toxicity": false,
+        "lithium": false
+      },
+      "min_drugs_to_flip": 2,
+      "any_single_flip": false
+    },
+    {
+      "sentence_id": "832537510078",
+      "text": "After discontinuing captopril and starting systemic steroids, her symptomatology rapidly improved, and her eosinophilia and radiographic abnormalities both resolved.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "captopril"
+      ],
+      "single_drug_flip": {
+        "captopril": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "7ce9e95a75eb",
+      "text": "In patients with methotrexate-induced anaphylaxis, discontinuation of treatment may increase the risk of death due to cancer progression.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "methotrexate"
+      ],
+      "single_drug_flip": {
+        "methotrexate": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "2f2ec9c90362",
+      "text": "Although differential diagnostic alternatives can be considered in all described cases it is very likely that vincristine does cause severe visual loss in a small number of patients.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "vincristine"
+      ],
+      "single_drug_flip": {
+        "vincristine": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "2e1015b939df",
+      "text": "To our knowledge, the syndrome of fever, pulmonary infiltrates, and pleural effusion following use of acyclovir has not been previously reported.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "acyclovir"
+      ],
+      "single_drug_flip": {
+        "acyclovir": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "8c4aef0afa10",
+      "text": "Two patients developed diabetic coma when taking a combination of a thiazide diuretic and propranolol.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "propranolol",
+        "thiazide"
+      ],
+      "single_drug_flip": {
+        "propranolol": true,
+        "thiazide": false
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "2e1d8e7eecbf",
+      "text": "Myoclonus and seizures in a patient with parkinsonism: induction by levodopa and its confirmation on SEPs.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "levodopa"
+      ],
+      "single_drug_flip": {
+        "levodopa": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "4b01726fc4a6",
+      "text": "Pulmonary gold toxicity.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "toxicity",
+        "gold"
+      ],
+      "single_drug_flip": {
+        "toxicity": true,
+        "gold": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "1c06c0f53948",
+      "text": "Enoxaparin-induced generalized exanthem.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "enoxaparin"
+      ],
+      "single_drug_flip": {
+        "enoxaparin": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "a20a44f118f1",
+      "text": "However, an association of Ritalin with glaucoma has been reported.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "ritalin"
+      ],
+      "single_drug_flip": {
+        "ritalin": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "6e3da021c279",
+      "text": "Allergy to cloxacillin with normal tolerance to amoxicillin and cefuroxime.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "cloxacillin",
+        "cefuroxime"
+      ],
+      "single_drug_flip": {
+        "cloxacillin": false,
+        "cefuroxime": false
+      },
+      "min_drugs_to_flip": 2,
+      "any_single_flip": false
+    },
+    {
+      "sentence_id": "b4e9bda8bed2",
+      "text": "CONCLUSIONS: Amphotericin B seems to be the probable cause of the seizures.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "amphotericin b"
+      ],
+      "single_drug_flip": {
+        "amphotericin b": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "7b9bd772e506",
+      "text": "She was diagnosed with Epstein-Barr virus-associated polymorphic lymphoproliferative disorder (LPD) due to immunodeficiency caused by MTX administration.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "mtx"
+      ],
+      "single_drug_flip": {
+        "mtx": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "cbc56899ffed",
+      "text": "Both had impaired lung function and abnormal computed tomographic scans, and their condition improved when nitrofurantoin was withdrawn and corticosteroid treatment commenced.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "corticosteroid",
+        "nitrofurantoin"
+      ],
+      "single_drug_flip": {
+        "corticosteroid": false,
+        "nitrofurantoin": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "55ac726a315a",
+      "text": "Acute dystonia with thalamic and brainstem lesions after initial penicillamine treatment in Wilson's disease.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "penicillamine"
+      ],
+      "single_drug_flip": {
+        "penicillamine": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "0de2c5daef0f",
+      "text": "BACKGROUND: Methotrexate (MTX) may induce liver damage, which in some psoriatics will lead to fibrosis or cirrhosis.",
+      "n_drugs": 3,
+      "drug_matches": [
+        "methotrexate",
+        "lead",
+        "mtx"
+      ],
+      "single_drug_flip": {
+        "methotrexate": false,
+        "lead": false,
+        "mtx": false
+      },
+      "min_drugs_to_flip": 2,
+      "any_single_flip": false
+    },
+    {
+      "sentence_id": "81a87eee211d",
+      "text": "CONCLUSIONS: This is the second case report that describes gemcitabine-induced radiation recall in rectus abdominus muscles after gemcitabine-based radiation therapy.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "gemcitabine",
+        "gemcitabine"
+      ],
+      "single_drug_flip": {
+        "gemcitabine": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "55ac726a315a",
+      "text": "Acute dystonia with thalamic and brainstem lesions after initial penicillamine treatment in Wilson's disease.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "penicillamine"
+      ],
+      "single_drug_flip": {
+        "penicillamine": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "43c022ff8675",
+      "text": "We have described three patients with hepatitis C for whom IFN-alpha and ribavirin were prescribed and who developed two successive phases of silent thyroiditis followed by hyperthryroidism relapse due to Graves' disease.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "ifn-alpha",
+        "ribavirin"
+      ],
+      "single_drug_flip": {
+        "ifn-alpha": false,
+        "ribavirin": false
+      },
+      "min_drugs_to_flip": 2,
+      "any_single_flip": false
+    },
+    {
+      "sentence_id": "8092b47d45b8",
+      "text": "METHODS: The patient required insulin desensitization for severe urticaria, angioedema, and occasional wheezing resulting from her insulin dose.",
+      "n_drugs": 2,
+      "drug_matches": [
+        "insulin",
+        "insulin"
+      ],
+      "single_drug_flip": {
+        "insulin": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "b6f27fa918c9",
+      "text": "An adult male presented with central blindness after ingesting methanol.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "methanol"
+      ],
+      "single_drug_flip": {
+        "methanol": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "f5114f993251",
+      "text": "Vancomycin is the most frequently implicated drug, but other agents have been reported to cause LABD.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "vancomycin"
+      ],
+      "single_drug_flip": {
+        "vancomycin": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "490833e62432",
+      "text": "Cutaneous rashes and eruptions can be caused by many medications, including carbamazepine.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "carbamazepine"
+      ],
+      "single_drug_flip": {
+        "carbamazepine": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    },
+    {
+      "sentence_id": "f5e993de8cca",
+      "text": "Early recognition of hereditary motor and sensory neuropathy type 1 can avoid life-threatening vincristine neurotoxicity.",
+      "n_drugs": 1,
+      "drug_matches": [
+        "vincristine"
+      ],
+      "single_drug_flip": {
+        "vincristine": true
+      },
+      "min_drugs_to_flip": 1,
+      "any_single_flip": true
+    }
+  ]
+}

@@ -1,0 +1,2162 @@
+[
+    {
+        "generic_name": "0.1% tretinoin cream",
+        "brand_name": "retin-a"
+    },
+    {
+        "generic_name": "13-cis-retinoic acid",
+        "brand_name": "myorisan"
+    },
+    {
+        "generic_name": "2-cda",
+        "brand_name": "mavenclad"
+    },
+    {
+        "generic_name": "2-chloro-deoxyadenosine",
+        "brand_name": "mavenclad"
+    },
+    {
+        "generic_name": "2-chlorodeoxyadenosine",
+        "brand_name": "mavenclad"
+    },
+    {
+        "generic_name": "5-aminosalicylic acid",
+        "brand_name": "delzicol"
+    },
+    {
+        "generic_name": "5-asa",
+        "brand_name": "delzicol"
+    },
+    {
+        "generic_name": "5-fluorocytosine",
+        "brand_name": "ancobon"
+    },
+    {
+        "generic_name": "5-fluorouracil",
+        "brand_name": "tolak"
+    },
+    {
+        "generic_name": "5-fu",
+        "brand_name": "tolak"
+    },
+    {
+        "generic_name": "6-mercaptopurine",
+        "brand_name": "purixan"
+    },
+    {
+        "generic_name": "6-mp",
+        "brand_name": "purixan"
+    },
+    {
+        "generic_name": "6-tg",
+        "brand_name": "tabloid"
+    },
+    {
+        "generic_name": "6-thioguanine",
+        "brand_name": "tabloid"
+    },
+    {
+        "generic_name": "8-methoxypsoralen",
+        "brand_name": "uvadex"
+    },
+    {
+        "generic_name": "acarbose",
+        "brand_name": "precose"
+    },
+    {
+        "generic_name": "accolate",
+        "brand_name": "accolate"
+    },
+    {
+        "generic_name": "accutane",
+        "brand_name": "accutane"
+    },
+    {
+        "generic_name": "acetic acid",
+        "brand_name": "mal-a-ket"
+    },
+    {
+        "generic_name": "acetylsalicylic acid",
+        "brand_name": "pamprin max formula"
+    },
+    {
+        "generic_name": "acth",
+        "brand_name": "acthar"
+    },
+    {
+        "generic_name": "actinomycin d",
+        "brand_name": "cosmegen"
+    },
+    {
+        "generic_name": "actinomycin-d",
+        "brand_name": "cosmegen"
+    },
+    {
+        "generic_name": "acyclovir",
+        "brand_name": "sitavig"
+    },
+    {
+        "generic_name": "adalimumab",
+        "brand_name": "amjevita"
+    },
+    {
+        "generic_name": "adefovir",
+        "brand_name": "hepsera"
+    },
+    {
+        "generic_name": "adenosine",
+        "brand_name": "adenoscan"
+    },
+    {
+        "generic_name": "adrenaline",
+        "brand_name": "auvi-q"
+    },
+    {
+        "generic_name": "adrenocorticotropic hormone",
+        "brand_name": "acthar"
+    },
+    {
+        "generic_name": "adriamycin",
+        "brand_name": "adriamycin"
+    },
+    {
+        "generic_name": "albendazole",
+        "brand_name": "valbazen"
+    },
+    {
+        "generic_name": "albuterol",
+        "brand_name": "combivent"
+    },
+    {
+        "generic_name": "alemtuzumab",
+        "brand_name": "lemtrada"
+    },
+    {
+        "generic_name": "alendronate",
+        "brand_name": "fosamax"
+    },
+    {
+        "generic_name": "aliskiren",
+        "brand_name": "tekturna hct"
+    },
+    {
+        "generic_name": "all-trans retinoic acid",
+        "brand_name": "retin-a"
+    },
+    {
+        "generic_name": "all-trans-retinoic acid",
+        "brand_name": "retin-a"
+    },
+    {
+        "generic_name": "allopurinol",
+        "brand_name": "zyloprim"
+    },
+    {
+        "generic_name": "alprazolam",
+        "brand_name": "xanax"
+    },
+    {
+        "generic_name": "alteplase",
+        "brand_name": "activase"
+    },
+    {
+        "generic_name": "amantadine",
+        "brand_name": "gocovri"
+    },
+    {
+        "generic_name": "ambien",
+        "brand_name": "ambien"
+    },
+    {
+        "generic_name": "amifostine",
+        "brand_name": "ethyol"
+    },
+    {
+        "generic_name": "amikacin",
+        "brand_name": "arikayce"
+    },
+    {
+        "generic_name": "amiodarone",
+        "brand_name": "cordarone"
+    },
+    {
+        "generic_name": "amiodarone hcl",
+        "brand_name": "cordarone"
+    },
+    {
+        "generic_name": "amiodarone hydrochloride",
+        "brand_name": "cordarone"
+    },
+    {
+        "generic_name": "amisulpride",
+        "brand_name": "barhemsys"
+    },
+    {
+        "generic_name": "amitriptyline",
+        "brand_name": "elavil"
+    },
+    {
+        "generic_name": "amphotericin b",
+        "brand_name": "ambisome"
+    },
+    {
+        "generic_name": "ampicillin",
+        "brand_name": "polyflex"
+    },
+    {
+        "generic_name": "anastrozole",
+        "brand_name": "arimidex"
+    },
+    {
+        "generic_name": "apomorphine",
+        "brand_name": "kynmobi"
+    },
+    {
+        "generic_name": "arginine",
+        "brand_name": "canineaid"
+    },
+    {
+        "generic_name": "aripiprazole",
+        "brand_name": "opipza"
+    },
+    {
+        "generic_name": "arsenic trioxide",
+        "brand_name": "trisenox"
+    },
+    {
+        "generic_name": "asparaginase",
+        "brand_name": "erwinaze"
+    },
+    {
+        "generic_name": "aspirin",
+        "brand_name": "pamprin max formula"
+    },
+    {
+        "generic_name": "atenolol",
+        "brand_name": "tenormin"
+    },
+    {
+        "generic_name": "atomoxetine",
+        "brand_name": "strattera"
+    },
+    {
+        "generic_name": "atovaquone",
+        "brand_name": "mepron"
+    },
+    {
+        "generic_name": "atra",
+        "brand_name": "retin-a"
+    },
+    {
+        "generic_name": "auranofin",
+        "brand_name": "ridaura"
+    },
+    {
+        "generic_name": "avastin",
+        "brand_name": "avastin"
+    },
+    {
+        "generic_name": "azathioprine",
+        "brand_name": "imuran"
+    },
+    {
+        "generic_name": "azithromycin",
+        "brand_name": "zithromax"
+    },
+    {
+        "generic_name": "bacitracin",
+        "brand_name": "procomycin"
+    },
+    {
+        "generic_name": "baclofen",
+        "brand_name": "gablofen"
+    },
+    {
+        "generic_name": "bcnu",
+        "brand_name": "gliadel"
+    },
+    {
+        "generic_name": "benzalkonium",
+        "brand_name": "horseman's dream fung-a-way"
+    },
+    {
+        "generic_name": "benzocaine",
+        "brand_name": "benzo-jel"
+    },
+    {
+        "generic_name": "benzoyl peroxide",
+        "brand_name": "fostex"
+    },
+    {
+        "generic_name": "betamethasone",
+        "brand_name": "gentacalm"
+    },
+    {
+        "generic_name": "betamethasone valerate",
+        "brand_name": "luxiq"
+    },
+    {
+        "generic_name": "bevacizumab",
+        "brand_name": "mvasi"
+    },
+    {
+        "generic_name": "bicalutamide",
+        "brand_name": "casodex"
+    },
+    {
+        "generic_name": "bimatoprost",
+        "brand_name": "durysta"
+    },
+    {
+        "generic_name": "bortezomib",
+        "brand_name": "boruzu"
+    },
+    {
+        "generic_name": "botulinum toxin type b",
+        "brand_name": "myobloc"
+    },
+    {
+        "generic_name": "brimonidine",
+        "brand_name": "simbrinza"
+    },
+    {
+        "generic_name": "bromocriptine",
+        "brand_name": "parlodel"
+    },
+    {
+        "generic_name": "bromocryptine",
+        "brand_name": "parlodel"
+    },
+    {
+        "generic_name": "brompheniramine",
+        "brand_name": "bromfed dm"
+    },
+    {
+        "generic_name": "btx-b",
+        "brand_name": "myobloc"
+    },
+    {
+        "generic_name": "budesonide",
+        "brand_name": "uceris"
+    },
+    {
+        "generic_name": "bupivacaine",
+        "brand_name": "marcaine"
+    },
+    {
+        "generic_name": "bupropion",
+        "brand_name": "forfivo"
+    },
+    {
+        "generic_name": "busulfan",
+        "brand_name": "myleran"
+    },
+    {
+        "generic_name": "busulphan",
+        "brand_name": "myleran"
+    },
+    {
+        "generic_name": "caffeine",
+        "brand_name": "pamprin max formula"
+    },
+    {
+        "generic_name": "calcipotriol",
+        "brand_name": "calcitrene"
+    },
+    {
+        "generic_name": "calcitriol",
+        "brand_name": "rocaltrol"
+    },
+    {
+        "generic_name": "calcium carbonate",
+        "brand_name": "folbecal"
+    },
+    {
+        "generic_name": "capecitabine",
+        "brand_name": "xeloda"
+    },
+    {
+        "generic_name": "carbamazepine",
+        "brand_name": "tegretol"
+    },
+    {
+        "generic_name": "carboplatin",
+        "brand_name": "paraplatin"
+    },
+    {
+        "generic_name": "carmustine",
+        "brand_name": "gliadel"
+    },
+    {
+        "generic_name": "cbdca",
+        "brand_name": "paraplatin"
+    },
+    {
+        "generic_name": "cbz",
+        "brand_name": "tegretol"
+    },
+    {
+        "generic_name": "ccnu",
+        "brand_name": "gleostine"
+    },
+    {
+        "generic_name": "cephalexin",
+        "brand_name": "rilexine"
+    },
+    {
+        "generic_name": "chlorambucil",
+        "brand_name": "leukeran"
+    },
+    {
+        "generic_name": "chloramphenicol",
+        "brand_name": "viceton"
+    },
+    {
+        "generic_name": "chlorhexidine",
+        "brand_name": "chg teat dip"
+    },
+    {
+        "generic_name": "cholestyramine",
+        "brand_name": "questran"
+    },
+    {
+        "generic_name": "chromic phosphate",
+        "brand_name": "multitrace-4"
+    },
+    {
+        "generic_name": "cialis",
+        "brand_name": "cialis"
+    },
+    {
+        "generic_name": "cilastatin",
+        "brand_name": "recarbrio"
+    },
+    {
+        "generic_name": "cimetidine",
+        "brand_name": "tagamet"
+    },
+    {
+        "generic_name": "ciprofloxacin",
+        "brand_name": "otiprio"
+    },
+    {
+        "generic_name": "citalopram",
+        "brand_name": "celexa"
+    },
+    {
+        "generic_name": "cladribine",
+        "brand_name": "mavenclad"
+    },
+    {
+        "generic_name": "clarithromycin",
+        "brand_name": "biaxin"
+    },
+    {
+        "generic_name": "clindamycin",
+        "brand_name": "clindacure"
+    },
+    {
+        "generic_name": "clindamycin phosphate",
+        "brand_name": "neuac"
+    },
+    {
+        "generic_name": "clioquinol",
+        "brand_name": "ala-quin"
+    },
+    {
+        "generic_name": "clomiphene citrate",
+        "brand_name": "clomid"
+    },
+    {
+        "generic_name": "clomipramine",
+        "brand_name": "caniquell"
+    },
+    {
+        "generic_name": "clonazepam",
+        "brand_name": "klonopin"
+    },
+    {
+        "generic_name": "clonidine",
+        "brand_name": "kapvay"
+    },
+    {
+        "generic_name": "clopidogrel",
+        "brand_name": "plavix"
+    },
+    {
+        "generic_name": "cloxacillin",
+        "brand_name": "dry clox"
+    },
+    {
+        "generic_name": "clozapine",
+        "brand_name": "versacloz"
+    },
+    {
+        "generic_name": "cocaine",
+        "brand_name": "goprelto"
+    },
+    {
+        "generic_name": "codeine",
+        "brand_name": "lortuss ex"
+    },
+    {
+        "generic_name": "colchicine",
+        "brand_name": "mitigare"
+    },
+    {
+        "generic_name": "copaxone",
+        "brand_name": "copaxone"
+    },
+    {
+        "generic_name": "csa",
+        "brand_name": "optimmune"
+    },
+    {
+        "generic_name": "cy",
+        "brand_name": "freamine iii 10"
+    },
+    {
+        "generic_name": "cya",
+        "brand_name": "optimmune"
+    },
+    {
+        "generic_name": "cyclophosphamide",
+        "brand_name": "frindovyx"
+    },
+    {
+        "generic_name": "cyclosporin",
+        "brand_name": "optimmune"
+    },
+    {
+        "generic_name": "cyclosporin a",
+        "brand_name": "optimmune"
+    },
+    {
+        "generic_name": "cyclosporine",
+        "brand_name": "optimmune"
+    },
+    {
+        "generic_name": "cyclosporine a",
+        "brand_name": "optimmune"
+    },
+    {
+        "generic_name": "cytarabine",
+        "brand_name": "vyxeos"
+    },
+    {
+        "generic_name": "cytosine arabinoside",
+        "brand_name": "vyxeos"
+    },
+    {
+        "generic_name": "d-penicillamine",
+        "brand_name": "cuprimine"
+    },
+    {
+        "generic_name": "dalteparin",
+        "brand_name": "fragmin"
+    },
+    {
+        "generic_name": "dantrolene",
+        "brand_name": "revonto"
+    },
+    {
+        "generic_name": "dapsone",
+        "brand_name": "aczone"
+    },
+    {
+        "generic_name": "darifenacin",
+        "brand_name": "enablex"
+    },
+    {
+        "generic_name": "dasatinib",
+        "brand_name": "phyrago"
+    },
+    {
+        "generic_name": "daunomycin",
+        "brand_name": "vyxeos"
+    },
+    {
+        "generic_name": "decadron",
+        "brand_name": "decadron"
+    },
+    {
+        "generic_name": "depakote",
+        "brand_name": "depakote"
+    },
+    {
+        "generic_name": "depo-medrol",
+        "brand_name": "depo-medrol"
+    },
+    {
+        "generic_name": "desferrioxamine",
+        "brand_name": "desferal"
+    },
+    {
+        "generic_name": "desipramine",
+        "brand_name": "norpramin"
+    },
+    {
+        "generic_name": "desmopressin",
+        "brand_name": "noctiva"
+    },
+    {
+        "generic_name": "dexamethasone",
+        "brand_name": "tresaderm"
+    },
+    {
+        "generic_name": "dexmedetomidine",
+        "brand_name": "sileo"
+    },
+    {
+        "generic_name": "dextroamphetamine",
+        "brand_name": "zenzedi"
+    },
+    {
+        "generic_name": "dextromethorphan",
+        "brand_name": "cepacol sore throat plus cough"
+    },
+    {
+        "generic_name": "dextrose",
+        "brand_name": "enfamil glucose"
+    },
+    {
+        "generic_name": "diazepam",
+        "brand_name": "valium"
+    },
+    {
+        "generic_name": "diclofenac",
+        "brand_name": "surpass anti-inflammatory"
+    },
+    {
+        "generic_name": "digoxin",
+        "brand_name": "digox"
+    },
+    {
+        "generic_name": "dihydroxybusulfan",
+        "brand_name": "grafapex"
+    },
+    {
+        "generic_name": "dilantin",
+        "brand_name": "dilantin"
+    },
+    {
+        "generic_name": "diltiazem",
+        "brand_name": "matzim"
+    },
+    {
+        "generic_name": "diltiazem hydrochloride",
+        "brand_name": "matzim"
+    },
+    {
+        "generic_name": "dimethyl sulfoxide",
+        "brand_name": "synotic"
+    },
+    {
+        "generic_name": "diphenhydramine",
+        "brand_name": "percogesic reformulated jan 2011"
+    },
+    {
+        "generic_name": "diphenylhydantoin",
+        "brand_name": "euthasol"
+    },
+    {
+        "generic_name": "disodium cromoglycate",
+        "brand_name": "nasalcrom"
+    },
+    {
+        "generic_name": "disopyramide",
+        "brand_name": "norpace"
+    },
+    {
+        "generic_name": "disulfiram",
+        "brand_name": "antabuse"
+    },
+    {
+        "generic_name": "divalproex sodium",
+        "brand_name": "depakote"
+    },
+    {
+        "generic_name": "dmso",
+        "brand_name": "synotic"
+    },
+    {
+        "generic_name": "docetaxel",
+        "brand_name": "docivyx"
+    },
+    {
+        "generic_name": "dofetilide",
+        "brand_name": "tikosyn"
+    },
+    {
+        "generic_name": "dorzolamide",
+        "brand_name": "cosopt"
+    },
+    {
+        "generic_name": "doxorubicin",
+        "brand_name": "caelyx"
+    },
+    {
+        "generic_name": "doxycycline",
+        "brand_name": "morgidox"
+    },
+    {
+        "generic_name": "dyazide",
+        "brand_name": "dyazide"
+    },
+    {
+        "generic_name": "econazole",
+        "brand_name": "ecoza"
+    },
+    {
+        "generic_name": "efavirenz",
+        "brand_name": "sustiva"
+    },
+    {
+        "generic_name": "enalapril",
+        "brand_name": "epaned"
+    },
+    {
+        "generic_name": "enoxaparin",
+        "brand_name": "lovenox"
+    },
+    {
+        "generic_name": "epinephrine",
+        "brand_name": "auvi-q"
+    },
+    {
+        "generic_name": "epirubicin",
+        "brand_name": "ellence"
+    },
+    {
+        "generic_name": "epoprostenol",
+        "brand_name": "veletri"
+    },
+    {
+        "generic_name": "epsilon-aminocaproic acid",
+        "brand_name": "amicar"
+    },
+    {
+        "generic_name": "ergotamine",
+        "brand_name": "cafergot"
+    },
+    {
+        "generic_name": "erlotinib",
+        "brand_name": "tarceva"
+    },
+    {
+        "generic_name": "erythromycin",
+        "brand_name": "benzamycin"
+    },
+    {
+        "generic_name": "esmolol",
+        "brand_name": "brevibloc"
+    },
+    {
+        "generic_name": "esmolol hydrochloride",
+        "brand_name": "brevibloc"
+    },
+    {
+        "generic_name": "etanercept",
+        "brand_name": "enbrel"
+    },
+    {
+        "generic_name": "ethambutol",
+        "brand_name": "myambutol"
+    },
+    {
+        "generic_name": "ethanol",
+        "brand_name": "avagard"
+    },
+    {
+        "generic_name": "ethanolamine oleate",
+        "brand_name": "ethamolin"
+    },
+    {
+        "generic_name": "etoposide",
+        "brand_name": "toposar"
+    },
+    {
+        "generic_name": "ezetimibe",
+        "brand_name": "nexlizet"
+    },
+    {
+        "generic_name": "fenoprofen",
+        "brand_name": "fenopron"
+    },
+    {
+        "generic_name": "fentanyl",
+        "brand_name": "abstral"
+    },
+    {
+        "generic_name": "ferrous sulfate",
+        "brand_name": "slow-fe"
+    },
+    {
+        "generic_name": "filgrastim",
+        "brand_name": "granix"
+    },
+    {
+        "generic_name": "finasteride",
+        "brand_name": "proscar"
+    },
+    {
+        "generic_name": "flucytosine",
+        "brand_name": "ancobon"
+    },
+    {
+        "generic_name": "fluoxetine",
+        "brand_name": "symbyax"
+    },
+    {
+        "generic_name": "flurbiprofen",
+        "brand_name": "ansaid"
+    },
+    {
+        "generic_name": "flutamide",
+        "brand_name": "eulexin"
+    },
+    {
+        "generic_name": "fluticasone propionate",
+        "brand_name": "cutivate"
+    },
+    {
+        "generic_name": "folinic acid",
+        "brand_name": "vykoura"
+    },
+    {
+        "generic_name": "formic acid",
+        "brand_name": "irospan tablet"
+    },
+    {
+        "generic_name": "fosamax",
+        "brand_name": "fosamax"
+    },
+    {
+        "generic_name": "foscarnet",
+        "brand_name": "foscavir"
+    },
+    {
+        "generic_name": "fragmin",
+        "brand_name": "fragmin"
+    },
+    {
+        "generic_name": "furosemide",
+        "brand_name": "disal"
+    },
+    {
+        "generic_name": "gabapentin",
+        "brand_name": "gralise"
+    },
+    {
+        "generic_name": "ganciclovir",
+        "brand_name": "zirgan"
+    },
+    {
+        "generic_name": "gatifloxacin",
+        "brand_name": "zymaxid"
+    },
+    {
+        "generic_name": "gefitinib",
+        "brand_name": "iressa"
+    },
+    {
+        "generic_name": "gemcitabine",
+        "brand_name": "infugem"
+    },
+    {
+        "generic_name": "gemfibrozil",
+        "brand_name": "lopid"
+    },
+    {
+        "generic_name": "gemtuzumab ozogamicin",
+        "brand_name": "mylotarg"
+    },
+    {
+        "generic_name": "gentamicin",
+        "brand_name": "gentacalm"
+    },
+    {
+        "generic_name": "gentamycin",
+        "brand_name": "gentacalm"
+    },
+    {
+        "generic_name": "glatiramer acetate",
+        "brand_name": "copaxone"
+    },
+    {
+        "generic_name": "gliadel",
+        "brand_name": "gliadel"
+    },
+    {
+        "generic_name": "glibenclamide",
+        "brand_name": "glynase"
+    },
+    {
+        "generic_name": "glipizide",
+        "brand_name": "glucotrol"
+    },
+    {
+        "generic_name": "glyburide",
+        "brand_name": "glynase"
+    },
+    {
+        "generic_name": "glycopyrrolate",
+        "brand_name": "glycate"
+    },
+    {
+        "generic_name": "griseofulvin",
+        "brand_name": "gris-peg"
+    },
+    {
+        "generic_name": "growth hormone",
+        "brand_name": "zomacton"
+    },
+    {
+        "generic_name": "halcinonide",
+        "brand_name": "halog"
+    },
+    {
+        "generic_name": "haloperidol",
+        "brand_name": "haldol"
+    },
+    {
+        "generic_name": "hepatitis b vaccination",
+        "brand_name": "twinrix"
+    },
+    {
+        "generic_name": "human growth hormone",
+        "brand_name": "zomacton"
+    },
+    {
+        "generic_name": "human insulin",
+        "brand_name": "novolin"
+    },
+    {
+        "generic_name": "hyaluronate",
+        "brand_name": "gel-one"
+    },
+    {
+        "generic_name": "hydrochlorothiazide",
+        "brand_name": "tribenzor"
+    },
+    {
+        "generic_name": "hydroquinone",
+        "brand_name": "esoterica"
+    },
+    {
+        "generic_name": "hydroxychloroquine",
+        "brand_name": "plaquenil"
+    },
+    {
+        "generic_name": "hydroxyurea",
+        "brand_name": "hydrea"
+    },
+    {
+        "generic_name": "ibuprofen",
+        "brand_name": "duexis"
+    },
+    {
+        "generic_name": "idarubicin",
+        "brand_name": "idamycin"
+    },
+    {
+        "generic_name": "ifosfamide",
+        "brand_name": "ifex"
+    },
+    {
+        "generic_name": "imatinib",
+        "brand_name": "imkeldi"
+    },
+    {
+        "generic_name": "imipenem",
+        "brand_name": "recarbrio"
+    },
+    {
+        "generic_name": "imiquimod",
+        "brand_name": "aldara"
+    },
+    {
+        "generic_name": "increlex",
+        "brand_name": "increlex"
+    },
+    {
+        "generic_name": "indapamide",
+        "brand_name": "widaplik"
+    },
+    {
+        "generic_name": "indomethacin",
+        "brand_name": "tivorbex"
+    },
+    {
+        "generic_name": "infliximab",
+        "brand_name": "inflectra"
+    },
+    {
+        "generic_name": "insulin",
+        "brand_name": "novolin"
+    },
+    {
+        "generic_name": "interferon beta 1a",
+        "brand_name": "avonex"
+    },
+    {
+        "generic_name": "interferon beta-1a",
+        "brand_name": "avonex"
+    },
+    {
+        "generic_name": "interferon beta-1b",
+        "brand_name": "betaseron"
+    },
+    {
+        "generic_name": "interferon-beta-1b",
+        "brand_name": "betaseron"
+    },
+    {
+        "generic_name": "intralipid",
+        "brand_name": "intralipid"
+    },
+    {
+        "generic_name": "iodine",
+        "brand_name": "dairyland brand controlled iodine teat dip"
+    },
+    {
+        "generic_name": "irbesartan",
+        "brand_name": "avapro"
+    },
+    {
+        "generic_name": "irinotecan",
+        "brand_name": "onivyde"
+    },
+    {
+        "generic_name": "iron sucrose",
+        "brand_name": "venofer"
+    },
+    {
+        "generic_name": "isosorbide dinitrate",
+        "brand_name": "isordil"
+    },
+    {
+        "generic_name": "isotretinoin",
+        "brand_name": "myorisan"
+    },
+    {
+        "generic_name": "itraconazole",
+        "brand_name": "sporanox"
+    },
+    {
+        "generic_name": "ivermectin",
+        "brand_name": "heartgard plus"
+    },
+    {
+        "generic_name": "ketamine",
+        "brand_name": "ketaset"
+    },
+    {
+        "generic_name": "ketoconazole",
+        "brand_name": "t8 keto flush"
+    },
+    {
+        "generic_name": "ketorolac",
+        "brand_name": "acular"
+    },
+    {
+        "generic_name": "l-asparaginase",
+        "brand_name": "erwinaze"
+    },
+    {
+        "generic_name": "l-dopa",
+        "brand_name": "stalevo"
+    },
+    {
+        "generic_name": "l-t4",
+        "brand_name": "thyro-tabs"
+    },
+    {
+        "generic_name": "l-thyroxine",
+        "brand_name": "thyro-tabs"
+    },
+    {
+        "generic_name": "l-tryptophan",
+        "brand_name": "freamine iii 10"
+    },
+    {
+        "generic_name": "labetalol",
+        "brand_name": "trandate"
+    },
+    {
+        "generic_name": "lacosamide",
+        "brand_name": "motpoly"
+    },
+    {
+        "generic_name": "lamivudine",
+        "brand_name": "triumeq"
+    },
+    {
+        "generic_name": "lamotrigine",
+        "brand_name": "lamictal"
+    },
+    {
+        "generic_name": "lansoprazole",
+        "brand_name": "prevacid"
+    },
+    {
+        "generic_name": "latanoprost",
+        "brand_name": "xalatan"
+    },
+    {
+        "generic_name": "leflunomide",
+        "brand_name": "arava"
+    },
+    {
+        "generic_name": "lenalidomide",
+        "brand_name": "revlimid"
+    },
+    {
+        "generic_name": "leucovorin",
+        "brand_name": "vykoura"
+    },
+    {
+        "generic_name": "leuprolide acetate",
+        "brand_name": "lupron"
+    },
+    {
+        "generic_name": "leuprorelin acetate",
+        "brand_name": "lupron"
+    },
+    {
+        "generic_name": "levamisole",
+        "brand_name": "valcor"
+    },
+    {
+        "generic_name": "levetiracetam",
+        "brand_name": "elepsia"
+    },
+    {
+        "generic_name": "levodopa",
+        "brand_name": "stalevo"
+    },
+    {
+        "generic_name": "levofloxacin",
+        "brand_name": "levaquin"
+    },
+    {
+        "generic_name": "levothyroxine",
+        "brand_name": "thyro-tabs"
+    },
+    {
+        "generic_name": "lidocaine",
+        "brand_name": "lmx"
+    },
+    {
+        "generic_name": "linezolid",
+        "brand_name": "zyvox"
+    },
+    {
+        "generic_name": "liothyronine",
+        "brand_name": "liomny"
+    },
+    {
+        "generic_name": "lisinopril",
+        "brand_name": "qbrelis"
+    },
+    {
+        "generic_name": "lithium carbonate",
+        "brand_name": "lithobid"
+    },
+    {
+        "generic_name": "loperamide",
+        "brand_name": "imodium multi-symptom relief"
+    },
+    {
+        "generic_name": "lopinavir",
+        "brand_name": "kaletra"
+    },
+    {
+        "generic_name": "lorazepam",
+        "brand_name": "ativan"
+    },
+    {
+        "generic_name": "losartan",
+        "brand_name": "cozaar"
+    },
+    {
+        "generic_name": "lovastatin",
+        "brand_name": "altoprev"
+    },
+    {
+        "generic_name": "lupron",
+        "brand_name": "lupron"
+    },
+    {
+        "generic_name": "macrodantin",
+        "brand_name": "macrodantin"
+    },
+    {
+        "generic_name": "magnesium sulfate",
+        "brand_name": "hemocyte plus"
+    },
+    {
+        "generic_name": "mannitol",
+        "brand_name": "osmitrol"
+    },
+    {
+        "generic_name": "mebendazole",
+        "brand_name": "emverm"
+    },
+    {
+        "generic_name": "meloxicam",
+        "brand_name": "metacam"
+    },
+    {
+        "generic_name": "melphalan",
+        "brand_name": "alkeran"
+    },
+    {
+        "generic_name": "meperidine",
+        "brand_name": "demerol"
+    },
+    {
+        "generic_name": "mesalamine",
+        "brand_name": "delzicol"
+    },
+    {
+        "generic_name": "mesalazine",
+        "brand_name": "delzicol"
+    },
+    {
+        "generic_name": "mesna",
+        "brand_name": "mesnex"
+    },
+    {
+        "generic_name": "metformin",
+        "brand_name": "kazano"
+    },
+    {
+        "generic_name": "methadone",
+        "brand_name": "methadose"
+    },
+    {
+        "generic_name": "methamphetamine",
+        "brand_name": "desoxyn"
+    },
+    {
+        "generic_name": "methimazole",
+        "brand_name": "felanorm"
+    },
+    {
+        "generic_name": "methotrexate",
+        "brand_name": "otrexup"
+    },
+    {
+        "generic_name": "methylphenidate",
+        "brand_name": "quillivant"
+    },
+    {
+        "generic_name": "methylprednisolone",
+        "brand_name": "hybrisil"
+    },
+    {
+        "generic_name": "metoclopramide",
+        "brand_name": "pileran"
+    },
+    {
+        "generic_name": "metronidazole",
+        "brand_name": "rosadan"
+    },
+    {
+        "generic_name": "mgso4",
+        "brand_name": "hemocyte plus"
+    },
+    {
+        "generic_name": "miconazole",
+        "brand_name": "hongo killer ultra"
+    },
+    {
+        "generic_name": "milnacipran",
+        "brand_name": "savella"
+    },
+    {
+        "generic_name": "milnacipran hydrochloride",
+        "brand_name": "savella"
+    },
+    {
+        "generic_name": "mineral oil",
+        "brand_name": "stye"
+    },
+    {
+        "generic_name": "minocycline",
+        "brand_name": "ximino"
+    },
+    {
+        "generic_name": "minoxidil",
+        "brand_name": "rogaine"
+    },
+    {
+        "generic_name": "mirtazapine",
+        "brand_name": "remeron"
+    },
+    {
+        "generic_name": "mitomycin",
+        "brand_name": "mitosol"
+    },
+    {
+        "generic_name": "mitomycin c",
+        "brand_name": "mitosol"
+    },
+    {
+        "generic_name": "mitomycin-c",
+        "brand_name": "mitosol"
+    },
+    {
+        "generic_name": "mmc",
+        "brand_name": "mitosol"
+    },
+    {
+        "generic_name": "mmf",
+        "brand_name": "bafiertam"
+    },
+    {
+        "generic_name": "morphine",
+        "brand_name": "arymo"
+    },
+    {
+        "generic_name": "morphine sulfate",
+        "brand_name": "arymo"
+    },
+    {
+        "generic_name": "moxifloxacin",
+        "brand_name": "avelox"
+    },
+    {
+        "generic_name": "mtx",
+        "brand_name": "otrexup"
+    },
+    {
+        "generic_name": "mycophenolate mofetil",
+        "brand_name": "cellcept"
+    },
+    {
+        "generic_name": "nabumetone",
+        "brand_name": "relafen"
+    },
+    {
+        "generic_name": "nadolol",
+        "brand_name": "corgard"
+    },
+    {
+        "generic_name": "naloxone",
+        "brand_name": "zubsolv"
+    },
+    {
+        "generic_name": "naltrexone",
+        "brand_name": "revia"
+    },
+    {
+        "generic_name": "naproxen",
+        "brand_name": "vimovo"
+    },
+    {
+        "generic_name": "natalizumab",
+        "brand_name": "tyruko"
+    },
+    {
+        "generic_name": "nelfinavir",
+        "brand_name": "viracept"
+    },
+    {
+        "generic_name": "neutral protamine hagedorn (nph) insulin",
+        "brand_name": "novolin"
+    },
+    {
+        "generic_name": "nevirapine",
+        "brand_name": "viramune"
+    },
+    {
+        "generic_name": "niacin",
+        "brand_name": "folivane-f"
+    },
+    {
+        "generic_name": "nicotinic acid",
+        "brand_name": "folivane-f"
+    },
+    {
+        "generic_name": "nifedipine",
+        "brand_name": "procardia"
+    },
+    {
+        "generic_name": "nimodipine",
+        "brand_name": "nymalize"
+    },
+    {
+        "generic_name": "nitrofurantoin",
+        "brand_name": "macrobid"
+    },
+    {
+        "generic_name": "nitroglycerin",
+        "brand_name": "rectiv"
+    },
+    {
+        "generic_name": "norethisterone",
+        "brand_name": "jinteli"
+    },
+    {
+        "generic_name": "norpace",
+        "brand_name": "norpace"
+    },
+    {
+        "generic_name": "nortriptyline",
+        "brand_name": "pamelor"
+    },
+    {
+        "generic_name": "octreotide",
+        "brand_name": "sandostatin"
+    },
+    {
+        "generic_name": "ofloxacin",
+        "brand_name": "floxin"
+    },
+    {
+        "generic_name": "olanzapine",
+        "brand_name": "zyprexa"
+    },
+    {
+        "generic_name": "omeprazole",
+        "brand_name": "yosprala"
+    },
+    {
+        "generic_name": "oxaprozin",
+        "brand_name": "daypro"
+    },
+    {
+        "generic_name": "oxcarbazepine",
+        "brand_name": "oxtellar"
+    },
+    {
+        "generic_name": "oxybutynin",
+        "brand_name": "ditropan"
+    },
+    {
+        "generic_name": "oxymetazoline",
+        "brand_name": "sinufrin plus"
+    },
+    {
+        "generic_name": "paclitaxel",
+        "brand_name": "abraxane"
+    },
+    {
+        "generic_name": "pantoprazole",
+        "brand_name": "protonix"
+    },
+    {
+        "generic_name": "para-aminosalicylic acid",
+        "brand_name": "paser d/r"
+    },
+    {
+        "generic_name": "paracetamol",
+        "brand_name": "little fevers"
+    },
+    {
+        "generic_name": "paroxetine",
+        "brand_name": "paxil"
+    },
+    {
+        "generic_name": "pas",
+        "brand_name": "paser d/r"
+    },
+    {
+        "generic_name": "pcc",
+        "brand_name": "profilnine"
+    },
+    {
+        "generic_name": "pccs",
+        "brand_name": "profilnine"
+    },
+    {
+        "generic_name": "pegfilgrastim",
+        "brand_name": "fulphila"
+    },
+    {
+        "generic_name": "peginterferon alfa-2a",
+        "brand_name": "pegasys"
+    },
+    {
+        "generic_name": "pegvisomant",
+        "brand_name": "somavert"
+    },
+    {
+        "generic_name": "pegylated interferon alpha-2a",
+        "brand_name": "pegasys"
+    },
+    {
+        "generic_name": "pemetrexed",
+        "brand_name": "pemfexy"
+    },
+    {
+        "generic_name": "penicillamine",
+        "brand_name": "cuprimine"
+    },
+    {
+        "generic_name": "penicillin g",
+        "brand_name": "bactracillin g"
+    },
+    {
+        "generic_name": "pentamidine",
+        "brand_name": "nebupent"
+    },
+    {
+        "generic_name": "pentasa",
+        "brand_name": "pentasa"
+    },
+    {
+        "generic_name": "pentobarbital",
+        "brand_name": "euthasol"
+    },
+    {
+        "generic_name": "pentostatin",
+        "brand_name": "nipent"
+    },
+    {
+        "generic_name": "pergolide",
+        "brand_name": "prascend"
+    },
+    {
+        "generic_name": "pge1",
+        "brand_name": "prostin vr"
+    },
+    {
+        "generic_name": "phenelzine",
+        "brand_name": "nardil"
+    },
+    {
+        "generic_name": "phenobarbital",
+        "brand_name": "donnatal"
+    },
+    {
+        "generic_name": "phenobarbitone",
+        "brand_name": "donnatal"
+    },
+    {
+        "generic_name": "phenol",
+        "brand_name": "chloraseptic max spray"
+    },
+    {
+        "generic_name": "phenol-glycerine",
+        "brand_name": "chloraseptic max spray"
+    },
+    {
+        "generic_name": "phentolamine",
+        "brand_name": "ryzumvi"
+    },
+    {
+        "generic_name": "phenylbutazone",
+        "brand_name": "equizone"
+    },
+    {
+        "generic_name": "phenylephrine",
+        "brand_name": "wal-dryl-d"
+    },
+    {
+        "generic_name": "phenylpropanolamine",
+        "brand_name": "proin"
+    },
+    {
+        "generic_name": "phenytoin",
+        "brand_name": "euthasol"
+    },
+    {
+        "generic_name": "phenytoin sodium",
+        "brand_name": "euthasol"
+    },
+    {
+        "generic_name": "pilocarpine",
+        "brand_name": "salagen"
+    },
+    {
+        "generic_name": "pioglitazone",
+        "brand_name": "oseni"
+    },
+    {
+        "generic_name": "piperacillin",
+        "brand_name": "zosyn"
+    },
+    {
+        "generic_name": "piroxicam",
+        "brand_name": "feldene"
+    },
+    {
+        "generic_name": "posaconazole",
+        "brand_name": "posatex"
+    },
+    {
+        "generic_name": "povidone",
+        "brand_name": "minidrops"
+    },
+    {
+        "generic_name": "ppa",
+        "brand_name": "proin"
+    },
+    {
+        "generic_name": "pravastatin",
+        "brand_name": "pravachol"
+    },
+    {
+        "generic_name": "praziquantel",
+        "brand_name": "sentinel spectrum"
+    },
+    {
+        "generic_name": "prazosin",
+        "brand_name": "minipress"
+    },
+    {
+        "generic_name": "prednisolone",
+        "brand_name": "prednistab"
+    },
+    {
+        "generic_name": "prednisone",
+        "brand_name": "rayos"
+    },
+    {
+        "generic_name": "pregabalin",
+        "brand_name": "bonqat"
+    },
+    {
+        "generic_name": "procarbazine",
+        "brand_name": "matulane"
+    },
+    {
+        "generic_name": "prochlorperazine",
+        "brand_name": "compazine"
+    },
+    {
+        "generic_name": "promethazine",
+        "brand_name": "phenergan"
+    },
+    {
+        "generic_name": "propafenone",
+        "brand_name": "rythmol"
+    },
+    {
+        "generic_name": "propecia",
+        "brand_name": "propecia"
+    },
+    {
+        "generic_name": "propofol",
+        "brand_name": "propoflo"
+    },
+    {
+        "generic_name": "propranolol",
+        "brand_name": "hemangeol"
+    },
+    {
+        "generic_name": "prostaglandin e1",
+        "brand_name": "prostin vr"
+    },
+    {
+        "generic_name": "prostaglandin-e2",
+        "brand_name": "prepidil"
+    },
+    {
+        "generic_name": "prothrombin complex concentrate",
+        "brand_name": "profilnine"
+    },
+    {
+        "generic_name": "pseudoephedrine",
+        "brand_name": "wal-act"
+    },
+    {
+        "generic_name": "pyridostigmine",
+        "brand_name": "mestinon"
+    },
+    {
+        "generic_name": "pyridostigmine bromide",
+        "brand_name": "mestinon"
+    },
+    {
+        "generic_name": "pyridoxine",
+        "brand_name": "folbecal"
+    },
+    {
+        "generic_name": "pyrilamine maleate",
+        "brand_name": "pamprin multi-symptom"
+    },
+    {
+        "generic_name": "pyrimethamine",
+        "brand_name": "rebalance"
+    },
+    {
+        "generic_name": "quetiapine",
+        "brand_name": "seroquel"
+    },
+    {
+        "generic_name": "quinapril",
+        "brand_name": "accuretic"
+    },
+    {
+        "generic_name": "quinidine",
+        "brand_name": "nuedexta"
+    },
+    {
+        "generic_name": "quinine",
+        "brand_name": "qualaquin"
+    },
+    {
+        "generic_name": "quinine sulfate",
+        "brand_name": "qualaquin"
+    },
+    {
+        "generic_name": "ra",
+        "brand_name": "azilect"
+    },
+    {
+        "generic_name": "raloxifene",
+        "brand_name": "evista"
+    },
+    {
+        "generic_name": "ramipril",
+        "brand_name": "altace"
+    },
+    {
+        "generic_name": "ranibizumab",
+        "brand_name": "susvimo"
+    },
+    {
+        "generic_name": "rapamycin",
+        "brand_name": "rapamune"
+    },
+    {
+        "generic_name": "retinoic acid",
+        "brand_name": "retin-a"
+    },
+    {
+        "generic_name": "rfp",
+        "brand_name": "rifadin"
+    },
+    {
+        "generic_name": "rhgh",
+        "brand_name": "zomacton"
+    },
+    {
+        "generic_name": "ribavirin",
+        "brand_name": "moderiba"
+    },
+    {
+        "generic_name": "rifabutin",
+        "brand_name": "talicia"
+    },
+    {
+        "generic_name": "rifampicin",
+        "brand_name": "rifadin"
+    },
+    {
+        "generic_name": "rifampin",
+        "brand_name": "rifadin"
+    },
+    {
+        "generic_name": "riluzole",
+        "brand_name": "rilutek"
+    },
+    {
+        "generic_name": "risperidone",
+        "brand_name": "risperdal"
+    },
+    {
+        "generic_name": "ritalin",
+        "brand_name": "ritalin"
+    },
+    {
+        "generic_name": "ritonavir",
+        "brand_name": "norvir"
+    },
+    {
+        "generic_name": "rituximab",
+        "brand_name": "rituxan hycela"
+    },
+    {
+        "generic_name": "salazosulfapyridine",
+        "brand_name": "azulfidine"
+    },
+    {
+        "generic_name": "salbutamol",
+        "brand_name": "combivent"
+    },
+    {
+        "generic_name": "salsalate",
+        "brand_name": "disalcid"
+    },
+    {
+        "generic_name": "sargramostim",
+        "brand_name": "leukine"
+    },
+    {
+        "generic_name": "scopolamine",
+        "brand_name": "donnatal"
+    },
+    {
+        "generic_name": "senna",
+        "brand_name": "swiss kriss"
+    },
+    {
+        "generic_name": "serine",
+        "brand_name": "freamine iii 10"
+    },
+    {
+        "generic_name": "sertraline",
+        "brand_name": "zoloft"
+    },
+    {
+        "generic_name": "silver sulfadiazine",
+        "brand_name": "ssd"
+    },
+    {
+        "generic_name": "simvastatin",
+        "brand_name": "flolipid"
+    },
+    {
+        "generic_name": "sirolimus",
+        "brand_name": "rapamune"
+    },
+    {
+        "generic_name": "smx",
+        "brand_name": "bactrim"
+    },
+    {
+        "generic_name": "sodium biphosphate",
+        "brand_name": "phosphasal"
+    },
+    {
+        "generic_name": "sodium bisulfite",
+        "brand_name": "freamine iii 10"
+    },
+    {
+        "generic_name": "sodium hyaluronate",
+        "brand_name": "gel-one"
+    },
+    {
+        "generic_name": "sodium nitroprusside",
+        "brand_name": "nipride"
+    },
+    {
+        "generic_name": "sodium phenylbutyrate",
+        "brand_name": "buphenyl"
+    },
+    {
+        "generic_name": "sodium phosphate",
+        "brand_name": "aminosyn 8.5 % with electrolytes, sulfite-free"
+    },
+    {
+        "generic_name": "sodium warfarin",
+        "brand_name": "coumadin"
+    },
+    {
+        "generic_name": "sorafenib",
+        "brand_name": "nexavar"
+    },
+    {
+        "generic_name": "sotalol",
+        "brand_name": "sotylize"
+    },
+    {
+        "generic_name": "sp",
+        "brand_name": "sps"
+    },
+    {
+        "generic_name": "spironolactone",
+        "brand_name": "aldactone"
+    },
+    {
+        "generic_name": "succinylcholine",
+        "brand_name": "quelicin"
+    },
+    {
+        "generic_name": "sucralfate",
+        "brand_name": "carafate"
+    },
+    {
+        "generic_name": "sulfadiazine",
+        "brand_name": "rebalance"
+    },
+    {
+        "generic_name": "sulfamethoxazole",
+        "brand_name": "bactrim"
+    },
+    {
+        "generic_name": "sulfamethoxazole-trimethoprim",
+        "brand_name": "bactrim"
+    },
+    {
+        "generic_name": "sulfasalazine",
+        "brand_name": "azulfidine"
+    },
+    {
+        "generic_name": "sulphasalazine",
+        "brand_name": "azulfidine"
+    },
+    {
+        "generic_name": "sumatriptan",
+        "brand_name": "zembrace"
+    },
+    {
+        "generic_name": "sunitinib",
+        "brand_name": "sutent"
+    },
+    {
+        "generic_name": "suxamethonium",
+        "brand_name": "quelicin"
+    },
+    {
+        "generic_name": "t-pa",
+        "brand_name": "activase"
+    },
+    {
+        "generic_name": "tacrolimus",
+        "brand_name": "astagraf"
+    },
+    {
+        "generic_name": "tadalafil",
+        "brand_name": "alyq"
+    },
+    {
+        "generic_name": "tamoxifen",
+        "brand_name": "soltamox"
+    },
+    {
+        "generic_name": "tazobactam",
+        "brand_name": "zerbaxa"
+    },
+    {
+        "generic_name": "tegaserod",
+        "brand_name": "zelnorm"
+    },
+    {
+        "generic_name": "tegretol",
+        "brand_name": "tegretol"
+    },
+    {
+        "generic_name": "temozolomide",
+        "brand_name": "temodar"
+    },
+    {
+        "generic_name": "temsirolimus",
+        "brand_name": "torisel"
+    },
+    {
+        "generic_name": "terbinafine",
+        "brand_name": "silka cream"
+    },
+    {
+        "generic_name": "terlipressin",
+        "brand_name": "terlivaz"
+    },
+    {
+        "generic_name": "thalidomide",
+        "brand_name": "thalomid"
+    },
+    {
+        "generic_name": "theophylline",
+        "brand_name": "theo-24"
+    },
+    {
+        "generic_name": "thiabendazole",
+        "brand_name": "tresaderm"
+    },
+    {
+        "generic_name": "thrombin",
+        "brand_name": "tachosil"
+    },
+    {
+        "generic_name": "tiagabine",
+        "brand_name": "gabitril"
+    },
+    {
+        "generic_name": "tigecycline",
+        "brand_name": "tygacil"
+    },
+    {
+        "generic_name": "timolol",
+        "brand_name": "timoptic"
+    },
+    {
+        "generic_name": "tissue plasminogen activator",
+        "brand_name": "activase"
+    },
+    {
+        "generic_name": "tissue-type plasminogen activator",
+        "brand_name": "activase"
+    },
+    {
+        "generic_name": "tmp",
+        "brand_name": "polytrim"
+    },
+    {
+        "generic_name": "tmz",
+        "brand_name": "temodar"
+    },
+    {
+        "generic_name": "tobramycin",
+        "brand_name": "bethkis"
+    },
+    {
+        "generic_name": "tolmetin",
+        "brand_name": "tolectin 600"
+    },
+    {
+        "generic_name": "topiramate",
+        "brand_name": "qsymia"
+    },
+    {
+        "generic_name": "torsemide",
+        "brand_name": "soaanz"
+    },
+    {
+        "generic_name": "tpa",
+        "brand_name": "activase"
+    },
+    {
+        "generic_name": "tranexamic acid",
+        "brand_name": "cyklokapron"
+    },
+    {
+        "generic_name": "trastuzumab",
+        "brand_name": "herceptin"
+    },
+    {
+        "generic_name": "trazodone",
+        "brand_name": "raldesy"
+    },
+    {
+        "generic_name": "trazodone hydrochloride",
+        "brand_name": "raldesy"
+    },
+    {
+        "generic_name": "treosulfan",
+        "brand_name": "grafapex"
+    },
+    {
+        "generic_name": "triamcinolone",
+        "brand_name": "trianex"
+    },
+    {
+        "generic_name": "triamcinolone acetate",
+        "brand_name": "trianex"
+    },
+    {
+        "generic_name": "triamcinolone acetonide",
+        "brand_name": "trianex"
+    },
+    {
+        "generic_name": "triazolam",
+        "brand_name": "halcion"
+    },
+    {
+        "generic_name": "triiodothyronine",
+        "brand_name": "liomny"
+    },
+    {
+        "generic_name": "trimethoprim",
+        "brand_name": "polytrim"
+    },
+    {
+        "generic_name": "trimethoprim-sulfamethoxazole",
+        "brand_name": "bactrim"
+    },
+    {
+        "generic_name": "tryptophan",
+        "brand_name": "freamine iii 10"
+    },
+    {
+        "generic_name": "valacyclovir",
+        "brand_name": "valtrex"
+    },
+    {
+        "generic_name": "valproate",
+        "brand_name": "depakote"
+    },
+    {
+        "generic_name": "vancomycin",
+        "brand_name": "firvanq"
+    },
+    {
+        "generic_name": "vardenafil",
+        "brand_name": "levitra"
+    },
+    {
+        "generic_name": "vasopressin",
+        "brand_name": "vasostrict"
+    },
+    {
+        "generic_name": "venlafaxine",
+        "brand_name": "effexor"
+    },
+    {
+        "generic_name": "verapamil",
+        "brand_name": "isoptin"
+    },
+    {
+        "generic_name": "vigabatrin",
+        "brand_name": "sabril"
+    },
+    {
+        "generic_name": "viloxazine",
+        "brand_name": "qelbree"
+    },
+    {
+        "generic_name": "vincristine",
+        "brand_name": "marqibo"
+    },
+    {
+        "generic_name": "vincristine sulfate",
+        "brand_name": "vincasar"
+    },
+    {
+        "generic_name": "vinorelbine",
+        "brand_name": "navelbine"
+    },
+    {
+        "generic_name": "viramune",
+        "brand_name": "viramune"
+    },
+    {
+        "generic_name": "voriconazole",
+        "brand_name": "vfend"
+    },
+    {
+        "generic_name": "warfarin",
+        "brand_name": "coumadin"
+    },
+    {
+        "generic_name": "zafirlukast",
+        "brand_name": "accolate"
+    },
+    {
+        "generic_name": "zephiran",
+        "brand_name": "zephiran"
+    },
+    {
+        "generic_name": "zidovudine",
+        "brand_name": "combivir"
+    },
+    {
+        "generic_name": "ziprasidone",
+        "brand_name": "geodon"
+    },
+    {
+        "generic_name": "zoledronic acid",
+        "brand_name": "reclast"
+    },
+    {
+        "generic_name": "zolmitriptan",
+        "brand_name": "zomig"
+    },
+    {
+        "generic_name": "zolpidem",
+        "brand_name": "ambien"
+    },
+    {
+        "generic_name": "zonisamide",
+        "brand_name": "zonisade"
+    },
+    {
+        "generic_name": "zyprexa",
+        "brand_name": "zyprexa"
+    }
+]
