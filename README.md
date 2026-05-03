@@ -24,8 +24,6 @@
 10. [Explainability (XAI) Battery](#explainability-xai-battery)
 11. [Outputs Reference](#outputs-reference)
 12. [Limitations & Reproducibility Notes](#limitations--reproducibility-notes)
-13. [Citation](#citation)
-14. [License](#license)
 
 ---
 
@@ -434,24 +432,3 @@ Mapping from each result claim in the report / slides to the file that contains 
 6. **Minimality is greedy, not optimal.** The 82 % "one-drug-sufficient" figure is a lower bound on the fraction of sentences with *some* minimal drug subset; an exhaustive subset search would be exponentially expensive on multi-drug sentences.
 7. **Negation rules are heuristic.** Ten causal-marker patterns cover most of the ADE-Corpus phrasing but miss multi-clause / passive constructions.
 8. **Trained checkpoint not committed.** `model.safetensors` (~413 MB) and the per-epoch HuggingFace Trainer checkpoints (`results_quick/`, ~12 GB) exceed GitHub's per-file size limits and are not uploaded. Re-run the **Step 1 — Fine-tuning** cell of the notebook to recreate the model (≈ 30–40 min on a Colab T4).
-
-## Citation
-
-If this repository or its results are useful in your work, please cite:
-
-```bibtex
-@misc{patel2026ade,
-  author       = {Shrey Patel and Abhishek Jani and Mustafa Adil},
-  title        = {Revolutionizing Clinical Safety: Explainable AI for Adverse Drug Event Detection},
-  year         = {2026},
-  howpublished = {\url{https://github.com/abhishekjani123/Revolutionizing-Clinical-Safety-Explainable-AI-for-Adverse-Drug-Event-Detection}},
-  note         = {CS 598 Final Project}
-}
-```
-
-## License
-
-This project is released for academic use. The fine-tuned BioBERT checkpoint
-inherits the license of `dmis-lab/biobert-base-cased-v1.1`. The ADE-Corpus V2
-dataset is distributed under its original license (see HuggingFace Datasets
-card). Code in this repository is provided as-is for educational purposes.
