@@ -62,15 +62,17 @@ behaviour.
 | **Sensitivity ratio (Family A / Family C)** | **2.46 ×** | [2.20, 2.41] | `Result/statistical_tests.json` |
 | McNemar paired test (A vs C) | χ² = 1 380.45, p ≈ 3.7 × 10⁻³⁰² | — | `Result/statistical_tests.json` |
 
-XAI cross-method drug-token importance (drug-token ÷ non-drug-token):
+XAI cross-method drug-token importance (drug-token ÷ non-drug-token), computed
+on the **full** ADE-positive set (n = 6 821 sentences each, except attention at
+n = 50):
 
 | Method | Ratio | Drug in Top-3 |
 |---|---|---|
 | Last-layer attention | 0.59 × | — |
-| SHAP | 1.62 × | 75 % |
-| Integrated Gradients | 1.63 × | 95 % |
+| SHAP | 1.23 × | 67.9 % |
+| Integrated Gradients | 1.54 × | 80.3 % |
 | Counterfactual (flip rate) | 2.46 × | — |
-| LIME | 4.00 × | 90 % |
+| LIME | 2.87 × | 95.3 % |
 
 Auxiliary findings:
 - **Negation perturbation flip rate:** 57.2 % over 152 ADE sentences with detectable causal markers.
@@ -353,18 +355,25 @@ The XAI methods were chosen to be method-diverse — gradient-based,
 perturbation-based, sampling-based, and architectural — so that a finding
 corroborated across methods is robust to any one method's idiosyncrasies.
 
+All ratios below are computed on the **full** ADE-positive set (n = 6 821
+sentences per method, except attention at n = 50). Smaller 20-sentence
+samples are also provided in the non-`_full` variants of each file for fast
+qualitative inspection.
+
 | Method | Drug-token importance ratio | Drug in Top-3 | Files |
 |---|---|---|---|
 | **Counterfactual flip rate** (Family A vs C) | 2.46 × | — | `Result/family_{a,c}_with_confidence.json`, `Result/statistical_tests.json` |
-| **LIME** | 4.00 × | 90 % | `Result/lime_analysis{,_full}.json` |
-| **Integrated Gradients** (Captum) | 1.63 × | 95 % | `Result/integrated_gradients{,_full}.json` |
-| **SHAP** | 1.62 × | 75 % | `Result/shap_analysis.json`, `shap_analysis_full.json` |
-| **Last-layer self-attention** | 0.59 × | — | `Result/attention_summary.json` |
+| **LIME** | 2.87 × | 95.3 % | `Result/lime_analysis_full.json` (n=6821), `Result/lime_analysis.json` (n=20) |
+| **Integrated Gradients** (Captum) | 1.54 × | 80.3 % | `Result/integrated_gradients_full.json` (n=6821), `Result/integrated_gradients.json` (n=20) |
+| **SHAP** | 1.23 × | 67.9 % | `shap_analysis_full.json` (n=6821), `Result/shap_analysis.json` (n=20) |
+| **Last-layer self-attention** | 0.59 × | — | `Result/attention_summary.json` (n=50) |
 
 The attention "ratio < 1" is the only outlier and reflects a well-documented
 property of attention: it is *not* a faithful feature-attribution method, only
 a routing signal. The four faithful methods all agree that drug tokens carry
-1.6 – 4.0 × more importance than non-drug tokens for ADE classification.
+1.2 – 2.9 × more importance than non-drug tokens for ADE classification, and
+LIME, IG, and SHAP rank a drug token in their top-3 attributions for **68 –
+95 %** of sentences.
 
 ### Negation counterfactuals (`Result/negation_analysis.json`)
 
@@ -421,7 +430,7 @@ Mapping from each result claim in the report / slides to the file that contains 
 2. **RxNorm yield 51.6 %.** Only 541 of 1 049 generic drug names had a brand mapping returned by RxNorm `/REST/rxcui` + `/related?tty=BN`. Family B's flip rate is therefore conditional on "drugs with at least one mappable brand".
 3. **Vocabulary-based masking.** Both Family A (drugs) and Family C (symptoms) use a global vocabulary built from the relation split, then regex-replaced with a single `[MASK]` token. This trades per-sentence span accuracy for cross-family comparability — the Sensitivity Ratio is meaningful precisely because A and C use the *same* masking convention.
 4. **CUDA non-determinism.** Even with seeds fixed, run-to-run drift on the order of ±0.2 % F1 and ±2 % flip rate is normal. The first executed run (Apr 30, 2026) is the canonical one and is the source of all numbers in this README.
-5. **XAI sample sizes.** SHAP, LIME, IG, and SHAP-interactions are computed on 10–20-sentence samples (with a `_full` variant for SHAP, LIME, and IG). The cross-method drug-importance comparison is robust to sample size given the wide gaps between methods, but per-sentence claims should be treated as illustrative.
+5. **XAI sample sizes.** SHAP, LIME, and IG are computed on the full set (n = 6 821 ADE-positive sentences) — these are the canonical numbers reported in the README and in `fig6_method_comparison.png`. Smaller 10–20-sentence samples are kept in the non-`_full` JSONs for fast qualitative inspection only. Last-layer attention is computed on n = 50 (computing attention for the full set is GPU-bound and adds no qualitative information). SHAP-interactions are on 10 sentences for runtime reasons.
 6. **Minimality is greedy, not optimal.** The 82 % "one-drug-sufficient" figure is a lower bound on the fraction of sentences with *some* minimal drug subset; an exhaustive subset search would be exponentially expensive on multi-drug sentences.
 7. **Negation rules are heuristic.** Ten causal-marker patterns cover most of the ADE-Corpus phrasing but miss multi-clause / passive constructions.
 8. **Trained checkpoint not committed.** `model.safetensors` (~413 MB) and the per-epoch HuggingFace Trainer checkpoints (`results_quick/`, ~12 GB) exceed GitHub's per-file size limits and are not uploaded. Re-run the **Step 1 — Fine-tuning** cell of the notebook to recreate the model (≈ 30–40 min on a Colab T4).
