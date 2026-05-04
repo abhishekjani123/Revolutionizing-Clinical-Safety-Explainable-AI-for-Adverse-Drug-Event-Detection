@@ -170,10 +170,11 @@ def render_overview() -> None:
     c_links, c_team = st.columns([1.2, 1.8])
     with c_links:
         st.markdown("#### Links")
-        st.markdown(f"- **Repository:** [{REPO_URL}]({REPO_URL})")
-        st.markdown(f"- **Final notebook:** [{NOTEBOOK_URL}]({NOTEBOOK_URL})")
-        st.markdown(f"- **Final report (PDF):** [{REPORT_URL}]({REPORT_URL})")
-        st.markdown(f"- **Slides (PPTX raw):** [{SLIDES_RAW_URL}]({SLIDES_RAW_URL})")
+        # Use short anchor text so links don't wrap across columns on Streamlit Cloud.
+        st.markdown(f"- **Repository:** [GitHub repo]({REPO_URL})")
+        st.markdown(f"- **Final notebook:** [Open notebook]({NOTEBOOK_URL})")
+        st.markdown(f"- **Final report (PDF):** [Open report]({REPORT_URL})")
+        st.markdown(f"- **Slides (PPTX):** [Download slides]({SLIDES_RAW_URL})")
 
     with c_team:
         st.markdown("#### Team")
@@ -195,14 +196,14 @@ def render_overview() -> None:
             },
         ]
 
-        cols = st.columns(3)
+        cols = st.columns(3, gap="large")
         for col, m in zip(cols, members):
             profile = f"https://github.com/{m['handle']}"
             avatar = f"https://github.com/{m['handle']}.png?size=160"
             with col:
                 # Streamlit-native layout renders consistently across themes.
                 with st.container(border=True):
-                    st.image(avatar, width=84)
+                    st.image(avatar, width=76)
                     st.markdown(f"**[{m['name']}]({profile})**")
                     st.caption(f"@{m['handle']}")
 
@@ -215,6 +216,12 @@ def main() -> None:
 <style>
   .stApp {{ background-color: {COLORS['light_gray']}; }}
   section[data-testid="stSidebar"] > div {{ background-color: white; }}
+  /* Improve vertical rhythm so headers/charts don’t visually merge */
+  .block-container {{ padding-top: 2rem; padding-bottom: 2.5rem; }}
+  h1 {{ margin: 0.25rem 0 1rem 0; }}
+  h2 {{ margin: 1.4rem 0 0.6rem 0; }}
+  h3 {{ margin: 1.1rem 0 0.5rem 0; }}
+  [data-testid="stMarkdownContainer"] p {{ margin-bottom: 0.9rem; }}
 </style>
 """,
         unsafe_allow_html=True,
