@@ -432,3 +432,9 @@ Mapping from each result claim in the report / slides to the file that contains 
 6. **Minimality is greedy, not optimal.** The 82 % "one-drug-sufficient" figure is a lower bound on the fraction of sentences with *some* minimal drug subset; an exhaustive subset search would be exponentially expensive on multi-drug sentences.
 7. **Negation rules are heuristic.** Ten causal-marker patterns cover most of the ADE-Corpus phrasing but miss multi-clause / passive constructions.
 8. **Trained checkpoint not committed.** `model.safetensors` (~413 MB) and the per-epoch HuggingFace Trainer checkpoints (`results_quick/`, ~12 GB) exceed GitHub's per-file size limits and are not uploaded. Re-run the **Step 1 — Fine-tuning** cell of the notebook to recreate the model (≈ 30–40 min on a Colab T4).
+
+---
+
+## Streamlit Dashboard (Live)
+
+Deployed app: `https://abhishekjani123-revolutionizing-clinical-sa-dashboardapp-gbb1bp.streamlit.app/Overview`
