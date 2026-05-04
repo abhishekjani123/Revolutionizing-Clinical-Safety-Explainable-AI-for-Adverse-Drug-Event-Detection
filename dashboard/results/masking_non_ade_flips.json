@@ -1,0 +1,674 @@
+[
+    {
+        "index": 7085,
+        "text": "BACKGROUND: Although most patients receiving insulin produce insulin-specific IgE, significant allergic symptoms develop in very few of them.",
+        "masked_text": "BACKGROUND: Although most patients receiving [MASK] produce [MASK]-specific IgE, significant allergic symptoms develop in very few of them.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 7293,
+        "text": "METHODS: Two patients with long-term hydroxychloroquine use, subtle perifoveal ophthalmoscopic pigmentary changes, and bilateral perifoveal defects on automated Humphrey visual field (HVF) 10-2 perimetry were imaged using SD-OCT and AO.",
+        "masked_text": "METHODS: Two patients with long-term [MASK] use, subtle perifoveal ophthalmoscopic pigmentary changes, and bilateral perifoveal defects on automated Humphrey visual field (HVF) 10-2 perimetry were imaged using SD-OCT and AO.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 7321,
+        "text": "Complete recovery of the headache symptoms occurred only after OXC was discontinued.",
+        "masked_text": "Complete recovery of the headache symptoms occurred only after [MASK] was discontinued.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 7421,
+        "text": "Awareness of the various potential gastrointestinal toxic effects of bortezomib is of relevance given the growing number of patients undergoing treatment with this important and effective new cancer drug.",
+        "masked_text": "Awareness of the various potential gastrointestinal toxic effects of [MASK] is of relevance given the growing number of patients undergoing treatment with this important and effective new cancer drug.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 7781,
+        "text": "The manifestations of delirium tremens persisted with titration of a lorazepam infusion in excess of 40 mg/hour.",
+        "masked_text": "The manifestations of delirium tremens persisted with titration of a [MASK] infusion in excess of 40 mg/hour.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 7893,
+        "text": "Reactivation of sarcoidosis during interferon therapy.",
+        "masked_text": "Reactivation of sarcoidosis during [MASK] therapy.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 8038,
+        "text": "In view of the temporary symptomatic action and the seriousness of certain side-effects of desmopressin we recommend that desmopressin be used with caution in childhood enuresis.",
+        "masked_text": "In view of the temporary symptomatic action and the seriousness of certain side-effects of [MASK] we recommend that [MASK] be used with caution in childhood enuresis.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 8172,
+        "text": "Anti-tuberculous drugs, including ethambutol, were initiated at our clinic because the period between the ethambutol therapy and visual loss was too short and the dose of ethambutol was not very high.",
+        "masked_text": "Anti-tuberculous drugs, including [MASK], were initiated at our clinic because the period between the [MASK] therapy and visual loss was too short and the dose of [MASK] was not very high.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 8507,
+        "text": "Cardiobacterium hominis endocarditis in a patient with a hypersensitivity reaction to penicillin.",
+        "masked_text": "Cardiobacterium hominis endocarditis in a patient with a hypersensitivity reaction to [MASK].",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 8683,
+        "text": "Repetitive paroxysms of supraventricular tachyarrhythmias triggered during pediatric cardiac interventions: suppression after short infusion of amiodarone.",
+        "masked_text": "Repetitive paroxysms of supraventricular tachyarrhythmias triggered during pediatric cardiac interventions: suppression after short infusion of [MASK].",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 8735,
+        "text": "Association of zomepirac administration with renal cortical necrosis is not known to have been previously demonstrated.",
+        "masked_text": "Association of [MASK] administration with renal cortical necrosis is not known to have been previously demonstrated.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 8758,
+        "text": "Complications of tumour overkill when associated with high dose methotrexate therapy.",
+        "masked_text": "Complications of tumour overkill when associated with high dose [MASK] therapy.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 8925,
+        "text": "However, they subsequently were shown to be associated with propranolol.",
+        "masked_text": "However, they subsequently were shown to be associated with [MASK].",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 8956,
+        "text": "We report the case of a 30-year-old male after kidney transplantation, treated with steroids, cyclosporin A and SRL, with steroid-resistant acute rejection in anamnesis.",
+        "masked_text": "We report the case of a 30-year-old male after kidney transplantation, treated with steroids, [MASK] and [MASK], with [MASK]-resistant acute rejection in anamnesis.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 8971,
+        "text": "Herpes simplex following intra-articular sacroiliac corticosteroid injection.",
+        "masked_text": "Herpes simplex following intra-articular sacroiliac [MASK] injection.",
+        "prediction1": 0,
+        "prediction2": 1,
+        "original_label": 0
+    },
+    {
+        "index": 9090,
+        "text": "OBJECTIVE: To determine the prevalence of severe infections in patients with rheumatoid arthritis (RA) prescribed leflunomide in North Canterbury, New Zealand.",
+        "masked_text": "OBJECTIVE: To determine the prevalence of severe infections in patients with rheumatoid arthritis ([MASK]) prescribed [MASK] in North Canterbury, New Zealand.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 9369,
+        "text": "Serum lithium levels fell rapidly, but the cognitive impairment associated with the delirium typically persisted for another week or two.",
+        "masked_text": "Serum [MASK] levels fell rapidly, but the cognitive impairment associated with the delirium typically persisted for another week or two.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 9495,
+        "text": "Camptocormia occurred concomitantly with an increase of the plasma valproate level from about 330 mumol/l up to 530 mumol/l.",
+        "masked_text": "Camptocormia occurred concomitantly with an increase of the plasma [MASK] level from about 330 mumol/l up to 530 mumol/l.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 9624,
+        "text": "We report two cases of severe, acute myopathy with selective degeneration of myosin filaments in asthmatics who developed respiratory failure with hypercapnia and acidosis requiring endotracheal intubation, administration of vecuronium and prolonged ventilatory support.",
+        "masked_text": "We report two cases of severe, acute myopathy with selective degeneration of myosin filaments in asthmatics who developed respiratory failure with hypercapnia and acidosis requiring endotracheal intubation, administration of [MASK] and prolonged ventilatory support.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 9631,
+        "text": "A renal tubular abnormality may have allowed the usually self-limiting acidosis of acetazolamide to progress.",
+        "masked_text": "A renal tubular abnormality may have allowed the usually self-limiting acidosis of [MASK] to progress.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 9694,
+        "text": "Diltiazem therapy was discontinued, leading to resolution of fever within 48 hours.",
+        "masked_text": "[MASK] therapy was discontinued, leading to resolution of fever within 48 hours.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 9928,
+        "text": "Although the cardiotoxicity of 5-FU is well documented, there is little published data about cardiovascular adverse effects of Capecitabine.",
+        "masked_text": "Although the cardiotoxicity of [MASK] is well documented, there is little published data about cardiovascular adverse effects of [MASK].",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 10083,
+        "text": "In our experience, once established, infections may rapidly progress in patients with RA taking leflunomide, and early cholestyramine washout is strongly recommended.",
+        "masked_text": "In our experience, once established, infections may rapidly progress in patients with [MASK] taking [MASK], and early [MASK] washout is strongly recommended.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 10094,
+        "text": "Physicians should suspect pulmonary toxicity in patients with respiratory distress after gemcitabine chemotherapy, mainly in elderly patients.",
+        "masked_text": "Physicians should suspect pulmonary [MASK] in patients with respiratory distress after [MASK] chemotherapy, mainly in elderly patients.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 10187,
+        "text": "Rosiglitazone was discontinued and the edema resolved.",
+        "masked_text": "[MASK] was discontinued and the edema resolved.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 10200,
+        "text": "In addition, we emphasize the need for informed consent when facing factors that predispose to bleeding (esophageal varices, coagulopathy and thrombocytopenia), possible band ligation before the start of sorafenib, careful clinical monitoring and discontinuation of sorafenib when major bleeding occurs.",
+        "masked_text": "In addition, we emphasize the need for informed consent when facing factors that predispose to bleeding (esophageal varices, coagulopathy and thrombocytopenia), possible band ligation before the start of [MASK], careful clinical monitoring and discontinuation of [MASK] when major bleeding occurs.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 10986,
+        "text": "Even if the single and total dosage of antiestrogens given to the patient is sufficient to cause tamoxifen retinopathy, this diagnosis can be excluded because, in tamoxifen retinopathy unlike in the case presented here, the deposits are not distributed in all retinal layers.",
+        "masked_text": "Even if the single and total dosage of antiestrogens given to the patient is sufficient to cause [MASK] retinopathy, this diagnosis can be excluded because, in [MASK] retinopathy unlike in the case presented here, the deposits are not distributed in all retinal layers.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 11287,
+        "text": "His symptoms of amnesia resolved approximately 6-7 hours after discontinuing the propafenone therapy.",
+        "masked_text": "His symptoms of amnesia resolved approximately 6-7 hours after discontinuing the [MASK] therapy.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 11316,
+        "text": "Tolazoline induces a dilatation of the pulmonary vascular system by stimulating H2 receptors.",
+        "masked_text": "[MASK] induces a dilatation of the pulmonary vascular system by stimulating H2 receptors.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 11339,
+        "text": "All-trans retinoic acid has revolutionized the treatment of acute promyelocytic leukemia, but this therapy is often complicated by the all-trans retinoic acid syndrome.",
+        "masked_text": "[MASK] has revolutionized the treatment of acute promyelocytic leukemia, but this therapy is often complicated by the [MASK] syndrome.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 12090,
+        "text": "DATA SYNTHESIS: The first case describes a 15-year-old boy who received valproic acid and carbamazepine for partial seizures.",
+        "masked_text": "DATA SYNTHESIS: The first case describes a 15-year-old boy who received [MASK] and [MASK] for partial seizures.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 12476,
+        "text": "The striking temporal relationship between commencing dalteparin on day 1 and subsequent development of effusion on day 4, following 3 doses of LMWH, led us to believe that the bleed occurred as a result of the therapy.",
+        "masked_text": "The striking temporal relationship between commencing [MASK] on day 1 and subsequent development of effusion on day 4, following 3 doses of [MASK], led us to believe that the bleed occurred as a result of the therapy.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 13120,
+        "text": "In rare patients, systemic absorption of inhaled tobramycin may be significant enough to produce toxic effects, such as renal and vestibular toxicities.",
+        "masked_text": "In rare patients, systemic absorption of inhaled [MASK] may be significant enough to produce toxic effects, such as renal and vestibular toxicities.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 13413,
+        "text": "Benzoyl peroxide (BP) is commonly used for topical acne treatment and has long been known to be a weak allergen and a strong irritant.",
+        "masked_text": "[MASK] ([MASK]) is commonly used for topical acne treatment and has long been known to be a weak allergen and a strong irritant.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 13448,
+        "text": "Typhlitis during second-line chemotherapy with pemetrexed in non-small cell lung cancer (NSCLC): A case report.",
+        "masked_text": "Typhlitis during second-line chemotherapy with [MASK] in non-small cell lung cancer (NSCLC): A case report.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 13611,
+        "text": "As nephrotic-range proteinuria, hypoalbuminemia, and general edema were worsening even 2 weeks after cessation of the drug, oral corticosteroid therapy (prednisolone 40 mg/day) was started.",
+        "masked_text": "As nephrotic-range proteinuria, hypoalbuminemia, and general edema were worsening even 2 weeks after cessation of the drug, oral [MASK] therapy ([MASK] 40 mg/day) was started.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 13757,
+        "text": "Propoxyphene overdose is known to cause widening of the QRS complex on ECG.",
+        "masked_text": "[MASK] overdose is known to cause widening of the QRS complex on ECG.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 13862,
+        "text": "Acute radial artery ischemia following therapeutic steroid injection.",
+        "masked_text": "Acute radial artery ischemia following therapeutic [MASK] injection.",
+        "prediction1": 0,
+        "prediction2": 1,
+        "original_label": 0
+    },
+    {
+        "index": 14463,
+        "text": "CONCLUSIONS: Clinicians should be aware that removing a serotonin-2a (S-HT2a) antagonist 1mm a treatment regimen including an agent that increases serotonin in the synaptic cleft may worsen clozapine withdrawal or potentially result in serious adverse drug reactions, such as serotonin syndrome.",
+        "masked_text": "CONCLUSIONS: Clinicians should be aware that removing a serotonin-2a (S-HT2a) antagonist 1mm a treatment regimen including an agent that increases serotonin in the synaptic cleft may worsen [MASK] withdrawal or potentially result in serious adverse drug reactions, such as serotonin syndrome.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 14630,
+        "text": "We report three cases of ophthalmic problems that were treated with a short course of oral corticosteroids and which resulted in the development of hyperosmolar hyperglycemic nonketotic coma.",
+        "masked_text": "We report three cases of ophthalmic problems that were treated with a short course of oral [MASK] and which resulted in the development of hyperosmolar hyperglycemic nonketotic coma.",
+        "prediction1": 0,
+        "prediction2": 1,
+        "original_label": 0
+    },
+    {
+        "index": 15411,
+        "text": "Raised intraocular pressure and glaucoma have rarely been associated with use of periorbital corticosteroids for dermatological conditions such as blepharitis and eczema.",
+        "masked_text": "Raised intraocular pressure and glaucoma have rarely been associated with use of periorbital [MASK] for dermatological conditions such as blepharitis and eczema.",
+        "prediction1": 0,
+        "prediction2": 1,
+        "original_label": 0
+    },
+    {
+        "index": 15464,
+        "text": "Subfulminant syncytial giant cell hepatitis: recurrence after liver transplantation treated with ribavirin.",
+        "masked_text": "Subfulminant syncytial giant cell hepatitis: recurrence after liver transplantation treated with [MASK].",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 15483,
+        "text": "Central serous chorioretinopathy complicating systemic corticosteroid treatment.",
+        "masked_text": "Central serous chorioretinopathy complicating systemic [MASK] treatment.",
+        "prediction1": 0,
+        "prediction2": 1,
+        "original_label": 0
+    },
+    {
+        "index": 16113,
+        "text": "The patient died of respiratory failure after 8 days of steroid infusion and erlotinib discontinuation.",
+        "masked_text": "The patient died of respiratory failure after 8 days of [MASK] infusion and [MASK] discontinuation.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 16320,
+        "text": "We describe an infant who developed juvenile glaucoma with buphthalmos while receiving systemic steroid treatment.",
+        "masked_text": "We describe an infant who developed juvenile glaucoma with buphthalmos while receiving systemic [MASK] treatment.",
+        "prediction1": 0,
+        "prediction2": 1,
+        "original_label": 0
+    },
+    {
+        "index": 16688,
+        "text": "Central serous chorioretinopathy developed in 2 cases of retrobulbar neuritis during systemic treatment with corticosteroids.",
+        "masked_text": "Central serous chorioretinopathy developed in 2 cases of retrobulbar neuritis during systemic treatment with [MASK].",
+        "prediction1": 0,
+        "prediction2": 1,
+        "original_label": 0
+    },
+    {
+        "index": 16841,
+        "text": "Monitoring blood concentrations of tacrolimus is vital, and appropriate dosage adjustments are required when the two drugs are administered concurrently to avoid serious interactions such as nephrotoxicity and neurotoxicity.",
+        "masked_text": "Monitoring blood concentrations of [MASK] is vital, and appropriate dosage adjustments are required when the two drugs are administered concurrently to avoid serious interactions such as nephrotoxicity and neurotoxicity.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 17033,
+        "text": "We present an exceptional case in which full-thickness eyelid necrosis ensued following intralesional injection of corticosteroids in a capillary hemangioma.",
+        "masked_text": "We present an exceptional case in which full-thickness eyelid necrosis ensued following intralesional injection of [MASK] in a capillary hemangioma.",
+        "prediction1": 0,
+        "prediction2": 1,
+        "original_label": 0
+    },
+    {
+        "index": 17182,
+        "text": "He began taking propafenone only 6 days prior to admission because of uncontrolled atrial fibrillation and symptoms of fatigue.",
+        "masked_text": "He began taking [MASK] only 6 days prior to admission because of uncontrolled atrial fibrillation and symptoms of fatigue.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 17529,
+        "text": "We present a rare case of a thrombus at the aortic arch found 1 month after cisplatin-based chemotherapy in a 50-year-old patient with a diagnosis of small cell lung cancer; there were no symptoms related to the thrombus.",
+        "masked_text": "We present a rare case of a thrombus at the aortic arch found 1 month after [MASK]-based chemotherapy in a 50-year-old patient with a diagnosis of small cell lung cancer; there were no symptoms related to the thrombus.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 17542,
+        "text": "We present 2 cases of patients with schizophrenia who manifested a catatonic syndrome and were indicated for ECT, along with antibiotic therapies for infectious diseases with piperacillin and cefotiam, respectively.",
+        "masked_text": "We present 2 cases of patients with schizophrenia who manifested a catatonic syndrome and were indicated for ECT, along with antibiotic therapies for infectious diseases with [MASK] and [MASK], respectively.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 17730,
+        "text": "We report 2 cases of AIT: in one case, amiodarone was interrupted; in the other case, amiodarone was continued because of recurrent ventricular tachycardia resistant to classical antiarrhythmic drugs.",
+        "masked_text": "We report 2 cases of AIT: in one case, [MASK] was interrupted; in the other case, [MASK] was continued because of recurrent ventricular tachycardia resistant to classical antiarrhythmic drugs.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 17748,
+        "text": "The only possible seizure-provoking factors were modest doses of lithium and chlorpromazine, which the patient was on, and family history of seizure in a brother.",
+        "masked_text": "The only possible seizure-provoking factors were modest doses of [MASK] and [MASK], which the patient was on, and family history of seizure in a brother.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 17889,
+        "text": "Central serous chorioretinopathy associated with inhaled or intranasal corticosteroids.",
+        "masked_text": "Central serous chorioretinopathy associated with inhaled or intranasal [MASK].",
+        "prediction1": 0,
+        "prediction2": 1,
+        "original_label": 0
+    },
+    {
+        "index": 17911,
+        "text": "Radiation recall resolved spontaneously with withdrawal of gemcitabine.",
+        "masked_text": "Radiation recall resolved spontaneously with withdrawal of [MASK].",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 18174,
+        "text": "There are a few case reports on hair loss associated with tricyclic antidepressants and serotonin selective reuptake inhibitors (SSRIs), but none deal specifically with paroxetine.",
+        "masked_text": "There are a few case reports on hair loss associated with tricyclic antidepressants and serotonin selective reuptake inhibitors (SSRIs), but none deal specifically with [MASK].",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 18981,
+        "text": "Recommendations are made for the prophylaxis and treatment of sulfadiazine-related renal toxic reaction.",
+        "masked_text": "Recommendations are made for the prophylaxis and treatment of [MASK]-related renal toxic reaction.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 19262,
+        "text": "The decrease in p(a)CO(2)induced by halothane may be explained by the diminished dead space that results from the drop in peak airway pressure.",
+        "masked_text": "The decrease in p(a)CO(2)induced by [MASK] may be explained by the diminished dead space that results from the drop in peak airway pressure.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 19553,
+        "text": "Marginal crack after intravitreal bevacizumab for myopic choroidal neovascularization.",
+        "masked_text": "Marginal crack after intravitreal [MASK] for myopic choroidal neovascularization.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 19612,
+        "text": "This report describes the development of multiple-site, biopsy-proven osteonecrosis in a patient with small-cell bronchogenic carcinoma who had received chemotherapy and short-term administration of corticosteroid.",
+        "masked_text": "This report describes the development of multiple-site, biopsy-proven osteonecrosis in a patient with small-cell bronchogenic carcinoma who had received chemotherapy and short-term administration of [MASK].",
+        "prediction1": 0,
+        "prediction2": 1,
+        "original_label": 0
+    },
+    {
+        "index": 19664,
+        "text": "No published reports, however, exist of exfoliative disease after treatment with levofloxacin.",
+        "masked_text": "No published reports, however, exist of exfoliative disease after treatment with [MASK].",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 19823,
+        "text": "Lithium has been reported to raise serum calcium and lower serum phosphate concentrations and to increase urinary calcium excretion.",
+        "masked_text": "[MASK] has been reported to raise serum calcium and lower serum [MASK] concentrations and to increase urinary calcium excretion.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 19881,
+        "text": "Reversible valproate hepatotoxicity due to mutations in mitochondrial DNA polymerase gamma (POLG1).",
+        "masked_text": "Reversible [MASK] hepatotoxicity due to mutations in mitochondrial DNA polymerase gamma (POLG1).",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 20289,
+        "text": "We present three prednisolone-treated boys with myoglobinuria and in two cases this was recurrent.",
+        "masked_text": "We present three [MASK]-treated boys with myoglobinuria and in two cases this was recurrent.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 20405,
+        "text": "Thus, lithium intoxication is a frequent complication of chronic lithium therapy.",
+        "masked_text": "Thus, [MASK] intoxication is a frequent complication of chronic [MASK] therapy.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 20754,
+        "text": "An unusual cause of hypocalcaemia: magnesium induced inhibition of parathyroid hormone secretion in a patient with subarachnoid haemorrhage.",
+        "masked_text": "An unusual cause of hypocalcaemia: [MASK] induced inhibition of parathyroid hormone secretion in a patient with subarachnoid haemorrhage.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 21037,
+        "text": "Myoglobinuria in boys with Duchenne muscular dystrophy on corticosteroid therapy.",
+        "masked_text": "Myoglobinuria in boys with Duchenne muscular dystrophy on [MASK] therapy.",
+        "prediction1": 0,
+        "prediction2": 1,
+        "original_label": 0
+    },
+    {
+        "index": 21248,
+        "text": "Our case reminds the clinicians that the adverse and proarrhythmic effects of dofetilide can occur due to changes in the arrhythmic substrate during acute severe ischemia.",
+        "masked_text": "Our case reminds the clinicians that the adverse and proarrhythmic effects of [MASK] can occur due to changes in the arrhythmic substrate during acute severe ischemia.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 21389,
+        "text": "Treatment with tacrine reversed the delirium, and a history of repeated benztropine use was obtained.",
+        "masked_text": "Treatment with tacrine reversed the delirium, and a history of repeated [MASK] use was obtained.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 21518,
+        "text": "RESULTS: Withdrawal of oral colchicine therapy was followed by rapid corneal wound healing in both patients.",
+        "masked_text": "RESULTS: Withdrawal of oral [MASK] therapy was followed by rapid corneal wound healing in both patients.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 21583,
+        "text": "The agranulocytosis was rapidly resolved by granulocyte colony-stimulating factor (G-CSF) therapy and by the discontinuation of vancomycin.",
+        "masked_text": "The agranulocytosis was rapidly resolved by [MASK] ([MASK]) therapy and by the discontinuation of [MASK].",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 21616,
+        "text": "DISCUSSION: The severity and presentation of central nervous system toxicity due to ifosfamide varies greatly and involves a spectrum ranging from subclinical electroencephalogram changes to coma.",
+        "masked_text": "DISCUSSION: The severity and presentation of central nervous system [MASK] due to [MASK] varies greatly and involves a spectrum ranging from subclinical electroencephalogram changes to coma.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 21921,
+        "text": "The nephrotic syndrome responded again to withdrawal of lithium and institution of steroid therapy.",
+        "masked_text": "The nephrotic syndrome responded again to withdrawal of [MASK] and institution of [MASK] therapy.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 21944,
+        "text": "Diabetes mellitus type 1 in five military aviators: flying with insulin.",
+        "masked_text": "Diabetes mellitus type 1 in five military aviators: flying with [MASK].",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 21983,
+        "text": "Pamidronate treatment of hypercalcemia caused by vitamin D toxicity.",
+        "masked_text": "Pamidronate treatment of hypercalcemia caused by [MASK] [MASK].",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 22107,
+        "text": "The acronym SILENT (Syndrome of Irreversible Lithium-Effectuated Neurotoxicity) has been coined recently to denote these sequelae.",
+        "masked_text": "The acronym SILENT (Syndrome of Irreversible [MASK]-Effectuated Neurotoxicity) has been coined recently to denote these sequelae.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 22136,
+        "text": "Ramipril was stopped and he required a course of steroids after which the rash improved slowly.",
+        "masked_text": "[MASK] was stopped and he required a course of steroids after which the rash improved slowly.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 22761,
+        "text": "We highlight the importance of having a high index of suspicion for hepatic side effects of diclofenac and emphasize the need for increased awareness of this rare but potentially serious problem.",
+        "masked_text": "We highlight the importance of having a high index of suspicion for hepatic side effects of [MASK] and emphasize the need for increased awareness of this rare but potentially serious problem.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 22979,
+        "text": "DISCUSSION: According to the literature, reversible nonthrombocytopenic palpable purpura has not been previously reported with metoclopramide.",
+        "masked_text": "DISCUSSION: According to the literature, reversible nonthrombocytopenic palpable purpura has not been previously reported with [MASK].",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 23233,
+        "text": "Nimodipine: evidence for clinically significant gastrointestinal side-effects.",
+        "masked_text": "[MASK]: evidence for clinically significant gastrointestinal side-effects.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 23333,
+        "text": "The case of a patient with CPH, who had marked epigastric symptoms with indomethacin treatment and responded well to topiramate 150 mg daily, is reported.",
+        "masked_text": "The case of a patient with CPH, who had marked epigastric symptoms with [MASK] treatment and responded well to [MASK] 150 mg daily, is reported.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 23399,
+        "text": "When camptocormia was diagnosed, olanzapine was withdrawn and levodopa was introduced.",
+        "masked_text": "When camptocormia was diagnosed, [MASK] was withdrawn and [MASK] was introduced.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    },
+    {
+        "index": 23467,
+        "text": "PURPOSE: To report cerebral venous thrombosis as a complication of intravenous corticosteroid treatment in a patient with multiple sclerosis.",
+        "masked_text": "PURPOSE: To report cerebral venous thrombosis as a complication of intravenous [MASK] treatment in a patient with multiple sclerosis.",
+        "prediction1": 0,
+        "prediction2": 1,
+        "original_label": 0
+    },
+    {
+        "index": 23489,
+        "text": "DISCUSSION: Itraconazole pulse therapy for onychomycosis appears to be at least as effective as and safer than a continuous treatment regimen, particularly from the perspective of potential liver damage.",
+        "masked_text": "DISCUSSION: [MASK] pulse therapy for onychomycosis appears to be at least as effective as and safer than a continuous treatment regimen, particularly from the perspective of potential liver damage.",
+        "prediction1": 1,
+        "prediction2": 0,
+        "original_label": 0
+    }
+]

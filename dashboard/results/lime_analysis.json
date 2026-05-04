@@ -1,0 +1,1376 @@
+{
+  "experiment": "lime_token_analysis",
+  "n_sentences": 20,
+  "aggregate": {
+    "mean_drug_lime": 0.2939020172857113,
+    "mean_nondrug_lime": 0.0734347641311587,
+    "drug_nondrug_ratio": 4.002219122822884,
+    "pct_sentences_drug_in_top3": 0.9
+  },
+  "per_sentence": [
+    {
+      "sentence_id": "85a0fb703ee1",
+      "text": "Cicatricial entropion associated with chronic dipivefrin application.",
+      "token_weights": [
+        [
+          "dipivefrin",
+          0.7274333521972766
+        ],
+        [
+          "entropion",
+          0.2569503064020063
+        ],
+        [
+          "Cicatricial",
+          0.23410922297845688
+        ],
+        [
+          "with",
+          0.16498562982077983
+        ],
+        [
+          "associated",
+          0.1456602797726994
+        ],
+        [
+          "chronic",
+          0.05232689096348327
+        ],
+        [
+          "application",
+          -0.027465434497115453
+        ]
+      ],
+      "top3_tokens": [
+        [
+          "dipivefrin",
+          0.7274333521972766
+        ],
+        [
+          "entropion",
+          0.2569503064020063
+        ],
+        [
+          "Cicatricial",
+          0.23410922297845688
+        ]
+      ],
+      "top3_are_drugs": [
+        true,
+        true,
+        false
+      ],
+      "mean_drug_lime": 0.49219182929964145,
+      "mean_nondrug_lime": 0.11392331780766081,
+      "drug_nondrug_ratio": 4.320378292797086,
+      "n_drug_features": 2
+    },
+    {
+      "sentence_id": "6eb16283e793",
+      "text": "Soon after introduction of insulin therapy, she developed severe anasarca, including marked peripheral oedema, ascites and pleural effusion.",
+      "token_weights": [
+        [
+          "insulin",
+          0.9313948804904828
+        ],
+        [
+          "developed",
+          0.06200196267206446
+        ],
+        [
+          "after",
+          0.05279370518729602
+        ],
+        [
+          "including",
+          0.042825467129729976
+        ],
+        [
+          "oedema",
+          0.032878413377476094
+        ],
+        [
+          "of",
+          0.03069365430059759
+        ],
+        [
+          "marked",
+          0.025190687366860507
+        ],
+        [
+          "Soon",
+          -0.02174223203554773
+        ],
+        [
+          "pleural",
+          -0.016056793834527183
+        ],
+        [
+          "introduction",
+          -0.014048647995434786
+        ]
+      ],
+      "top3_tokens": [
+        [
+          "insulin",
+          0.9313948804904828
+        ],
+        [
+          "developed",
+          0.06200196267206446
+        ],
+        [
+          "after",
+          0.05279370518729602
+        ]
+      ],
+      "top3_are_drugs": [
+        true,
+        false,
+        false
+      ],
+      "mean_drug_lime": 0.4576690433279778,
+      "mean_nondrug_lime": 0.02632412625038027,
+      "drug_nondrug_ratio": 17.385915831541283,
+      "n_drug_features": 2
+    },
+    {
+      "sentence_id": "b7e9f4a25823",
+      "text": "The three reported cases demonstrate that troglitazone is an idiosyncratic hepatotoxin that can lead to irreversible liver injury.",
+      "token_weights": [
+        [
+          "troglitazone",
+          0.9062305717377941
+        ],
+        [
+          "irreversible",
+          0.09185702556636222
+        ],
+        [
+          "lead",
+          0.08713374728598987
+        ],
+        [
+          "idiosyncratic",
+          0.07866673527813414
+        ],
+        [
+          "is",
+          -0.049592344372738996
+        ],
+        [
+          "hepatotoxin",
+          0.047710466888764895
+        ],
+        [
+          "that",
+          -0.033072434563975746
+        ],
+        [
+          "cases",
+          0.03290537504043003
+        ],
+        [
+          "demonstrate",
+          -0.02970955830751749
+        ],
+        [
+          "an",
+          0.02582789177963056
+        ]
+      ],
+      "top3_tokens": [
+        [
+          "troglitazone",
+          0.9062305717377941
+        ],
+        [
+          "irreversible",
+          0.09185702556636222
+        ],
+        [
+          "lead",
+          0.08713374728598987
+        ]
+      ],
+      "top3_are_drugs": [
+        true,
+        false,
+        true
+      ],
+      "mean_drug_lime": 0.2605803739986001,
+      "mean_nondrug_lime": 0.01927266338974549,
+      "drug_nondrug_ratio": 13.52072459986244,
+      "n_drug_features": 4
+    },
+    {
+      "sentence_id": "87a1f6791d0d",
+      "text": "Here we report a patient with newly diagnosed acute promyelocytic leukemia who developed acute focal myositis, synovitis, and possible vasculitis, after receiving all-trans retinoic acid therapy.",
+      "token_weights": [
+        [
+          "after",
+          0.3383871425668425
+        ],
+        [
+          "acid",
+          0.16093834204500881
+        ],
+        [
+          "developed",
+          0.13704909747912197
+        ],
+        [
+          "receiving",
+          0.10943888669813848
+        ],
+        [
+          "vasculitis",
+          0.10254814274406127
+        ],
+        [
+          "trans",
+          0.09499170539176278
+        ],
+        [
+          "all",
+          0.08171325524684296
+        ],
+        [
+          "retinoic",
+          0.06398935463938198
+        ],
+        [
+          "myositis",
+          0.06204323039088824
+        ],
+        [
+          "diagnosed",
+          -0.0380611589314966
+        ]
+      ],
+      "top3_tokens": [
+        [
+          "after",
+          0.3383871425668425
+        ],
+        [
+          "acid",
+          0.16093834204500881
+        ],
+        [
+          "developed",
+          0.13704909747912197
+        ]
+      ],
+      "top3_are_drugs": [
+        false,
+        true,
+        false
+      ],
+      "mean_drug_lime": 0.10040816433074914,
+      "mean_nondrug_lime": 0.11856755682459262,
+      "drug_nondrug_ratio": 0.8468434959766586,
+      "n_drug_features": 4
+    },
+    {
+      "sentence_id": "17b838f1aaad",
+      "text": "Treatment of APL in pregnancy is controversial as the use of ATRA has been questioned due to the teratogenic effect of retinoids.",
+      "token_weights": [
+        [
+          "teratogenic",
+          0.5922680562252296
+        ],
+        [
+          "ATRA",
+          0.4721568669059654
+        ],
+        [
+          "of",
+          0.13093680783801648
+        ],
+        [
+          "in",
+          0.08199287627178661
+        ],
+        [
+          "has",
+          0.07550111760425611
+        ],
+        [
+          "the",
+          0.06389703321780882
+        ],
+        [
+          "pregnancy",
+          -0.06169580743035655
+        ],
+        [
+          "retinoids",
+          -0.05957387274613819
+        ],
+        [
+          "as",
+          0.0357553447906894
+        ],
+        [
+          "due",
+          -0.03323102454861346
+        ]
+      ],
+      "top3_tokens": [
+        [
+          "teratogenic",
+          0.5922680562252296
+        ],
+        [
+          "ATRA",
+          0.4721568669059654
+        ],
+        [
+          "of",
+          0.13093680783801648
+        ]
+      ],
+      "top3_are_drugs": [
+        true,
+        true,
+        false
+      ],
+      "mean_drug_lime": 0.2284254533045807,
+      "mean_nondrug_lime": 0.031176026321148166,
+      "drug_nondrug_ratio": 7.326958572319044,
+      "n_drug_features": 5
+    },
+    {
+      "sentence_id": "e3a136234903",
+      "text": "Exposure of the fetus to indomethacin by administration of the drug to the mother may cause many side effects, including premature closure of the ductus arteriosus.",
+      "token_weights": [
+        [
+          "indomethacin",
+          0.8596626604993711
+        ],
+        [
+          "cause",
+          0.12840626118115112
+        ],
+        [
+          "closure",
+          0.08463696118752324
+        ],
+        [
+          "premature",
+          0.07830622739407607
+        ],
+        [
+          "ductus",
+          0.04227205185854759
+        ],
+        [
+          "arteriosus",
+          0.040565685086088654
+        ],
+        [
+          "Exposure",
+          0.040087568063599456
+        ],
+        [
+          "may",
+          0.03467990976566236
+        ],
+        [
+          "to",
+          -0.03251245790505901
+        ],
+        [
+          "by",
+          -0.029362195583292824
+        ]
+      ],
+      "top3_tokens": [
+        [
+          "indomethacin",
+          0.8596626604993711
+        ],
+        [
+          "cause",
+          0.12840626118115112
+        ],
+        [
+          "closure",
+          0.08463696118752324
+        ]
+      ],
+      "top3_are_drugs": [
+        true,
+        false,
+        false
+      ],
+      "mean_drug_lime": 0.8596626604993711,
+      "mean_nondrug_lime": 0.043008890116477405,
+      "drug_nondrug_ratio": 19.98802243376237,
+      "n_drug_features": 1
+    },
+    {
+      "sentence_id": "f3def7680c53",
+      "text": "Subfulminant hepatitis B after infliximab in Crohn's disease: need for HBV-screening?",
+      "token_weights": [
+        [
+          "infliximab",
+          0.8343268745114175
+        ],
+        [
+          "Subfulminant",
+          0.16531838521368342
+        ],
+        [
+          "after",
+          0.15106758667843853
+        ],
+        [
+          "hepatitis",
+          0.14275298148314627
+        ],
+        [
+          "in",
+          -0.09826394174542967
+        ],
+        [
+          "HBV",
+          -0.04273323555940504
+        ],
+        [
+          "screening",
+          0.03698940679770201
+        ],
+        [
+          "Crohn",
+          0.028950864983431104
+        ],
+        [
+          "for",
+          -0.020713447466713053
+        ],
+        [
+          "need",
+          -0.009987256857365604
+        ]
+      ],
+      "top3_tokens": [
+        [
+          "infliximab",
+          0.8343268745114175
+        ],
+        [
+          "Subfulminant",
+          0.16531838521368342
+        ],
+        [
+          "after",
+          0.15106758667843853
+        ]
+      ],
+      "top3_are_drugs": [
+        true,
+        false,
+        false
+      ],
+      "mean_drug_lime": 0.3187888028426169,
+      "mean_nondrug_lime": 0.033048829930150674,
+      "drug_nondrug_ratio": 9.645993625686085,
+      "n_drug_features": 3
+    },
+    {
+      "sentence_id": "f5c9e119f32c",
+      "text": "Iatrogenic hypercalcemia due to vitamin D3 ointment (1,24(OH)2D3) combined with thiazide diuretics in a case of psoriasis.",
+      "token_weights": [
+        [
+          "hypercalcemia",
+          0.7344273819868274
+        ],
+        [
+          "due",
+          0.1997979515836031
+        ],
+        [
+          "to",
+          0.1559674568481286
+        ],
+        [
+          "D3",
+          0.11426106490339925
+        ],
+        [
+          "diuretics",
+          -0.09592344120356165
+        ],
+        [
+          "24",
+          0.09030936202910717
+        ],
+        [
+          "Iatrogenic",
+          0.07776994918123098
+        ],
+        [
+          "2D3",
+          0.05543493386575767
+        ],
+        [
+          "combined",
+          -0.05439280674013646
+        ],
+        [
+          "psoriasis",
+          0.03500093480005059
+        ]
+      ],
+      "top3_tokens": [
+        [
+          "hypercalcemia",
+          0.7344273819868274
+        ],
+        [
+          "due",
+          0.1997979515836031
+        ],
+        [
+          "to",
+          0.1559674568481286
+        ]
+      ],
+      "top3_are_drugs": [
+        false,
+        false,
+        false
+      ],
+      "mean_drug_lime": -0.02024425366890199,
+      "mean_nondrug_lime": 0.16914266182402632,
+      "drug_nondrug_ratio": -0.1196874487523664,
+      "n_drug_features": 2
+    },
+    {
+      "sentence_id": "e5daf6ded45d",
+      "text": "Acute ocular ischemic change may be associated with intravitreal injection of bevacizumab in patients with vascular compromised diabetic retinopathy and/or underlying stenosis of the carotid artery.",
+      "token_weights": [
+        [
+          "bevacizumab",
+          0.7742485610113121
+        ],
+        [
+          "change",
+          0.16083239461370002
+        ],
+        [
+          "ischemic",
+          0.137930155672662
+        ],
+        [
+          "associated",
+          0.1152187151039166
+        ],
+        [
+          "with",
+          0.10705329125576701
+        ],
+        [
+          "ocular",
+          0.07836456335257691
+        ],
+        [
+          "may",
+          -0.05144900404574394
+        ],
+        [
+          "retinopathy",
+          -0.04177800904569669
+        ],
+        [
+          "the",
+          0.04096530611119828
+        ],
+        [
+          "compromised",
+          -0.0357880317755637
+        ]
+      ],
+      "top3_tokens": [
+        [
+          "bevacizumab",
+          0.7742485610113121
+        ],
+        [
+          "change",
+          0.16083239461370002
+        ],
+        [
+          "ischemic",
+          0.137930155672662
+        ]
+      ],
+      "top3_are_drugs": [
+        true,
+        false,
+        false
+      ],
+      "mean_drug_lime": 0.25980861178231557,
+      "mean_nondrug_lime": 0.07231030098674027,
+      "drug_nondrug_ratio": 3.5929681972967775,
+      "n_drug_features": 3
+    },
+    {
+      "sentence_id": "a3704386b9c5",
+      "text": "Rapamycin/sirolimus-induced pneumonitis has been described previously in renal transplant recipients, and this report describes a stable heart-lung transplant recipient who developed a pulmonary infiltrate that reversed after ceasing SR therapy.",
+      "token_weights": [
+        [
+          "Rapamycin",
+          0.2812174809550902
+        ],
+        [
+          "sirolimus",
+          0.24981862560531587
+        ],
+        [
+          "induced",
+          0.185046715421832
+        ],
+        [
+          "pneumonitis",
+          0.14607024349039854
+        ],
+        [
+          "developed",
+          0.11205323986919356
+        ],
+        [
+          "after",
+          0.10343278254463657
+        ],
+        [
+          "has",
+          0.09872657550368838
+        ],
+        [
+          "pulmonary",
+          0.09835632603232804
+        ],
+        [
+          "report",
+          0.07397143750986532
+        ],
+        [
+          "reversed",
+          -0.04870959231784041
+        ]
+      ],
+      "top3_tokens": [
+        [
+          "Rapamycin",
+          0.2812174809550902
+        ],
+        [
+          "sirolimus",
+          0.24981862560531587
+        ],
+        [
+          "induced",
+          0.185046715421832
+        ]
+      ],
+      "top3_are_drugs": [
+        true,
+        true,
+        false
+      ],
+      "mean_drug_lime": 0.20992089402136482,
+      "mean_nondrug_lime": 0.09574587893577337,
+      "drug_nondrug_ratio": 2.1924796801142783,
+      "n_drug_features": 3
+    },
+    {
+      "sentence_id": "ca43f297a964",
+      "text": "PATIENT AND METHOD: A 34-year-old woman with chronic hepatitis C, genotype 3, receiving pegylated interferon alpha-2a and ribavirin for 6 months, developed progressive malaise and anemia 6 months after the end of treatment.",
+      "token_weights": [
+        [
+          "malaise",
+          0.32350400207962876
+        ],
+        [
+          "developed",
+          0.30330715966709454
+        ],
+        [
+          "anemia",
+          0.2871166334239603
+        ],
+        [
+          "progressive",
+          0.185136752902639
+        ],
+        [
+          "and",
+          -0.10798737859920628
+        ],
+        [
+          "end",
+          -0.09900336360831946
+        ],
+        [
+          "ribavirin",
+          0.09390918387511132
+        ],
+        [
+          "treatment",
+          0.08094808966225507
+        ],
+        [
+          "months",
+          0.07785070668949672
+        ],
+        [
+          "receiving",
+          0.05931211872509733
+        ]
+      ],
+      "top3_tokens": [
+        [
+          "malaise",
+          0.32350400207962876
+        ],
+        [
+          "developed",
+          0.30330715966709454
+        ],
+        [
+          "anemia",
+          0.2871166334239603
+        ]
+      ],
+      "top3_are_drugs": [
+        false,
+        false,
+        false
+      ],
+      "mean_drug_lime": -0.03769385277747147,
+      "mean_nondrug_lime": 0.1881679233071674,
+      "drug_nondrug_ratio": -0.200320289000265,
+      "n_drug_features": 3
+    },
+    {
+      "sentence_id": "06f6834b51e5",
+      "text": "We report an 82-year-old man who developed ventricular tachycardia and Torsades de Pointes (TdP) after oral administration of garenoxacin, a novel quinolone antibiotic agent that differs from the third-generation quinolones, for pneumonia.",
+      "token_weights": [
+        [
+          "garenoxacin",
+          0.7826172191822625
+        ],
+        [
+          "after",
+          0.15398126223387135
+        ],
+        [
+          "tachycardia",
+          0.11316895743216027
+        ],
+        [
+          "developed",
+          0.09942754116238593
+        ],
+        [
+          "who",
+          0.08716083758300976
+        ],
+        [
+          "the",
+          0.07178945538700615
+        ],
+        [
+          "an",
+          -0.07151306195451333
+        ],
+        [
+          "antibiotic",
+          -0.07085781895168262
+        ],
+        [
+          "old",
+          0.06543367619892172
+        ],
+        [
+          "82",
+          -0.04130146307257774
+        ]
+      ],
+      "top3_tokens": [
+        [
+          "garenoxacin",
+          0.7826172191822625
+        ],
+        [
+          "after",
+          0.15398126223387135
+        ],
+        [
+          "tachycardia",
+          0.11316895743216027
+        ]
+      ],
+      "top3_are_drugs": [
+        true,
+        false,
+        false
+      ],
+      "mean_drug_lime": 0.30661345025606346,
+      "mean_nondrug_lime": 0.038580893490379076,
+      "drug_nondrug_ratio": 7.94728743989622,
+      "n_drug_features": 3
+    },
+    {
+      "sentence_id": "887d2d3a2198",
+      "text": "Less common adverse events to dapsone include the idiosyncratic reactions of leukopenia and agranulocytosis, cutaneous eruptions, peripheral neuropathy, psychosis, toxic hepatitis, cholestatic jaundice, nephrotic syndrome, renal papillary necrosis, severe hypoalbuminemia without proteinuria, an infectious mononucleosis-like syndrome, and minor neurological and gastrointestinal complaints.",
+      "token_weights": [
+        [
+          "dapsone",
+          0.8372073376187046
+        ],
+        [
+          "include",
+          0.14072616562534992
+        ],
+        [
+          "the",
+          -0.07081264674667746
+        ],
+        [
+          "adverse",
+          0.07059540642090577
+        ],
+        [
+          "reactions",
+          0.06686914480770194
+        ],
+        [
+          "eruptions",
+          0.06643158617222264
+        ],
+        [
+          "to",
+          0.06505117732304387
+        ],
+        [
+          "gastrointestinal",
+          0.05182471779627447
+        ],
+        [
+          "mononucleosis",
+          -0.04148550938282977
+        ],
+        [
+          "Less",
+          0.03512578163318325
+        ]
+      ],
+      "top3_tokens": [
+        [
+          "dapsone",
+          0.8372073376187046
+        ],
+        [
+          "include",
+          0.14072616562534992
+        ],
+        [
+          "the",
+          -0.07081264674667746
+        ]
+      ],
+      "top3_are_drugs": [
+        true,
+        false,
+        true
+      ],
+      "mean_drug_lime": 0.24163639382973245,
+      "mean_nondrug_lime": 0.07094628282552598,
+      "drug_nondrug_ratio": 3.405906330906365,
+      "n_drug_features": 3
+    },
+    {
+      "sentence_id": "7f480badaf52",
+      "text": "Mitomycin-C induced hemolytic uremic syndrome: a case report.",
+      "token_weights": [
+        [
+          "C",
+          0.39085197177858905
+        ],
+        [
+          "induced",
+          0.36932992727441843
+        ],
+        [
+          "Mitomycin",
+          0.3368617943075603
+        ],
+        [
+          "uremic",
+          0.18794349248307754
+        ],
+        [
+          "hemolytic",
+          0.14571697261829467
+        ],
+        [
+          "case",
+          0.07451364637731206
+        ],
+        [
+          "a",
+          0.07022844174738753
+        ],
+        [
+          "syndrome",
+          0.050174859945682375
+        ],
+        [
+          "report",
+          -0.015083556287698445
+        ]
+      ],
+      "top3_tokens": [
+        [
+          "C",
+          0.39085197177858905
+        ],
+        [
+          "induced",
+          0.36932992727441843
+        ],
+        [
+          "Mitomycin",
+          0.3368617943075603
+        ]
+      ],
+      "top3_are_drugs": [
+        false,
+        false,
+        true
+      ],
+      "mean_drug_lime": 0.3368617943075603,
+      "mean_nondrug_lime": 0.1592094694921329,
+      "drug_nondrug_ratio": 2.115840190800999,
+      "n_drug_features": 1
+    },
+    {
+      "sentence_id": "431d9f459233",
+      "text": "The chemotherapeutics, including vincristine, actinomycin D, and epirubicin in case 1 and vincristine and actinomycin D in case 2, were given before the hepatotoxicity developed.",
+      "token_weights": [
+        [
+          "hepatotoxicity",
+          0.8993970386474204
+        ],
+        [
+          "actinomycin",
+          0.09405776405220628
+        ],
+        [
+          "vincristine",
+          0.07943926738987063
+        ],
+        [
+          "epirubicin",
+          0.03549308639079802
+        ],
+        [
+          "developed",
+          0.03239168098980635
+        ],
+        [
+          "D",
+          0.02576788979163535
+        ],
+        [
+          "2",
+          0.022369097895224732
+        ],
+        [
+          "case",
+          0.021414107531841284
+        ],
+        [
+          "The",
+          0.019012310538694947
+        ],
+        [
+          "in",
+          -0.015032209205049546
+        ]
+      ],
+      "top3_tokens": [
+        [
+          "hepatotoxicity",
+          0.8993970386474204
+        ],
+        [
+          "actinomycin",
+          0.09405776405220628
+        ],
+        [
+          "vincristine",
+          0.07943926738987063
+        ]
+      ],
+      "top3_are_drugs": [
+        true,
+        true,
+        true
+      ],
+      "mean_drug_lime": 0.2254798934037981,
+      "mean_nondrug_lime": 0.01738211340069163,
+      "drug_nondrug_ratio": 12.971949279471753,
+      "n_drug_features": 5
+    },
+    {
+      "sentence_id": "240f25b99e7b",
+      "text": "Intravenous verapamil therapy in babies may cause apnea, hypotension, and bradycardia; continued episodes of atrial flutter in a child may cause sudden death; quinidine may be related to the death; children with \"familial seizure disorders\" may in fact have the long QT interval syndrome.",
+      "token_weights": [
+        [
+          "quinidine",
+          0.37426733761378134
+        ],
+        [
+          "verapamil",
+          0.3111918008999584
+        ],
+        [
+          "be",
+          0.08263452100032935
+        ],
+        [
+          "fact",
+          -0.06991284144802196
+        ],
+        [
+          "apnea",
+          0.06089245152154455
+        ],
+        [
+          "may",
+          0.060442388022587556
+        ],
+        [
+          "sudden",
+          0.05807883901078153
+        ],
+        [
+          "hypotension",
+          0.050342452034710515
+        ],
+        [
+          "bradycardia",
+          -0.041382005132445165
+        ],
+        [
+          "the",
+          0.0316441596483439
+        ]
+      ],
+      "top3_tokens": [
+        [
+          "quinidine",
+          0.37426733761378134
+        ],
+        [
+          "verapamil",
+          0.3111918008999584
+        ],
+        [
+          "be",
+          0.08263452100032935
+        ]
+      ],
+      "top3_are_drugs": [
+        true,
+        true,
+        false
+      ],
+      "mean_drug_lime": 0.12116169031632329,
+      "mean_nondrug_lime": 0.062478130317990696,
+      "drug_nondrug_ratio": 1.9392656230212855,
+      "n_drug_features": 5
+    },
+    {
+      "sentence_id": "e41aa53f9ab0",
+      "text": "Skin manifestations of a case of phenylbutazone-induced serum sickness-like reactions.",
+      "token_weights": [
+        [
+          "phenylbutazone",
+          0.895692159203378
+        ],
+        [
+          "sickness",
+          0.0868587963058846
+        ],
+        [
+          "like",
+          0.07280456894613088
+        ],
+        [
+          "induced",
+          0.06035761411461048
+        ],
+        [
+          "Skin",
+          0.04219577292777841
+        ],
+        [
+          "case",
+          0.03189998592921343
+        ],
+        [
+          "a",
+          0.02361396756859496
+        ],
+        [
+          "serum",
+          0.009249952612651388
+        ],
+        [
+          "manifestations",
+          -0.005589225501399099
+        ],
+        [
+          "of",
+          -0.0032884279486922216
+        ]
+      ],
+      "top3_tokens": [
+        [
+          "phenylbutazone",
+          0.895692159203378
+        ],
+        [
+          "sickness",
+          0.0868587963058846
+        ],
+        [
+          "like",
+          0.07280456894613088
+        ]
+      ],
+      "top3_are_drugs": [
+        true,
+        false,
+        true
+      ],
+      "mean_drug_lime": 0.4842483640747544,
+      "mean_nondrug_lime": 0.030662304501080245,
+      "drug_nondrug_ratio": 15.792953985493627,
+      "n_drug_features": 2
+    },
+    {
+      "sentence_id": "45be8fbc3c0e",
+      "text": "The polycystic changes disappeared from the ovaries in 2 of the women after valproate therapy was discontinued, and the 2 women who had gained weight and developed amenorrhea while being treated with valproate lost weight and resumed menstruating after the change in medication.",
+      "token_weights": [
+        [
+          "valproate",
+          0.848579294002913
+        ],
+        [
+          "polycystic",
+          0.11845090654599304
+        ],
+        [
+          "amenorrhea",
+          0.10733220749550168
+        ],
+        [
+          "developed",
+          0.06082981130510734
+        ],
+        [
+          "ovaries",
+          0.06058452084579009
+        ],
+        [
+          "disappeared",
+          0.058640636180862994
+        ],
+        [
+          "lost",
+          0.049088067934967575
+        ],
+        [
+          "medication",
+          0.03641374453659553
+        ],
+        [
+          "was",
+          -0.023802733629837463
+        ],
+        [
+          "and",
+          -0.01760585889336325
+        ]
+      ],
+      "top3_tokens": [
+        [
+          "valproate",
+          0.848579294002913
+        ],
+        [
+          "polycystic",
+          0.11845090654599304
+        ],
+        [
+          "amenorrhea",
+          0.10733220749550168
+        ]
+      ],
+      "top3_are_drugs": [
+        true,
+        true,
+        true
+      ],
+      "mean_drug_lime": 0.2641891372877611,
+      "mean_nondrug_lime": 0.04029234119558101,
+      "drug_nondrug_ratio": 6.556807806361363,
+      "n_drug_features": 4
+    },
+    {
+      "sentence_id": "a1dfeff1f915",
+      "text": "In summary, we report herein the first case of SIADH believed to be an adverse effect of mizoribin, which may therefore needed to be added to the list of drugs which can induce SIADH.",
+      "token_weights": [
+        [
+          "mizoribin",
+          0.6555121468670658
+        ],
+        [
+          "SIADH",
+          0.599661219042576
+        ],
+        [
+          "drugs",
+          -0.06360384903537496
+        ],
+        [
+          "herein",
+          -0.06147245812020331
+        ],
+        [
+          "the",
+          0.05364329680400049
+        ],
+        [
+          "first",
+          -0.04989393895305231
+        ],
+        [
+          "of",
+          0.04182499823082515
+        ],
+        [
+          "to",
+          0.04155729868933787
+        ],
+        [
+          "be",
+          0.04081418068719993
+        ],
+        [
+          "an",
+          0.0387717742556333
+        ]
+      ],
+      "top3_tokens": [
+        [
+          "mizoribin",
+          0.6555121468670658
+        ],
+        [
+          "SIADH",
+          0.599661219042576
+        ],
+        [
+          "drugs",
+          -0.06360384903537496
+        ]
+      ],
+      "top3_are_drugs": [
+        true,
+        false,
+        false
+      ],
+      "mean_drug_lime": 0.35457772183553316,
+      "mean_nondrug_lime": 0.07345740309961771,
+      "drug_nondrug_ratio": 4.826984168698151,
+      "n_drug_features": 2
+    },
+    {
+      "sentence_id": "9ac75239dbf9",
+      "text": "Two cases of sirolimus-associated pneumonitis have been reported after cardiac transplantation.",
+      "token_weights": [
+        [
+          "sirolimus",
+          0.8524972811519416
+        ],
+        [
+          "pneumonitis",
+          0.17687404474311272
+        ],
+        [
+          "associated",
+          0.14691505693916068
+        ],
+        [
+          "Two",
+          0.09259056235838986
+        ],
+        [
+          "of",
+          0.05247528438482302
+        ],
+        [
+          "after",
+          0.03478872339314057
+        ],
+        [
+          "been",
+          -0.02623630420333329
+        ],
+        [
+          "transplantation",
+          -0.02498893426822938
+        ],
+        [
+          "cases",
+          0.024141700868100822
+        ],
+        [
+          "cardiac",
+          0.018436280367099874
+        ]
+      ],
+      "top3_tokens": [
+        [
+          "sirolimus",
+          0.8524972811519416
+        ],
+        [
+          "pneumonitis",
+          0.17687404474311272
+        ],
+        [
+          "associated",
+          0.14691505693916068
+        ]
+      ],
+      "top3_are_drugs": [
+        true,
+        false,
+        false
+      ],
+      "mean_drug_lime": 0.4137541734418561,
+      "mean_nondrug_lime": 0.06499816860631177,
+      "drug_nondrug_ratio": 6.365628175586438,
+      "n_drug_features": 2
+    }
+  ]
+}

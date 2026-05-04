@@ -1,0 +1,60 @@
+{
+  "by_sentence_length": {
+    "1-15": {
+      "flip_rate": 0.7502168256721596,
+      "n": 2306,
+      "flipped": 1730
+    },
+    "16-30": {
+      "flip_rate": 0.7401162790697674,
+      "n": 3440,
+      "flipped": 2546
+    },
+    "31-50": {
+      "flip_rate": 0.7536800785083415,
+      "n": 1019,
+      "flipped": 768
+    },
+    "51+": {
+      "flip_rate": 0.7142857142857143,
+      "n": 56,
+      "flipped": 40
+    }
+  },
+  "by_drug_mention_count": {
+    "1": {
+      "flip_rate": 0.764184821642327,
+      "n": 4177,
+      "flipped": 3192
+    },
+    "2": {
+      "flip_rate": 0.7168774051676745,
+      "n": 1819,
+      "flipped": 1304
+    },
+    "3+": {
+      "flip_rate": 0.7127272727272728,
+      "n": 825,
+      "flipped": 588
+    }
+  },
+  "by_causal_marker": {
+    "with_marker": {
+      "flip_rate": 0.7445193929173693,
+      "n": 3558,
+      "flipped": 2649
+    },
+    "without_marker": {
+      "flip_rate": 0.7462457860864236,
+      "n": 3263,
+      "flipped": 2435
+    }
+  },
+  "paired_failure_modes": {
+    "both_flipped": 1112,
+    "only_a": 2123,
+    "only_c": 295,
+    "neither": 740,
+    "total_paired": 4270
+  }
+}
