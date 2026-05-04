@@ -170,11 +170,10 @@ def render_overview() -> None:
     c_links, c_team = st.columns([1.2, 1.8])
     with c_links:
         st.markdown("#### Links")
-        # Use short anchor text so links don't wrap across columns on Streamlit Cloud.
-        st.markdown(f"- **Repository:** [GitHub repo]({REPO_URL})")
-        st.markdown(f"- **Final notebook:** [Open notebook]({NOTEBOOK_URL})")
-        st.markdown(f"- **Final report (PDF):** [Open report]({REPORT_URL})")
-        st.markdown(f"- **Slides (PPTX):** [Download slides]({SLIDES_RAW_URL})")
+        st.link_button("GitHub repo", REPO_URL, use_container_width=True)
+        st.link_button("Final notebook", NOTEBOOK_URL, use_container_width=True)
+        st.link_button("Final report (PDF)", REPORT_URL, use_container_width=True)
+        st.link_button("Slides (PPTX)", SLIDES_RAW_URL, use_container_width=True)
 
     with c_team:
         st.markdown("#### Team")
@@ -201,11 +200,18 @@ def render_overview() -> None:
             profile = f"https://github.com/{m['handle']}"
             avatar = f"https://github.com/{m['handle']}.png?size=160"
             with col:
-                # Streamlit-native layout renders consistently across themes.
-                with st.container(border=True):
-                    st.image(avatar, width=76)
-                    st.markdown(f"**[{m['name']}]({profile})**")
-                    st.caption(f"@{m['handle']}")
+                st.markdown(
+                    f"""
+<div class="team-card">
+  <div class="team-avatar">
+    <img src="{avatar}" alt="{m['name']}" />
+  </div>
+  <div class="team-name"><a href="{profile}" target="_blank" rel="noopener noreferrer">{m['name']}</a></div>
+  <div class="team-handle">@{m['handle']}</div>
+</div>
+""",
+                    unsafe_allow_html=True,
+                )
 
 
 def main() -> None:
@@ -222,6 +228,48 @@ def main() -> None:
   h2 {{ margin: 1.4rem 0 0.6rem 0; }}
   h3 {{ margin: 1.1rem 0 0.5rem 0; }}
   [data-testid="stMarkdownContainer"] p {{ margin-bottom: 0.9rem; }}
+  /* Team cards */
+  .team-card {{
+    background: white;
+    border: 1px solid {COLORS['mid_gray']};
+    border-radius: 14px;
+    padding: 16px 14px;
+    text-align: center;
+    min-height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+  }}
+  .team-avatar {{
+    width: 92px;
+    height: 92px;
+    margin: 0 auto;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid {COLORS['mid_gray']};
+    background: {COLORS['light_gray']};
+  }}
+  .team-avatar img {{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }}
+  .team-name a {{
+    color: {COLORS['navy']};
+    font-weight: 750;
+    font-size: 18px;
+    text-decoration: none;
+  }}
+  .team-name a:hover {{ text-decoration: underline; }}
+  .team-handle {{
+    color: {COLORS['dark_gray']};
+    font-size: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }}
 </style>
 """,
         unsafe_allow_html=True,
